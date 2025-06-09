@@ -308,14 +308,13 @@
     </h4>
     <ul class="toc-list">
       <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#judges">Fine-grained Informal Judges</a></li>
-      <li><a href="#leaderboard">Leaderboard</a></li>
-      <li><a href="#dataset-overview">Dataset Overview</a></li>
       <li><a href="#examples">IneqMath Examples</a></li>
+      <li><a href="#leaderboard">Leaderboard</a></li>
+      <li><a href="#judges">Fine-grained Informal Judges</a></li>
+      <li><a href="#dataset-overview">Dataset Overview</a></li>
       <li><a href="#visualization">Visualization</a></li>
       <li><a href="#results">In-depth Study</a></li>
       <li><a href="#improvement">Exploring Improvement Strategies</a></li>
-      <!-- <li><a href="#Share">Share</a></li> -->
       <li><a href="#BibTeX">BibTeX</a></li>
     </ul>
   </div>
@@ -454,23 +453,19 @@
           <h2 class="title is-3">Introduction</h2>
           <div class="content has-text-justified">
             <p>
-              Mathematical inequalities are fundamental to diverse fields such as analysis, optimization, 
-              and probability theory, with applications spanning scientific modeling, economics, and competitive mathematics.
-              A major bottleneck in advancing LLM capabilities for inequality proving is the scarcity of suitable benchmarks.
-              While formal mathematical reasoning offers correctness guarantees and is a vital
-              research direction, LLMs, trained on vast corpora of natural language, often exhibit strong informal
-              reasoning capabilities.
-            </p>
+              Inequality proving, crucial across diverse scientific and mathematical fields, tests advanced reasoning skills such as discovering tight bounds and strategic theorem application. 
+              This makes it a distinct, demanding frontier for large language models (LLMs), offering insights beyond general mathematical problem-solving. 
+              Progress in this area is hampered by existing datasets that are often scarce, synthetic, or rigidly formal. We address this by proposing an <b>informal yet verifiable</b> task formulation, recasting inequality proving into two automatically checkable subtasks: 
+              <b>bound estimation</b> and <b>relation prediction</b>. 
+            </p> 
             <p>
-              To bridge this gap between formal rigor and intuitive problem-solving,
-              We introduce <b style="color: var(--color-tools-blue)">IneqMath</b>, <b>a benchmark for evaluating large language models (LLMs) on informal but verifiable inequality proving</b>. 
-              Centered on Olympiad-level algebraic inequalities, we develop a modular LLM-as-judge framework that rigorously evaluates both final answers and proof step soundness to challenges models to not only produce correct final answers but also construct step-by-step solutions that apply theorems appropriately, justify symbolic transformations, and estimate tight bounds. 
-              Problems are framed in natural language and decomposed into two automatically checkable subtasks—bound estimation and relation prediction—allowing fine-grained assessment of reasoning accuracy beyond surface-level correctness.
-            </p>
-            <p>
-              In addition, we also conduct a systematic empirical study that exposes a pronounced gap between LLM performance and mathematical rigor, highlighting avenues for future research.
+              Building on this, we release <b style="color: var(--color-tools-blue)">IneqMath</b>, an expert-curated dataset of Olympiad-level inequalities, 
+              including a test set and training corpus enriched with <b>step-wise solutions and theorem annotations</b>. We also develop a novel <b>LLM-as-judge evaluation framework</b>, combining a <em>final-answer</em> judge with four <em>step-wise</em> judges designed to detect common reasoning flaws. 
+              A systematic evaluation of 29 leading LLMs on <b style="color: var(--color-tools-blue)">IneqMath</b> reveals a surprising reality: even top models like o1 achieve less than 10% overall accuracy under step-wise scrutiny; this is a drop of up to 65.5% from their accuracy considering only final answer equivalence. 
+              This discrepancy exposes <b>fragile deductive chains and a critical gap for current LLMs between merely finding an answer and constructing a rigorous proof</b>. <b>Scaling model size and increasing test-time computation</b> yield limited gains in overall proof correctness. Instead, our findings highlight promising research directions such as <b>theorem-guided reasoning and self-refinement</b>.
             </p>
           </div>
+          
           
         </div>
       </div>
@@ -478,60 +473,51 @@
   </section>
   <!--/ Introduction -->
 
-  <!-- Fine-grained Informal Judges -->
-  <section class="section" id="judges">
+  <!-- IneqMath Examples -->
+  <section class="section" id="examples">
     <div class="container" style="margin-bottom: 2vh;">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Fine-grained Informal Judges</h2>
+          <h2 class="title is-3">IneqMath Examples</h2>
           <div class="content has-text-justified">
             <p>
-            Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
-            while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
-
-            To evaluate the correctness of <b style="color: var(--color-tools-blue)">IneqMath</b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
-            A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
+              Below are training and testing examples from <b style="color: var(--color-tools-blue)">IneqMath</b>. Each problem belongs to one of two automatically checkable subtasks: <b>bound estimation</b> or <b>relation prediction</b>.
+              Each training problem includes <b>step-wise solutions</b>, with up to four solutions per problem, and 76.8% (962 problems) are annotated with <b>relevant theorems</b>. The test problems are each crafted and reviewed by <b>IMO-level medalists</b> to ensure both originality and difficulty.
             </p>
 
-
-
-            <div id="judges-carousel" class="carousel results-carousel">
+            <div id="examples-carousel" class="carousel results-carousel">
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="assets/judges/judge_metrics_table.png" width="90%">
-                  <p>Performance metrics of <b>LLM-as-Judge</b> framework on development set.
-                  </p>
+                  <img src="assets/dataset/train_bound_example.png" width="90%">
                 </div>
               </div>
 
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="assets/judges/confusion_matrix_judge_metrics.png" width="90%">
-                  <p>Confusion matrices for five judges, which exhibit strong agreement with human labels.
-                  </p>
+                  <img src="assets/dataset/train_relation_example.png" width="90%">
                 </div>
               </div>
 
               <div class="box m-5">
                 <div class="content has-text-centered">
-                  <img src="assets/judges/judge_baseline_confusion_matrix.png" width="30%">
-                  <p>Confusion matrix for the judge baseline.
-                  </p>
+                  <img src="assets/dataset/test_combined_example.png" width="90%">
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--/ Fine-grained Informal Judges -->
+  <!--/ IneqMath Examples -->
 
   <!-- Leaderboard -->
   <section class="section" id="leaderboard">
     <div style="width: 68%; margin: 0 auto;">
       <h2 class="title is-3" style="text-align:center;">Leaderboard on <b style="color: var(--color-tools-blue)">IneqMath</b></h2>
+      <div class="content" style="font-size:1.1em; margin-bottom:10px; text-align:left;">
+        🏆 The interactive leaderboard for the IneqMath is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>.
+      </div>
       <div class="content has-text-justified">
         <!-- Filters -->
         <div id="leaderboard-filters" class="box" style="margin-bottom: 20px;">
@@ -714,6 +700,56 @@
   </section>
   <!--/ Leaderboard -->
 
+    <!-- Fine-grained Informal Judges -->
+  <section class="section" id="judges">
+    <div class="container" style="margin-bottom: 2vh;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Fine-grained Informal Judges</h2>
+          <div class="content has-text-justified">
+            <p>
+            Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
+            while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
+
+            To evaluate the correctness of <b style="color: var(--color-tools-blue)">IneqMath</b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
+            A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
+            </p>
+
+
+
+            <div id="judges-carousel" class="carousel results-carousel">
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/judge_metrics_table.png" width="90%">
+                  <p>Performance metrics of <b>LLM-as-Judge</b> framework on development set.
+                  </p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/confusion_matrix_judge_metrics.png" width="90%">
+                  <p>Confusion matrices for five judges, which exhibit strong agreement with human labels.
+                  </p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/judge_baseline_confusion_matrix.png" width="30%">
+                  <p>Confusion matrix for the judge baseline.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Fine-grained Informal Judges -->
+
   <!-- Data Statistics -->
   <section class="section" id="dataset-overview">
     <div class="container" style="margin-bottom: 2vh;">
@@ -739,50 +775,6 @@
     </div>
   </section>
   <!--/ Data Statistics -->
-
-  
-  <!-- IneqMath Examples -->
-  <section class="section" id="examples">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">IneqMath Examples</h2>
-        </div>
-      </div>
-      <div id="examples-carousel" class="carousel results-carousel">
-        <div class="box m-5">
-          <div class="content has-text-centered">
-            <img src="assets/dataset/train_bound_example.png" width="90%">
-            <!-- <p> Caption.
-            </p> -->
-          </div>
-        </div>
-
-        <div class="box m-5">
-          <div class="content has-text-centered">
-            <img src="assets/dataset/train_relation_example.png" width="90%">
-              <!-- <p> <b style="color: var(--color-tools-blue)">IneqMath</b> training examples: Bound question.
-            </p> -->
-          </div>
-        </div>
-
-        <div class="box m-5">
-          <div class="content has-text-centered">
-            <img src="assets/dataset/test_combined_example.png" width="90%">
-            <!-- <p> Caption.
-            </p> -->
-          </div>
-        </div>
-      </div>
-      <div class="content has-text-centered">
-        <p style="text-align: left;">
-          The training and testing examples of <b style="color: var(--color-tools-blue)">IneqMath</b>. 
-          Each training problem includes step-wise solutions, with up to four solutions per problem, and 76.8% (962 problems) are annotated with relevant theorems. The test problems are each crafted and reviewed by IMO-level medalists to ensure both originality and difficulty.
-        </p>
-      </div>
-    </div>
-  </section>
-  <!--/ IneqMath Examples -->
 
   <!-- Visualization -->
   <section class="section" id="visualization">
