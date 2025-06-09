@@ -310,6 +310,7 @@
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#judges">Fine-grained Informal Judges</a></li>
       <li><a href="#leaderboard">Leaderboard</a></li>
+      <li><a href="#dataset-overview">Dataset Overview</a></li>
       <li><a href="#examples">IneqMath Examples</a></li>
       <li><a href="#visualization">Visualization</a></li>
       <li><a href="#results">In-depth Study</a></li>
@@ -334,9 +335,9 @@
             </h2>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                <a href="https://ineqmath.github.io/" target="_blank">Jiayi Sheng</a>*<sup><span>\(\textcolor[rgb]{0,0.196,0.384}{\boldsymbol{\beta}}\)</span></sup>,</span>
+                <a href="" target="_blank">Jiayi Sheng</a>*<sup><span>\(\textcolor[rgb]{0,0.196,0.384}{\boldsymbol{\beta}}\)</span></sup>,</span>
               <span class="author-block">
-                <a href="https://ineqmath.github.io/" target="_blank">Luna Lyu</a>*<sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
+                <a href="" target="_blank">Luna Lyu</a>*<sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
               <span class="author-block">
                 <a href="https://jkjin.com/" target="_blank">Jikai Jin</a><sup><span>\(\textcolor[rgb]{0.549,0.082,0.082}{\boldsymbol{\alpha}}\)</span></sup>,</span>
               <span class="author-block">
@@ -428,15 +429,19 @@
     </div>
   </section>
 
-
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="content has-text-centered">
-        <img src="assets/dataset/data_statistics.png" width="100%">
+        <img src="assets/results/key_results_figure.png" width="100%">
         <p style="text-align: left;">
-        The <b style="color: var(--color-tools-blue)">IneqMath</b> dataset comprises 200 test problems for benchmarking, 100 development problems with public ground truth, and 1,252 training problems split evenly between bound estimation and relation prediction tasks as shown in the table above.  The dataset also features 83 named theorems across 29 categories, with their distribution illustrated in the figure above.
+        Final-answer accuracy versus overall accuracy for leading LLMs across different categories on the 
+        <b style="color: var(--color-tools-blue)">IneqMath</b> benchmark of Olympiad-level inequality problems. 
+        Overall accuracy, measuring both answer correctness and step soundness, is substantially lower than final-answer accuracy for all model types. 
+        This highlights a critical gap: while LLMs may find correct final answers to these inequality problems, their reasoning is often unsound. 
+        Each model used its optimal maximal tokens.
         </p>
       </div>
+      
       
     </div>
   </section>
@@ -465,19 +470,8 @@
             <p>
               In addition, we also conduct a systematic empirical study that exposes a pronounced gap between LLM performance and mathematical rigor, highlighting avenues for future research.
             </p>
-
-            
           </div>
-          <div class="container is-max-desktop">
-            <div class="content has-text-centered">
-              <img src="assets/dataset/dataset_comparison.png" width="90%">
-              <p style="text-align: left;">
-                Comparison of datasets for inequalities and theorem proving. 
-                <b style="color: var(--color-tools-blue)">IneqMath</b> provides expert-annotated training and test/dev sets, featuring high-quality named theorems and step-wise solutions for model development. 
-                Unlike prior datasets using synthesis or autoformalization, <b style="color: var(--color-tools-blue)">IneqMath</b> presents problems in informal language across multiple-choice (MC) and open-ended (Open) formats, and employs LLM-as-judge for evaluation.
-              </p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -720,6 +714,31 @@
   </section>
   <!--/ Leaderboard -->
 
+  <!-- Data Statistics -->
+  <section class="section" id="dataset-overview">
+    <div class="container" style="margin-bottom: 2vh;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Dataset Overview</h2>
+          <div class="content has-text-justified">
+            <p>
+              The <b style="color: var(--color-tools-blue)">IneqMath</b> dataset comprises 200 test problems for benchmarking, 100 development problems with public ground truth, and 1,252 training problems split evenly between bound estimation and relation prediction tasks as shown in the table above.  The dataset also features 83 named theorems across 29 categories, with their distribution illustrated in the figure above.
+            </p>
+            <img src="assets/dataset/data_statistics.png" width="100%">
+          </div>
+          <div class="content has-text-justified">
+            <p style="text-align: left;">
+                The table below is the comparison of datasets for inequalities and theorem proving. 
+                <b style="color: var(--color-tools-blue)">IneqMath</b> provides expert-annotated training and test/dev sets, featuring high-quality named theorems and step-wise solutions for model development. 
+                Unlike prior datasets using synthesis or autoformalization, <b style="color: var(--color-tools-blue)">IneqMath</b> presents problems in informal language across multiple-choice (MC) and open-ended (Open) formats, and employs LLM-as-judge for evaluation.
+              </p>
+            <img src="assets/dataset/dataset_comparison.png" width="90%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Data Statistics -->
 
   
   <!-- IneqMath Examples -->
