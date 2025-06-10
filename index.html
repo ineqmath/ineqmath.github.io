@@ -28,6 +28,12 @@
 
   <!-- Add tooltip styles -->
   <style>
+    :root {
+      --ineq-blue: #103756;
+      --ineq-red: #D03C36;
+    }
+    .ineq-blue { color: var(--ineq-blue); }
+    .ineq-red { color: var(--ineq-red); }
     .tooltip-icon {
       position: relative;
       cursor: pointer;
@@ -315,7 +321,7 @@
     <h4 style="margin-bottom: 10px;"><a href="#">Table of Contents</a></h4>
     <ul class="toc-list">
       <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#examples">IneqMath Examples</a></li>
+      <li><a href="#examples"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Examples</a></li>
       <li><a href="#leaderboard">Leaderboard</a></li>
       <li><a href="#judges">Fine-grained Informal Judges</a></li>
       <li><a href="#dataset-overview">Dataset Overview</a></li>
@@ -443,7 +449,7 @@
         <img src="assets/results/key_results_figure.png" width="100%">
         <p style="text-align: left;">
         <b>Final-answer accuracy</b> versus <b>overall accuracy</b> for leading LLMs across different categories on the 
-        <b style="color: var(--color-tools-blue)">IneqMath</b> benchmark of Olympiad-level inequality problems. 
+        <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> benchmark of Olympiad-level inequality problems. 
         Overall accuracy, measuring both answer correctness and step soundness, is substantially lower than final-answer accuracy for all model types. 
         This highlights a critical gap: while LLMs may find correct final answers to these inequality problems, their reasoning is often unsound. 
         Each model used its optimal maximal tokens.
@@ -468,11 +474,11 @@
               <b>bound estimation</b> and <b>relation prediction</b>. 
             </p> 
             <p>
-              Building on this, we release <b style="color: var(--color-tools-blue)">IneqMath</b>, an expert-curated dataset of Olympiad-level inequalities, 
+              Building on this, we release <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>, an expert-curated dataset of Olympiad-level inequalities, 
               including a test set and training corpus enriched with <b>step-wise solutions and theorem annotations</b>. We also develop a novel <b>LLM-as-judge evaluation framework</b>, combining a <em>final-answer</em> judge with four <em>step-wise</em> judges designed to detect common reasoning flaws. 
             </p>
             <p>
-              A systematic evaluation of 29 leading LLMs on <b style="color: var(--color-tools-blue)">IneqMath</b> reveals a surprising reality: even top models like o1 achieve less than 10% overall accuracy under step-wise scrutiny; this is a drop of up to 65.5% from their accuracy considering only final answer equivalence. 
+              A systematic evaluation of 29 leading LLMs on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> reveals a surprising reality: even top models like o1 achieve less than 10% overall accuracy under step-wise scrutiny; this is a drop of up to 65.5% from their accuracy considering only final answer equivalence. 
               This discrepancy exposes <b>fragile deductive chains and a critical gap for current LLMs between merely finding an answer and constructing a rigorous proof</b>. <b>Scaling model size and increasing test-time computation</b> yield limited gains in overall proof correctness. Instead, our findings highlight promising research directions such as <b>theorem-guided reasoning and self-refinement</b>.
             </p>
           </div>
@@ -489,10 +495,10 @@
     <div class="container" style="margin-bottom: 2vh;">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">IneqMath Examples</h2>
+          <h2 class="title is-3"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Examples</h2>
           <div class="content has-text-justified">
             <p>
-              Below are training and testing examples from <b style="color: var(--color-tools-blue)">IneqMath</b>. Each problem belongs to one of two automatically checkable subtasks: <b>bound estimation</b> or <b>relation prediction</b>.
+              Below are training and testing examples from <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>. Each problem belongs to one of two automatically checkable subtasks: <b>bound estimation</b> or <b>relation prediction</b>.
               Each training problem includes <b>step-wise solutions</b>, with up to four solutions per problem, and 76.8% (962 problems) are annotated with <b>relevant theorems</b>. The test problems are each crafted and reviewed by <b>IMO-level medalists</b> to ensure both originality and difficulty.
             </p>
 
@@ -525,9 +531,9 @@
   <!-- Leaderboard -->
   <section class="section" id="leaderboard">
     <div style="width: 68%; margin: 0 auto;">
-      <h2 class="title is-3" style="text-align:center;">Leaderboard on <b style="color: var(--color-tools-blue)">IneqMath</b></h2>
+      <h2 class="title is-3" style="text-align:center;">Leaderboard on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b></h2>
       <div class="content" style="font-size:1.1em; margin-bottom:10px; text-align:left;">
-        🏆 The interactive leaderboard for the IneqMath is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>.
+        🏆 The interactive leaderboard for the <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>.
       </div>
       <div class="content has-text-justified">
         <!-- Filters -->
@@ -722,7 +728,7 @@
             Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
             while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
 
-            To evaluate the correctness of <b style="color: var(--color-tools-blue)">IneqMath</b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
+            To evaluate the correctness of <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
             A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
             </p>
 
@@ -769,15 +775,15 @@
           <h2 class="title is-3">Dataset Overview</h2>
           <div class="content has-text-justified">
             <p>
-              The <b style="color: var(--color-tools-blue)">IneqMath</b> dataset comprises 200 test problems for benchmarking, 100 development problems with public ground truth, and 1,252 training problems split evenly between <b>bound estimation</b> and <b>relation prediction</b> tasks as shown in the table below.  The dataset also features 83 named theorems across 29 categories, with their distribution illustrated in the figure below.
+              The <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> dataset comprises 200 test problems for benchmarking, 100 development problems with public ground truth, and 1,252 training problems split evenly between <b>bound estimation</b> and <b>relation prediction</b> tasks as shown in the table below.  The dataset also features 83 named theorems across 29 categories, with their distribution illustrated in the figure below.
             </p>
             <img src="assets/dataset/data_statistics.png" width="100%">
           </div>
           <div class="content has-text-justified">
             <p style="text-align: left;">
                 The table below is the comparison of datasets for inequalities and theorem proving. 
-                <b style="color: var(--color-tools-blue)">IneqMath</b> provides expert-annotated training and test/dev sets, featuring high-quality named theorems and step-wise solutions for model development. 
-                Unlike prior datasets using synthesis or autoformalization, <b style="color: var(--color-tools-blue)">IneqMath</b> presents problems in informal language across multiple-choice (MC) and open-ended (Open) formats, and employs LLM-as-judge for evaluation.
+                <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> provides expert-annotated training and test/dev sets, featuring high-quality named theorems and step-wise solutions for model development. 
+                Unlike prior datasets using synthesis or autoformalization, <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> presents problems in informal language across multiple-choice (MC) and open-ended (Open) formats, and employs LLM-as-judge for evaluation.
               </p>
             <div style="text-align: center;">
               <img src="assets/dataset/dataset_comparison.png" width="90%">
@@ -880,7 +886,7 @@
           <h2 class="title is-3">In-depth Study</h2>
           <div class="content has-text-justified">
             <p>
-              We conduct an in-depth analysis to understand the performance characteristics and limitations of current models on <b style="color: var(--color-tools-blue)">IneqMath</b>. 
+              We conduct an in-depth analysis to understand the performance characteristics and limitations of current models on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>. 
               Our study encompasses three key areas: <b>failure solution analysis</b> to identify common error patterns in LLM-generated proofs, 
               <b>scaling laws in model size</b> to examine how model capacity affects reasoning accuracy, and <b>scaling laws in test-time computation</b> 
               to investigate the impact of extended reasoning chains. These analyses reveal critical insights into the challenges of inequality proving 
@@ -933,7 +939,7 @@
           <h2 class="title is-3">Improvement Strategies</h2>
           <div class="content has-text-justified">
             <p>
-              We explore four promising strategies to enhance LLM performance on <b style="color: var(--color-tools-blue)">IneqMath</b>: 
+              We explore four promising strategies to enhance LLM performance on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>: 
               <b>retrieving relevant theorems as hints</b>, <b>self-improvement via critic as feedback</b>, <b>taking annotated theorems as hints</b>, and <b>retrieving training problems as demonstrations</b>. 
             </p>
 
@@ -989,7 +995,7 @@
   <!-- <section class="section" id="Share"> -->
 
   <!-- <div class="column has-text-centered"> -->
-    <!-- <h2 class="title is-3 has-text-centered">Share <b style="color: var(--color-tools-blue)">IneqMath</b>(TODO)</h2> -->
+    <!-- <h2 class="title is-3 has-text-centered">Share <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>(TODO)</h2> -->
     <!-- Social Media Share Buttons -->
     <!-- <div class="social-share-buttons" style="margin-top: 20px;"> -->
       <!-- Twitter Share Button -->

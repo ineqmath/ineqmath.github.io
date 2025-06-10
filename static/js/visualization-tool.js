@@ -1,4 +1,4 @@
-/* IneqMath Visualization Tool (static frontend version)
+/* <span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span> Visualization Tool (static frontend version)
    Loads problem list and data from visualization_tool/data directory (served statically).
    Allows editing of problem and solution, live MathJax preview, and localStorage save.
    Updated for Problem Checker & Editor layout.
