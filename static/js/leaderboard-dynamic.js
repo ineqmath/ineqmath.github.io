@@ -477,6 +477,13 @@ class DynamicLeaderboard {
             return true;
         });
 
+        // --- Assign true rank by overallAcc among filtered models ---
+        const sortedByOverallAcc = [...rowFilteredModels].sort((a, b) => b.overallAcc - a.overallAcc);
+        sortedByOverallAcc.forEach((model, idx) => {
+            model._trueRank = idx + 1;
+        });
+        // ----------------------------------------------------------
+
         // 2. Sort by the currently selected column / direction
         const getComparable = (model) => {
             switch (this.sortColumn) {
@@ -521,7 +528,7 @@ class DynamicLeaderboard {
             return this.sortDirection === 'desc' ? -cmp : cmp;
         });
 
-        // Assign new ranks for the filtered and sorted set
+        // Assign new ranks for the filtered and sorted set (not used for display anymore)
         rowFilteredModels.forEach((model, idx) => {
             model._filteredRank = idx + 1;
         });
@@ -542,9 +549,9 @@ class DynamicLeaderboard {
             return;
         }
 
-        // 4. Render the table with the current order
+        // 4. Render the table with the current order, but always use true rank by Overall Acc
         modelsToDisplay.forEach((model) => {
-            const row = this.createTableRow(model, model._filteredRank);
+            const row = this.createTableRow(model, model._trueRank); // Pass true rank for display
             this.tableBody.appendChild(row);
         });
 
