@@ -7,11 +7,21 @@
 (function(){
   console.log('Visualization tool script starting...');
   
-  // Wait for DOM to be ready
+  function waitForMathJax(callback) {
+    if (window.MathJax && MathJax.typesetPromise) {
+      callback();
+    } else {
+      setTimeout(() => waitForMathJax(callback), 50);
+    }
+  }
+
+  // Wait for DOM to be ready and MathJax to be loaded
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initVisualizationTool);
+    document.addEventListener('DOMContentLoaded', function() {
+      waitForMathJax(initVisualizationTool);
+    });
   } else {
-    initVisualizationTool();
+    waitForMathJax(initVisualizationTool);
   }
   
   function initVisualizationTool() {
