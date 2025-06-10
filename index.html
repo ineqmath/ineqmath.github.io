@@ -303,9 +303,8 @@
 
   <!-- Add Table of Contents -->
   <div class="toc-wrapper">
-    <h4 style="margin-bottom: 10px;">
-      <a href="#">Table of Contents</a>
-    </h4>
+    <button id="hide-toc-btn" style="float:right; margin-bottom:4px; font-size:0.9em;">Hide</button>
+    <h4 style="margin-bottom: 10px;"><a href="#">Table of Contents</a></h4>
     <ul class="toc-list">
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#examples">IneqMath Examples</a></li>
@@ -318,6 +317,8 @@
       <li><a href="#BibTeX">BibTeX</a></li>
     </ul>
   </div>
+  <!-- Show TOC floating button -->
+  <button id="show-toc-btn" style="display:none; position:fixed; top:20px; right:20px; z-index:1200; padding:6px 14px; font-size:1em; background:#2A75D0; color:white; border:none; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.1); cursor:pointer;">Show TOC</button>
 
   <section class="hero">
     <div class="hero-body">
@@ -1056,5 +1057,24 @@
   <button onclick="topFunction()" id="topButton" title="Go to top">
     <i class="fas fa-arrow-up"></i>
   </button>
+
+  <!-- Add script to toggle TOC visibility -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toc = document.querySelector('.toc-wrapper');
+      var hideBtn = document.getElementById('hide-toc-btn');
+      var showBtn = document.getElementById('show-toc-btn');
+      if (hideBtn && showBtn && toc) {
+        hideBtn.onclick = function() {
+          toc.style.display = 'none';
+          showBtn.style.display = 'block';
+        };
+        showBtn.onclick = function() {
+          toc.style.display = '';
+          showBtn.style.display = 'none';
+        };
+      }
+    });
+  </script>
 
 </html>
