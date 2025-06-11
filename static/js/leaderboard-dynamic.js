@@ -359,7 +359,7 @@ class DynamicLeaderboard {
         row.appendChild(td(model.size));
         row.appendChild(td(this.getTypeIcon(model.type), '', true, this.getTypeTooltip(model.type)));
         row.appendChild(td(this.getSourceIcon(model.source), '', true, this.getSourceTooltip(model.source)));
-        row.appendChild(td(this.formatDate(model.date)));
+        row.appendChild(td(model.date));
         
         // Helper function to create partial fill style
         const getPartialFillStyle = (accuracy, isBold = false) => {
