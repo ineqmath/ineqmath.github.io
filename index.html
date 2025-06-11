@@ -322,8 +322,8 @@
     <ul class="toc-list">
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#examples"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Examples</a></li>
-      <li><a href="#leaderboard">Leaderboard</a></li>
       <li><a href="#judges">Fine-grained Informal Judges</a></li>
+      <li><a href="#leaderboard">Leaderboard on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b></a></li>
       <li><a href="#dataset-overview">Dataset Overview</a></li>
       <li><a href="#visualization">Visualization</a></li>
       <li><a href="#results">In-depth Study</a></li>
@@ -442,6 +442,16 @@
                     <span>Visualization</span>
                   </a>
                 </span>
+                <!-- Twitter Link. -->
+                <span class="link-block">
+                  <a href="https://x.com/lupantech/status/1932866286427779586"
+                    class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon">
+                      <p style="font-size:18px">🌐</p>
+                    </span>
+                    <span>Twitter</span>
+                  </a>
+                </span>
                 
               </div>
             </div>
@@ -537,12 +547,64 @@
   </section>
   <!--/ IneqMath Examples -->
 
+  <!-- Fine-grained Informal Judges -->
+  <section class="section" id="judges">
+    <div class="container" style="margin-bottom: 2vh;">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Fine-grained Informal Judges</h2>
+          <div class="content has-text-justified">
+            <p>
+            Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
+            while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
+
+            To evaluate the correctness of <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
+            A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
+            </p>
+
+
+
+            <div id="judges-carousel" class="carousel results-carousel">
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/judge_metrics_table.png" width="90%">
+                  <p>Performance metrics of <b>LLM-as-Judge</b> framework on development set.
+                  </p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/confusion_matrix_judge_metrics.png" width="90%">
+                  <p>Confusion matrices for five judges, which exhibit strong agreement with human labels.
+                  </p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/judges/judge_baseline_confusion_matrix.png" width="30%">
+                  <p>Confusion matrix for the judge baseline.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Fine-grained Informal Judges -->
+
   <!-- Leaderboard -->
   <section class="section" id="leaderboard">
     <div style="width: 68%; margin: 0 auto;">
       <h2 class="title is-3" style="text-align:center;">Leaderboard on <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b></h2>
       <div class="content" style="font-size:1.1em; margin-bottom:10px; text-align:left;">
-        🏆 The interactive leaderboard for the <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>.
+        <p>
+          🏆 The interactive leaderboard for the <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>. 
+        </p>
       </div>
       <div class="content has-text-justified">
         <!-- Filters -->
@@ -720,63 +782,24 @@
           NLG: No Logical Gap - Step accuracy without logical reasoning gaps<br>
           NAE: No Approximation Error - Step accuracy excluding approximation errors<br>
           NCE: No Calculation Error - Step accuracy excluding all calculation errors
+          <div style="margin-top: 32px;"></div>
+          <p style="background-color: #fff3cd; border: 1px solid #b22222; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em; margin-bottom: 10px;">
+            🚨 You can submit your model's results through this 
+            <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">link</a> 
+            and receive an accuracy score.
+          </p>
+          <p style="background-color: #fff3cd; border: 1px solid #b22222; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em;">
+            🚨 You may also choose to add your score to the leaderboard or remove it at any time by clicking the 
+            "<b style="color: #111;">Process Query 🔍</b>" button and managing your submission in the same 
+            <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">link</a>.
+          </p>
         </div>
       </div>
     </div>
   </section>
   <!--/ Leaderboard -->
 
-    <!-- Fine-grained Informal Judges -->
-  <section class="section" id="judges">
-    <div class="container" style="margin-bottom: 2vh;">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Fine-grained Informal Judges</h2>
-          <div class="content has-text-justified">
-            <p>
-            Traditional evaluation methods fall short in this setting: expert annotation is accurate but prohibitively labor-intensive, 
-            while automated techniques such as string matching or value equivalence fail to capture step-by-step correctness—an essential aspect of inequality problem solving. 
-
-            To evaluate the correctness of <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> solutions, we propose a fine-grained <b>LLM-as-judge</b> framework, consisting of a <b>final-answer judge</b> for verifying the predicted answer and four specialized <b>step-wise judges</b> targeting common reasoning flaws. 
-            A solution is deemed correct <b>overall</b> only if it passes all five judges. As shown in the following table and confusion matrix, these judges achieve strong alignment with human annotations (F1 = 0.93), providing a scalable yet reliable alternative to manual evaluation.
-            </p>
-
-
-
-            <div id="judges-carousel" class="carousel results-carousel">
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/judge_metrics_table.png" width="90%">
-                  <p>Performance metrics of <b>LLM-as-Judge</b> framework on development set.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/confusion_matrix_judge_metrics.png" width="90%">
-                  <p>Confusion matrices for five judges, which exhibit strong agreement with human labels.
-                  </p>
-                </div>
-              </div>
-
-              <div class="box m-5">
-                <div class="content has-text-centered">
-                  <img src="assets/judges/judge_baseline_confusion_matrix.png" width="30%">
-                  <p>Confusion matrix for the judge baseline.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Fine-grained Informal Judges -->
-
-  <!-- Data Statistics -->
+    <!-- Data Statistics -->
   <section class="section" id="dataset-overview">
     <div class="container" style="margin-bottom: 2vh;">
       <div class="columns is-centered has-text-centered">
