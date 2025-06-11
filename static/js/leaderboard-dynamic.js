@@ -73,7 +73,10 @@ class DynamicLeaderboard {
         console.log('Processed models:', models.slice(0, 3)); // Log first 3 models for debugging
         
         // Sort by overall accuracy (descending) to establish original ranking
-        models.sort((a, b) => b.overallAcc - a.overallAcc);
+        models.sort((a, b) => {
+            if (b.overallAcc !== a.overallAcc) return b.overallAcc - a.overallAcc;
+            return b.isCorrect - a.isCorrect;
+        });
         
         // Assign original rank based on overall accuracy
         models.forEach((model, index) => {
@@ -478,7 +481,10 @@ class DynamicLeaderboard {
         });
 
         // --- Assign true rank by overallAcc among filtered models ---
-        const sortedByOverallAcc = [...rowFilteredModels].sort((a, b) => b.overallAcc - a.overallAcc);
+        const sortedByOverallAcc = [...rowFilteredModels].sort((a, b) => {
+            if (b.overallAcc !== a.overallAcc) return b.overallAcc - a.overallAcc;
+            return b.isCorrect - a.isCorrect;
+        });
         sortedByOverallAcc.forEach((model, idx) => {
             model._trueRank = idx + 1;
         });
@@ -523,7 +529,13 @@ class DynamicLeaderboard {
             let cmp = 0;
             if (aVal < bVal) cmp = -1;
             else if (aVal > bVal) cmp = 1;
-            else cmp = a.originalRank - b.originalRank; // stable tie-break
+            else if (this.sortColumn === 'overallAcc') {
+                // Tie-break by isCorrect (Answer Acc) if sorting by overallAcc
+                if (b.isCorrect !== a.isCorrect) return this.sortDirection === 'desc' ? b.isCorrect - a.isCorrect : a.isCorrect - b.isCorrect;
+                cmp = a.originalRank - b.originalRank;
+            } else {
+                cmp = a.originalRank - b.originalRank; // stable tie-break
+            }
 
             return this.sortDirection === 'desc' ? -cmp : cmp;
         });
