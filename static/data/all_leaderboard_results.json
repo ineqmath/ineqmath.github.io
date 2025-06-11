@@ -4828,7 +4828,7 @@
       "total": {
         "correct": 137,
         "incorrect": 62,
-        "accuracy": 68.84422110552764
+        "accuracy": 68.5
       },
       "relation": {
         "correct": 74,
@@ -4845,7 +4845,7 @@
       "total": {
         "correct": 190,
         "incorrect": 9,
-        "accuracy": 95.47738693467338
+        "accuracy": 95.5
       },
       "relation": {
         "correct": 99,
@@ -4862,7 +4862,7 @@
       "total": {
         "correct": 147,
         "incorrect": 52,
-        "accuracy": 73.86934673366834
+        "accuracy": 73.5
       },
       "relation": {
         "correct": 82,
@@ -4879,7 +4879,7 @@
       "total": {
         "correct": 172,
         "incorrect": 27,
-        "accuracy": 86.4321608040201
+        "accuracy": 86.0
       },
       "relation": {
         "correct": 82,
@@ -4896,7 +4896,7 @@
       "total": {
         "correct": 189,
         "incorrect": 10,
-        "accuracy": 94.9748743718593
+        "accuracy": 94.5
       },
       "relation": {
         "correct": 98,
@@ -4913,7 +4913,7 @@
       "total": {
         "correct": 92,
         "incorrect": 107,
-        "accuracy": 46.231155778894475
+        "accuracy": 46.0
       },
       "relation": {
         "correct": 45,
