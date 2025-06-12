@@ -356,7 +356,7 @@
     "Date": "2025-01-19",
     "Max Tokens": "10000",
     "Model Source": "Open-source",
-    "Size": "",
+    "Size": "671B",
     "Email": "",
     "timestamp": ""
   },
@@ -2945,9 +2945,9 @@
     "all_true_indices": [
       "282_result.json"
     ],
-    "Model": "DeepSeek-R1 (Qwen-14B)",
+    "Model": "DeepSeek-R1 (Qwen-1.5B)",
     "Type": "Reasoning",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
     "Date": "2025-01-20",
     "Max Tokens": "10000",
     "Model Source": "Open-source",
@@ -5030,5 +5030,649 @@
     "Reasoning effort": "medium",
     "Email": "",
     "timestamp": ""
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 95,
+        "incorrect": 105,
+        "accuracy": 47.5
+      },
+      "relation": {
+        "correct": 43,
+        "incorrect": 61,
+        "accuracy": 41.34615384615385
+      },
+      "bound": {
+        "correct": 52,
+        "incorrect": 44,
+        "accuracy": 54.166666666666664
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 50,
+        "incorrect": 150,
+        "accuracy": 25.0
+      },
+      "relation": {
+        "correct": 25,
+        "incorrect": 79,
+        "accuracy": 24.03846153846154
+      },
+      "bound": {
+        "correct": 25,
+        "incorrect": 71,
+        "accuracy": 26.041666666666668
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 18,
+        "incorrect": 182,
+        "accuracy": 9.0
+      },
+      "relation": {
+        "correct": 11,
+        "incorrect": 93,
+        "accuracy": 10.576923076923077
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 179,
+        "incorrect": 21,
+        "accuracy": 89.5
+      },
+      "relation": {
+        "correct": 88,
+        "incorrect": 16,
+        "accuracy": 84.61538461538461
+      },
+      "bound": {
+        "correct": 91,
+        "incorrect": 5,
+        "accuracy": 94.79166666666666
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 188,
+        "incorrect": 12,
+        "accuracy": 94.0
+      },
+      "relation": {
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.15384615384616
+      },
+      "bound": {
+        "correct": 88,
+        "incorrect": 8,
+        "accuracy": 91.66666666666666
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 11,
+        "incorrect": 189,
+        "accuracy": 5.5
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 5,
+        "incorrect": 91,
+        "accuracy": 5.208333333333334
+      }
+    },
+    "all_true_indices": [
+      "3",
+      "6",
+      "1",
+      "35",
+      "49",
+      "98",
+      "110",
+      "158",
+      "161",
+      "193",
+      "182"
+    ],
+    "Model": "Claude Opus 4",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://www.anthropic.com/news/claude-4",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-14",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 00:45:16.535946"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 88,
+        "incorrect": 112,
+        "accuracy": 44.0
+      },
+      "relation": {
+        "correct": 33,
+        "incorrect": 71,
+        "accuracy": 31.73076923076923
+      },
+      "bound": {
+        "correct": 55,
+        "incorrect": 41,
+        "accuracy": 57.291666666666664
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 39,
+        "incorrect": 161,
+        "accuracy": 19.5
+      },
+      "relation": {
+        "correct": 20,
+        "incorrect": 84,
+        "accuracy": 19.230769230769234
+      },
+      "bound": {
+        "correct": 19,
+        "incorrect": 77,
+        "accuracy": 19.791666666666664
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 13,
+        "incorrect": 187,
+        "accuracy": 6.5
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 173,
+        "incorrect": 27,
+        "accuracy": 86.5
+      },
+      "relation": {
+        "correct": 83,
+        "incorrect": 21,
+        "accuracy": 79.8076923076923
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.75
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 101,
+        "incorrect": 3,
+        "accuracy": 97.11538461538461
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.75
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 6,
+        "incorrect": 194,
+        "accuracy": 3.0
+      },
+      "relation": {
+        "correct": 2,
+        "incorrect": 102,
+        "accuracy": 1.9230769230769231
+      },
+      "bound": {
+        "correct": 4,
+        "incorrect": 92,
+        "accuracy": 4.166666666666666
+      }
+    },
+    "all_true_indices": [
+      "6",
+      "23",
+      "49",
+      "92",
+      "98",
+      "153"
+    ],
+    "Model": "Claude Sonnet 4",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://www.anthropic.com/news/claude-4",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-14",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 00:49:56.782607"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 109,
+        "incorrect": 91,
+        "accuracy": 54.50000000000001
+      },
+      "relation": {
+        "correct": 46,
+        "incorrect": 58,
+        "accuracy": 44.230769230769226
+      },
+      "bound": {
+        "correct": 63,
+        "incorrect": 33,
+        "accuracy": 65.625
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 35,
+        "incorrect": 165,
+        "accuracy": 17.5
+      },
+      "relation": {
+        "correct": 22,
+        "incorrect": 82,
+        "accuracy": 21.153846153846153
+      },
+      "bound": {
+        "correct": 13,
+        "incorrect": 83,
+        "accuracy": 13.541666666666666
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 30,
+        "incorrect": 170,
+        "accuracy": 15.0
+      },
+      "relation": {
+        "correct": 15,
+        "incorrect": 89,
+        "accuracy": 14.423076923076922
+      },
+      "bound": {
+        "correct": 15,
+        "incorrect": 81,
+        "accuracy": 15.625
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 126,
+        "incorrect": 74,
+        "accuracy": 63.0
+      },
+      "relation": {
+        "correct": 66,
+        "incorrect": 38,
+        "accuracy": 63.46153846153846
+      },
+      "bound": {
+        "correct": 60,
+        "incorrect": 36,
+        "accuracy": 62.5
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 189,
+        "incorrect": 11,
+        "accuracy": 94.5
+      },
+      "relation": {
+        "correct": 98,
+        "incorrect": 6,
+        "accuracy": 94.23076923076923
+      },
+      "bound": {
+        "correct": 91,
+        "incorrect": 5,
+        "accuracy": 94.79166666666666
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 14,
+        "incorrect": 186,
+        "accuracy": 7.000000000000001
+      },
+      "relation": {
+        "correct": 8,
+        "incorrect": 96,
+        "accuracy": 7.6923076923076925
+      },
+      "bound": {
+        "correct": 6,
+        "incorrect": 90,
+        "accuracy": 6.25
+      }
+    },
+    "all_true_indices": [
+      "6",
+      "1",
+      "23",
+      "62",
+      "76",
+      "92",
+      "107",
+      "110",
+      "128",
+      "118",
+      "143",
+      "152",
+      "153",
+      "191"
+    ],
+    "Model": "DeepSeek-V3",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250325",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-03-25",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 03:09:08.485402"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 24,
+        "incorrect": 176,
+        "accuracy": 12.0
+      },
+      "relation": {
+        "correct": 17,
+        "incorrect": 87,
+        "accuracy": 16.346153846153847
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 68,
+        "incorrect": 132,
+        "accuracy": 34.0
+      },
+      "relation": {
+        "correct": 39,
+        "incorrect": 65,
+        "accuracy": 37.5
+      },
+      "bound": {
+        "correct": 29,
+        "incorrect": 67,
+        "accuracy": 30.208333333333332
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 65,
+        "incorrect": 135,
+        "accuracy": 32.5
+      },
+      "relation": {
+        "correct": 45,
+        "incorrect": 59,
+        "accuracy": 43.269230769230774
+      },
+      "bound": {
+        "correct": 20,
+        "incorrect": 76,
+        "accuracy": 20.833333333333336
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 58,
+        "incorrect": 142,
+        "accuracy": 28.999999999999996
+      },
+      "relation": {
+        "correct": 26,
+        "incorrect": 78,
+        "accuracy": 25.0
+      },
+      "bound": {
+        "correct": 32,
+        "incorrect": 64,
+        "accuracy": 33.33333333333333
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 181,
+        "incorrect": 19,
+        "accuracy": 90.5
+      },
+      "relation": {
+        "correct": 95,
+        "incorrect": 9,
+        "accuracy": 91.34615384615384
+      },
+      "bound": {
+        "correct": 86,
+        "incorrect": 10,
+        "accuracy": 89.58333333333334
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 9,
+        "incorrect": 191,
+        "accuracy": 4.5
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 3,
+        "incorrect": 93,
+        "accuracy": 3.125
+      }
+    },
+    "all_true_indices": [
+      "6",
+      "49",
+      "62",
+      "98",
+      "153",
+      "184",
+      "186",
+      "191",
+      "189"
+    ],
+    "Model": "DeepSeek-R1",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250528",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-28",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 03:12:18.689983"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 146,
+        "incorrect": 54,
+        "accuracy": 73.0
+      },
+      "relation": {
+        "correct": 71,
+        "incorrect": 33,
+        "accuracy": 68.26923076923077
+      },
+      "bound": {
+        "correct": 75,
+        "incorrect": 21,
+        "accuracy": 78.125
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 98,
+        "incorrect": 102,
+        "accuracy": 49.0
+      },
+      "relation": {
+        "correct": 51,
+        "incorrect": 53,
+        "accuracy": 49.03846153846153
+      },
+      "bound": {
+        "correct": 47,
+        "incorrect": 49,
+        "accuracy": 48.95833333333333
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 104,
+        "incorrect": 96,
+        "accuracy": 52.0
+      },
+      "relation": {
+        "correct": 63,
+        "incorrect": 41,
+        "accuracy": 60.57692307692307
+      },
+      "bound": {
+        "correct": 41,
+        "incorrect": 55,
+        "accuracy": 42.70833333333333
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 40,
+        "incorrect": 160,
+        "accuracy": 20.0
+      },
+      "relation": {
+        "correct": 18,
+        "incorrect": 86,
+        "accuracy": 17.307692307692307
+      },
+      "bound": {
+        "correct": 22,
+        "incorrect": 74,
+        "accuracy": 22.916666666666664
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 185,
+        "incorrect": 15,
+        "accuracy": 92.5
+      },
+      "relation": {
+        "correct": 99,
+        "incorrect": 5,
+        "accuracy": 95.1923076923077
+      },
+      "bound": {
+        "correct": 86,
+        "incorrect": 10,
+        "accuracy": 89.58333333333334
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 19,
+        "incorrect": 181,
+        "accuracy": 9.5
+      },
+      "relation": {
+        "correct": 12,
+        "incorrect": 92,
+        "accuracy": 11.538461538461538
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "all_true_indices": [
+      "0",
+      "7",
+      "28",
+      "49",
+      "68",
+      "76",
+      "89",
+      "98",
+      "112",
+      "131",
+      "120",
+      "129",
+      "153",
+      "158",
+      "161",
+      "175",
+      "180",
+      "191",
+      "193"
+    ],
+    "Model": "DeepSeek-R1",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250528",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-28",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 22:26:20.132860"
   }
 ]
