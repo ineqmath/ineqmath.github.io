@@ -379,6 +379,142 @@
   {
     "is_correct": {
       "total": {
+        "correct": 146,
+        "incorrect": 54,
+        "accuracy": 73.0
+      },
+      "relation": {
+        "correct": 71,
+        "incorrect": 33,
+        "accuracy": 68.26923076923077
+      },
+      "bound": {
+        "correct": 75,
+        "incorrect": 21,
+        "accuracy": 78.125
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 98,
+        "incorrect": 102,
+        "accuracy": 49.0
+      },
+      "relation": {
+        "correct": 51,
+        "incorrect": 53,
+        "accuracy": 49.03846153846153
+      },
+      "bound": {
+        "correct": 47,
+        "incorrect": 49,
+        "accuracy": 48.95833333333333
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 104,
+        "incorrect": 96,
+        "accuracy": 52.0
+      },
+      "relation": {
+        "correct": 63,
+        "incorrect": 41,
+        "accuracy": 60.57692307692307
+      },
+      "bound": {
+        "correct": 41,
+        "incorrect": 55,
+        "accuracy": 42.70833333333333
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 40,
+        "incorrect": 160,
+        "accuracy": 20.0
+      },
+      "relation": {
+        "correct": 18,
+        "incorrect": 86,
+        "accuracy": 17.307692307692307
+      },
+      "bound": {
+        "correct": 22,
+        "incorrect": 74,
+        "accuracy": 22.916666666666664
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 185,
+        "incorrect": 15,
+        "accuracy": 92.5
+      },
+      "relation": {
+        "correct": 99,
+        "incorrect": 5,
+        "accuracy": 95.1923076923077
+      },
+      "bound": {
+        "correct": 86,
+        "incorrect": 10,
+        "accuracy": 89.58333333333334
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 19,
+        "incorrect": 181,
+        "accuracy": 9.5
+      },
+      "relation": {
+        "correct": 12,
+        "incorrect": 92,
+        "accuracy": 11.538461538461538
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "all_true_indices": [
+      "0",
+      "7",
+      "28",
+      "49",
+      "68",
+      "76",
+      "89",
+      "98",
+      "112",
+      "131",
+      "120",
+      "129",
+      "153",
+      "158",
+      "161",
+      "175",
+      "180",
+      "191",
+      "193"
+    ],
+    "Model": "DeepSeek-R1-0528",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250528",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-28",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-12 22:26:20.132860"
+  },
+  {
+    "is_correct": {
+      "total": {
         "correct": 109,
         "incorrect": 91,
         "accuracy": 54.50000000000001
@@ -506,6 +642,524 @@
     "Email": "ineqmath_admin@berkeley.edu",
     "leaderboard": true,
     "timestamp": "2025-06-12 03:09:08.485402"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 90,
+        "incorrect": 110,
+        "accuracy": 45.0
+      },
+      "relation": {
+        "correct": 41,
+        "incorrect": 63,
+        "accuracy": 39.42307692307692
+      },
+      "bound": {
+        "correct": 49,
+        "incorrect": 47,
+        "accuracy": 51.041666666666664
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 166,
+        "incorrect": 34,
+        "accuracy": 83.0
+      },
+      "relation": {
+        "correct": 89,
+        "incorrect": 15,
+        "accuracy": 85.57692307692307
+      },
+      "bound": {
+        "correct": 77,
+        "incorrect": 19,
+        "accuracy": 80.20833333333334
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 88,
+        "incorrect": 112,
+        "accuracy": 44.0
+      },
+      "relation": {
+        "correct": 47,
+        "incorrect": 57,
+        "accuracy": 45.19230769230769
+      },
+      "bound": {
+        "correct": 41,
+        "incorrect": 55,
+        "accuracy": 42.70833333333333
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 178,
+        "incorrect": 22,
+        "accuracy": 89.0
+      },
+      "relation": {
+        "correct": 90,
+        "incorrect": 14,
+        "accuracy": 86.53846153846155
+      },
+      "bound": {
+        "correct": 88,
+        "incorrect": 8,
+        "accuracy": 91.66666666666666
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 192,
+        "incorrect": 8,
+        "accuracy": 96.0
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.07692307692307
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.75
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 55,
+        "incorrect": 145,
+        "accuracy": 27.500000000000004
+      },
+      "relation": {
+        "correct": 28,
+        "incorrect": 76,
+        "accuracy": 26.923076923076923
+      },
+      "bound": {
+        "correct": 27,
+        "incorrect": 69,
+        "accuracy": 28.125
+      }
+    },
+    "all_true_indices": [
+      "6",
+      "3",
+      "1",
+      "19",
+      "14",
+      "11",
+      "23",
+      "21",
+      "24",
+      "20",
+      "34",
+      "46",
+      "42",
+      "56",
+      "59",
+      "73",
+      "76",
+      "66",
+      "78",
+      "75",
+      "92",
+      "82",
+      "86",
+      "94",
+      "88",
+      "90",
+      "99",
+      "97",
+      "89",
+      "100",
+      "98",
+      "96",
+      "103",
+      "106",
+      "110",
+      "112",
+      "108",
+      "121",
+      "134",
+      "131",
+      "143",
+      "153",
+      "157",
+      "161",
+      "158",
+      "160",
+      "156",
+      "168",
+      "175",
+      "189",
+      "193",
+      "190",
+      "184",
+      "191",
+      "188"
+    ],
+    "Model": "Gemini 2.5 Flash Preview 05-20",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-20",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-13 23:52:28.624851"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 26,
+        "incorrect": 174,
+        "accuracy": 13.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 20,
+        "incorrect": 76,
+        "accuracy": 20.833333333333336
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 182,
+        "incorrect": 18,
+        "accuracy": 91.0
+      },
+      "relation": {
+        "correct": 92,
+        "incorrect": 12,
+        "accuracy": 88.46153846153845
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.75
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 40,
+        "incorrect": 160,
+        "accuracy": 20.0
+      },
+      "relation": {
+        "correct": 21,
+        "incorrect": 83,
+        "accuracy": 20.192307692307693
+      },
+      "bound": {
+        "correct": 19,
+        "incorrect": 77,
+        "accuracy": 19.791666666666664
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 196,
+        "incorrect": 4,
+        "accuracy": 98.0
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.07692307692307
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.91666666666666
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 197,
+        "incorrect": 3,
+        "accuracy": 98.5
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.07692307692307
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 98.95833333333334
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 20,
+        "incorrect": 180,
+        "accuracy": 10.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 14,
+        "incorrect": 82,
+        "accuracy": 14.583333333333334
+      }
+    },
+    "all_true_indices": [
+      "6",
+      "3",
+      "1",
+      "14",
+      "23",
+      "35",
+      "28",
+      "20",
+      "31",
+      "49",
+      "59",
+      "76",
+      "58",
+      "92",
+      "98",
+      "134",
+      "121",
+      "131",
+      "161",
+      "189"
+    ],
+    "Model": "Gemini 2.5 Pro Preview",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-06-05",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-14 00:59:39.880539"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 132,
+        "incorrect": 68,
+        "accuracy": 66.0
+      },
+      "relation": {
+        "correct": 57,
+        "incorrect": 47,
+        "accuracy": 54.807692307692314
+      },
+      "bound": {
+        "correct": 75,
+        "incorrect": 21,
+        "accuracy": 78.125
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 170,
+        "incorrect": 30,
+        "accuracy": 85.0
+      },
+      "relation": {
+        "correct": 85,
+        "incorrect": 19,
+        "accuracy": 81.73076923076923
+      },
+      "bound": {
+        "correct": 85,
+        "incorrect": 11,
+        "accuracy": 88.54166666666666
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 130,
+        "incorrect": 70,
+        "accuracy": 65.0
+      },
+      "relation": {
+        "correct": 64,
+        "incorrect": 40,
+        "accuracy": 61.53846153846154
+      },
+      "bound": {
+        "correct": 66,
+        "incorrect": 30,
+        "accuracy": 68.75
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 185,
+        "incorrect": 15,
+        "accuracy": 92.5
+      },
+      "relation": {
+        "correct": 93,
+        "incorrect": 11,
+        "accuracy": 89.42307692307693
+      },
+      "bound": {
+        "correct": 92,
+        "incorrect": 4,
+        "accuracy": 95.83333333333334
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 195,
+        "incorrect": 5,
+        "accuracy": 97.5
+      },
+      "relation": {
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.15384615384616
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 98.95833333333334
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 92,
+        "incorrect": 108,
+        "accuracy": 46.0
+      },
+      "relation": {
+        "correct": 39,
+        "incorrect": 65,
+        "accuracy": 37.5
+      },
+      "bound": {
+        "correct": 53,
+        "incorrect": 43,
+        "accuracy": 55.208333333333336
+      }
+    },
+    "all_true_indices": [
+      "1",
+      "3",
+      "6",
+      "16",
+      "14",
+      "7",
+      "11",
+      "8",
+      "19",
+      "31",
+      "12",
+      "27",
+      "21",
+      "30",
+      "35",
+      "0",
+      "34",
+      "9",
+      "10",
+      "24",
+      "32",
+      "22",
+      "58",
+      "42",
+      "17",
+      "49",
+      "59",
+      "61",
+      "52",
+      "23",
+      "55",
+      "62",
+      "64",
+      "63",
+      "68",
+      "76",
+      "45",
+      "79",
+      "75",
+      "92",
+      "73",
+      "80",
+      "81",
+      "86",
+      "82",
+      "88",
+      "78",
+      "39",
+      "72",
+      "74",
+      "89",
+      "100",
+      "95",
+      "98",
+      "96",
+      "105",
+      "93",
+      "121",
+      "104",
+      "101",
+      "108",
+      "107",
+      "118",
+      "112",
+      "111",
+      "119",
+      "106",
+      "134",
+      "132",
+      "135",
+      "131",
+      "143",
+      "152",
+      "156",
+      "153",
+      "147",
+      "157",
+      "161",
+      "160",
+      "162",
+      "166",
+      "178",
+      "175",
+      "177",
+      "189",
+      "186",
+      "190",
+      "170",
+      "184",
+      "188",
+      "199",
+      "193"
+    ],
+    "Model": "Gemini 2.5 Pro Preview",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-06-05",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-14 00:57:36.831162"
   },
   {
     "is_correct": {
@@ -5538,5 +6192,151 @@
     "Size": "2B",
     "Email": "",
     "timestamp": ""
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 35,
+        "incorrect": 165,
+        "accuracy": 17.5
+      },
+      "relation": {
+        "correct": 22,
+        "incorrect": 82,
+        "accuracy": 21.153846153846153
+      },
+      "bound": {
+        "correct": 13,
+        "incorrect": 83,
+        "accuracy": 13.541666666666666
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 164,
+        "incorrect": 36,
+        "accuracy": 82.0
+      },
+      "relation": {
+        "correct": 87,
+        "incorrect": 17,
+        "accuracy": 83.65384615384616
+      },
+      "bound": {
+        "correct": 77,
+        "incorrect": 19,
+        "accuracy": 80.20833333333334
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 62,
+        "incorrect": 138,
+        "accuracy": 31.0
+      },
+      "relation": {
+        "correct": 38,
+        "incorrect": 66,
+        "accuracy": 36.53846153846153
+      },
+      "bound": {
+        "correct": 24,
+        "incorrect": 72,
+        "accuracy": 25.0
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 193,
+        "incorrect": 7,
+        "accuracy": 96.5
+      },
+      "relation": {
+        "correct": 99,
+        "incorrect": 5,
+        "accuracy": 95.1923076923077
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.91666666666666
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 98,
+        "incorrect": 6,
+        "accuracy": 94.23076923076923
+      },
+      "bound": {
+        "correct": 93,
+        "incorrect": 3,
+        "accuracy": 96.875
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 29,
+        "incorrect": 171,
+        "accuracy": 14.499999999999998
+      },
+      "relation": {
+        "correct": 17,
+        "incorrect": 87,
+        "accuracy": 16.346153846153847
+      },
+      "bound": {
+        "correct": 12,
+        "incorrect": 84,
+        "accuracy": 12.5
+      }
+    },
+    "all_true_indices": [
+      "16",
+      "3",
+      "1",
+      "14",
+      "6",
+      "23",
+      "21",
+      "33",
+      "34",
+      "49",
+      "59",
+      "99",
+      "92",
+      "110",
+      "106",
+      "98",
+      "121",
+      "134",
+      "131",
+      "143",
+      "161",
+      "158",
+      "153",
+      "175",
+      "184",
+      "189",
+      "193",
+      "185",
+      "191"
+    ],
+    "Model": "Gemini 2.5 Flash Preview 05-20",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-20",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "leaderboard": true,
+    "timestamp": "2025-06-14 02:13:04.549577"
   }
 ]
