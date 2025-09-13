@@ -7631,5 +7631,123 @@
     "Email": "ineqmath_admin@berkeley.edu",
     "leaderboard": true,
     "timestamp": "2025-08-24 03:14:42.936489"
+  },
+  {
+    "is_correct": {
+      "total": {
+        "correct": 10,
+        "incorrect": 190,
+        "accuracy": 5.0
+      },
+      "relation": {
+        "correct": 3,
+        "incorrect": 101,
+        "accuracy": 2.8846153846153846
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.291666666666667
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 6,
+        "incorrect": 194,
+        "accuracy": 3.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.769230769230769
+      },
+      "bound": {
+        "correct": 0,
+        "incorrect": 96,
+        "accuracy": 0.0
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 1,
+        "incorrect": 199,
+        "accuracy": 0.5
+      },
+      "relation": {
+        "correct": 1,
+        "incorrect": 103,
+        "accuracy": 0.9615384615384616
+      },
+      "bound": {
+        "correct": 0,
+        "incorrect": 96,
+        "accuracy": 0.0
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 21,
+        "incorrect": 179,
+        "accuracy": 10.5
+      },
+      "relation": {
+        "correct": 7,
+        "incorrect": 97,
+        "accuracy": 6.730769230769231
+      },
+      "bound": {
+        "correct": 14,
+        "incorrect": 82,
+        "accuracy": 14.583333333333334
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 20,
+        "incorrect": 180,
+        "accuracy": 10.0
+      },
+      "relation": {
+        "correct": 7,
+        "incorrect": 97,
+        "accuracy": 6.730769230769231
+      },
+      "bound": {
+        "correct": 13,
+        "incorrect": 83,
+        "accuracy": 13.541666666666666
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 1,
+        "incorrect": 199,
+        "accuracy": 0.5
+      },
+      "relation": {
+        "correct": 1,
+        "incorrect": 103,
+        "accuracy": 0.9615384615384616
+      },
+      "bound": {
+        "correct": 0,
+        "incorrect": 96,
+        "accuracy": 0.0
+      }
+    },
+    "all_true_indices": [
+      "110"
+    ],
+    "Model": "gpt-4o-mini",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "",
+    "Reasoning effort": "medium",
+    "Date": "2024-07-08",
+    "Max Tokens": 10000,
+    "Email": "gaowenjun0130@outlook.com",
+    "leaderboard": true,
+    "timestamp": "2025-06-29 11:32:38.948143"
   }
 ]
