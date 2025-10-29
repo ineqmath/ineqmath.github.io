@@ -1,6 +1,6 @@
 class DynamicLeaderboard {
     constructor() {
-        this.dataUrl = './static/data/all_leaderboard_results.json';
+        this.dataUrl = './static/data/leaderboard.json';
         this.tableBody = null;
         this.tableHead = null;
         this.models = [];

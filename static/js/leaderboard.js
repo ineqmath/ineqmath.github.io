@@ -32,7 +32,7 @@ class LeaderboardManager {
 
     async loadData() {
         try {
-            const response = await fetch('IneqMath_Judge_Private/data/leaderboard/all_leaderboard_results.json');
+            const response = await fetch('IneqMath_Judge_Private/data/leaderboard/leaderboard.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
