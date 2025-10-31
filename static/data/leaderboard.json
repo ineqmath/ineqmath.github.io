@@ -1,256 +1,15 @@
 [
   {
-    "is_correct": {
-      "total": {
-        "correct": 95,
-        "incorrect": 105,
-        "accuracy": 47.5
-      },
-      "relation": {
-        "correct": 43,
-        "incorrect": 61,
-        "accuracy": 41.34615384615385
-      },
-      "bound": {
-        "correct": 52,
-        "incorrect": 44,
-        "accuracy": 54.166666666666664
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 50,
-        "incorrect": 150,
-        "accuracy": 25.0
-      },
-      "relation": {
-        "correct": 25,
-        "incorrect": 79,
-        "accuracy": 24.03846153846154
-      },
-      "bound": {
-        "correct": 25,
-        "incorrect": 71,
-        "accuracy": 26.041666666666668
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 18,
-        "incorrect": 182,
-        "accuracy": 9.0
-      },
-      "relation": {
-        "correct": 11,
-        "incorrect": 93,
-        "accuracy": 10.576923076923077
-      },
-      "bound": {
-        "correct": 7,
-        "incorrect": 89,
-        "accuracy": 7.291666666666667
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 179,
-        "incorrect": 21,
-        "accuracy": 89.5
-      },
-      "relation": {
-        "correct": 88,
-        "incorrect": 16,
-        "accuracy": 84.61538461538461
-      },
-      "bound": {
-        "correct": 91,
-        "incorrect": 5,
-        "accuracy": 94.79166666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 188,
-        "incorrect": 12,
-        "accuracy": 94.0
-      },
-      "relation": {
-        "correct": 100,
-        "incorrect": 4,
-        "accuracy": 96.15384615384616
-      },
-      "bound": {
-        "correct": 88,
-        "incorrect": 8,
-        "accuracy": 91.66666666666666
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 11,
-        "incorrect": 189,
-        "accuracy": 5.5
-      },
-      "relation": {
-        "correct": 6,
-        "incorrect": 98,
-        "accuracy": 5.769230769230769
-      },
-      "bound": {
-        "correct": 5,
-        "incorrect": 91,
-        "accuracy": 5.208333333333334
-      }
-    },
-    "all_true_indices": [
-      "3",
-      "6",
-      "1",
-      "35",
-      "49",
-      "98",
-      "110",
-      "158",
-      "161",
-      "193",
-      "182"
-    ],
-    "Model": "Claude Opus 4",
+    "Model": "DeepSeek-R1-0528",
     "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://www.anthropic.com/news/claude-4",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250528",
     "Reasoning effort": "not applicable",
-    "Date": "2025-05-14",
+    "Date": "2025-05-28",
     "Max Tokens": 10000,
     "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-12 00:45:16.535946"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 88,
-        "incorrect": 112,
-        "accuracy": 44.0
-      },
-      "relation": {
-        "correct": 33,
-        "incorrect": 71,
-        "accuracy": 31.73076923076923
-      },
-      "bound": {
-        "correct": 55,
-        "incorrect": 41,
-        "accuracy": 57.291666666666664
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 39,
-        "incorrect": 161,
-        "accuracy": 19.5
-      },
-      "relation": {
-        "correct": 20,
-        "incorrect": 84,
-        "accuracy": 19.230769230769234
-      },
-      "bound": {
-        "correct": 19,
-        "incorrect": 77,
-        "accuracy": 19.791666666666664
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 13,
-        "incorrect": 187,
-        "accuracy": 6.5
-      },
-      "relation": {
-        "correct": 6,
-        "incorrect": 98,
-        "accuracy": 5.769230769230769
-      },
-      "bound": {
-        "correct": 7,
-        "incorrect": 89,
-        "accuracy": 7.291666666666667
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 173,
-        "incorrect": 27,
-        "accuracy": 86.5
-      },
-      "relation": {
-        "correct": 83,
-        "incorrect": 21,
-        "accuracy": 79.8076923076923
-      },
-      "bound": {
-        "correct": 90,
-        "incorrect": 6,
-        "accuracy": 93.75
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 191,
-        "incorrect": 9,
-        "accuracy": 95.5
-      },
-      "relation": {
-        "correct": 101,
-        "incorrect": 3,
-        "accuracy": 97.11538461538461
-      },
-      "bound": {
-        "correct": 90,
-        "incorrect": 6,
-        "accuracy": 93.75
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 6,
-        "incorrect": 194,
-        "accuracy": 3.0
-      },
-      "relation": {
-        "correct": 2,
-        "incorrect": 102,
-        "accuracy": 1.9230769230769231
-      },
-      "bound": {
-        "correct": 4,
-        "incorrect": 92,
-        "accuracy": 4.166666666666666
-      }
-    },
-    "all_true_indices": [
-      "6",
-      "23",
-      "49",
-      "92",
-      "98",
-      "153"
-    ],
-    "Model": "Claude Sonnet 4",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://www.anthropic.com/news/claude-4",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-05-14",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-12 00:49:56.782607"
-  },
-  {
+    "timestamp": "2025-06-12 03:12:18.689983",
     "is_correct": {
       "total": {
         "correct": 24,
@@ -260,12 +19,12 @@
       "relation": {
         "correct": 17,
         "incorrect": 87,
-        "accuracy": 16.346153846153847
+        "accuracy": 16.3
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
     "toy_case_judge": {
@@ -282,7 +41,7 @@
       "bound": {
         "correct": 29,
         "incorrect": 67,
-        "accuracy": 30.208333333333332
+        "accuracy": 30.2
       }
     },
     "logical_gap_judge": {
@@ -294,19 +53,19 @@
       "relation": {
         "correct": 45,
         "incorrect": 59,
-        "accuracy": 43.269230769230774
+        "accuracy": 43.3
       },
       "bound": {
         "correct": 20,
         "incorrect": 76,
-        "accuracy": 20.833333333333336
+        "accuracy": 20.8
       }
     },
     "approx_judge": {
       "total": {
         "correct": 58,
         "incorrect": 142,
-        "accuracy": 28.999999999999996
+        "accuracy": 29.0
       },
       "relation": {
         "correct": 26,
@@ -316,7 +75,7 @@
       "bound": {
         "correct": 32,
         "incorrect": 64,
-        "accuracy": 33.33333333333333
+        "accuracy": 33.3
       }
     },
     "calc_judge": {
@@ -328,12 +87,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 86,
         "incorrect": 10,
-        "accuracy": 89.58333333333334
+        "accuracy": 89.6
       }
     },
     "all_true": {
@@ -345,25 +104,17 @@
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
-    "all_true_indices": [
-      "6",
-      "49",
-      "62",
-      "98",
-      "153",
-      "184",
-      "186",
-      "191",
-      "189"
-    ],
+    "run_dir": "DeepSeek-R1-0528_tokens_10000"
+  },
+  {
     "Model": "DeepSeek-R1-0528",
     "Type": "Reasoning",
     "Model Source": "Open-source",
@@ -371,12 +122,9 @@
     "Source": "https://api-docs.deepseek.com/news/news250528",
     "Reasoning effort": "not applicable",
     "Date": "2025-05-28",
-    "Max Tokens": 10000,
+    "Max Tokens": 40000,
     "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-12 03:12:18.689983"
-  },
-  {
+    "timestamp": "2025-06-12 22:26:20.132860",
     "is_correct": {
       "total": {
         "correct": 146,
@@ -386,12 +134,12 @@
       "relation": {
         "correct": 71,
         "incorrect": 33,
-        "accuracy": 68.26923076923077
+        "accuracy": 68.3
       },
       "bound": {
         "correct": 75,
         "incorrect": 21,
-        "accuracy": 78.125
+        "accuracy": 78.1
       }
     },
     "toy_case_judge": {
@@ -403,12 +151,12 @@
       "relation": {
         "correct": 51,
         "incorrect": 53,
-        "accuracy": 49.03846153846153
+        "accuracy": 49.0
       },
       "bound": {
         "correct": 47,
         "incorrect": 49,
-        "accuracy": 48.95833333333333
+        "accuracy": 49.0
       }
     },
     "logical_gap_judge": {
@@ -420,12 +168,12 @@
       "relation": {
         "correct": 63,
         "incorrect": 41,
-        "accuracy": 60.57692307692307
+        "accuracy": 60.6
       },
       "bound": {
         "correct": 41,
         "incorrect": 55,
-        "accuracy": 42.70833333333333
+        "accuracy": 42.7
       }
     },
     "approx_judge": {
@@ -437,12 +185,12 @@
       "relation": {
         "correct": 18,
         "incorrect": 86,
-        "accuracy": 17.307692307692307
+        "accuracy": 17.3
       },
       "bound": {
         "correct": 22,
         "incorrect": 74,
-        "accuracy": 22.916666666666664
+        "accuracy": 22.9
       }
     },
     "calc_judge": {
@@ -454,12 +202,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 86,
         "incorrect": 10,
-        "accuracy": 89.58333333333334
+        "accuracy": 89.6
       }
     },
     "all_true": {
@@ -471,63 +219,154 @@
       "relation": {
         "correct": 12,
         "incorrect": 92,
-        "accuracy": 11.538461538461538
+        "accuracy": 11.5
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
-    "all_true_indices": [
-      "0",
-      "7",
-      "28",
-      "49",
-      "68",
-      "76",
-      "89",
-      "98",
-      "112",
-      "131",
-      "120",
-      "129",
-      "153",
-      "158",
-      "161",
-      "175",
-      "180",
-      "191",
-      "193"
-    ],
-    "Model": "DeepSeek-R1-0528",
+    "run_dir": "DeepSeek-R1-0528_tokens_40000"
+  },
+  {
+    "Model": "DeepSeek-R1",
     "Type": "Reasoning",
     "Model Source": "Open-source",
     "Size": "671B",
-    "Source": "https://api-docs.deepseek.com/news/news250528",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-05-28",
-    "Max Tokens": 40000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-12 22:26:20.132860"
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+    "Date": "2025-01-19",
+    "Max Tokens": "10000",
+    "is_correct": {
+      "total": {
+        "correct": 99,
+        "incorrect": 101,
+        "accuracy": 49.5
+      },
+      "relation": {
+        "correct": 34,
+        "incorrect": 70,
+        "accuracy": 32.7
+      },
+      "bound": {
+        "correct": 65,
+        "incorrect": 31,
+        "accuracy": 67.7
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 114,
+        "incorrect": 86,
+        "accuracy": 57.0
+      },
+      "relation": {
+        "correct": 63,
+        "incorrect": 41,
+        "accuracy": 60.6
+      },
+      "bound": {
+        "correct": 51,
+        "incorrect": 45,
+        "accuracy": 53.1
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 35,
+        "incorrect": 165,
+        "accuracy": 17.5
+      },
+      "relation": {
+        "correct": 29,
+        "incorrect": 75,
+        "accuracy": 27.9
+      },
+      "bound": {
+        "correct": 6,
+        "incorrect": 90,
+        "accuracy": 6.2
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 162,
+        "incorrect": 38,
+        "accuracy": 81.0
+      },
+      "relation": {
+        "correct": 70,
+        "incorrect": 34,
+        "accuracy": 67.3
+      },
+      "bound": {
+        "correct": 92,
+        "incorrect": 4,
+        "accuracy": 95.8
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 190,
+        "incorrect": 10,
+        "accuracy": 95.0
+      },
+      "relation": {
+        "correct": 95,
+        "incorrect": 9,
+        "accuracy": 91.3
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 99.0
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 10,
+        "incorrect": 190,
+        "accuracy": 5.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.8
+      },
+      "bound": {
+        "correct": 4,
+        "incorrect": 92,
+        "accuracy": 4.2
+      }
+    },
+    "run_dir": "DeepSeek-R1_tokens_10000"
   },
   {
+    "Model": "DeepSeek-V3-0324",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://api-docs.deepseek.com/news/news250325",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-03-25",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-12 03:09:08.485402",
     "is_correct": {
       "total": {
         "correct": 109,
         "incorrect": 91,
-        "accuracy": 54.50000000000001
+        "accuracy": 54.5
       },
       "relation": {
         "correct": 46,
         "incorrect": 58,
-        "accuracy": 44.230769230769226
+        "accuracy": 44.2
       },
       "bound": {
         "correct": 63,
         "incorrect": 33,
-        "accuracy": 65.625
+        "accuracy": 65.6
       }
     },
     "toy_case_judge": {
@@ -539,12 +378,12 @@
       "relation": {
         "correct": 22,
         "incorrect": 82,
-        "accuracy": 21.153846153846153
+        "accuracy": 21.2
       },
       "bound": {
         "correct": 13,
         "incorrect": 83,
-        "accuracy": 13.541666666666666
+        "accuracy": 13.5
       }
     },
     "logical_gap_judge": {
@@ -556,12 +395,12 @@
       "relation": {
         "correct": 15,
         "incorrect": 89,
-        "accuracy": 14.423076923076922
+        "accuracy": 14.4
       },
       "bound": {
         "correct": 15,
         "incorrect": 81,
-        "accuracy": 15.625
+        "accuracy": 15.6
       }
     },
     "approx_judge": {
@@ -573,7 +412,7 @@
       "relation": {
         "correct": 66,
         "incorrect": 38,
-        "accuracy": 63.46153846153846
+        "accuracy": 63.5
       },
       "bound": {
         "correct": 60,
@@ -590,60 +429,44 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "all_true": {
       "total": {
         "correct": 14,
         "incorrect": 186,
-        "accuracy": 7.000000000000001
+        "accuracy": 7.0
       },
       "relation": {
         "correct": 8,
         "incorrect": 96,
-        "accuracy": 7.6923076923076925
+        "accuracy": 7.7
       },
       "bound": {
         "correct": 6,
         "incorrect": 90,
-        "accuracy": 6.25
+        "accuracy": 6.2
       }
     },
-    "all_true_indices": [
-      "6",
-      "1",
-      "23",
-      "62",
-      "76",
-      "92",
-      "107",
-      "110",
-      "128",
-      "118",
-      "143",
-      "152",
-      "153",
-      "191"
-    ],
-    "Model": "DeepSeek-V3-0324",
-    "Type": "Chat",
-    "Model Source": "Open-source",
-    "Size": "671B",
-    "Source": "https://api-docs.deepseek.com/news/news250325",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-03-25",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-12 03:09:08.485402"
+    "run_dir": "DeepSeek-V3-0324_tokens_10000"
   },
   {
+    "Model": "DeepSeek-V3.1 (Thinking Mode)",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "671B",
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-08-21",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-08-24 03:14:42.936489",
     "is_correct": {
       "total": {
         "correct": 65,
@@ -653,12 +476,12 @@
       "relation": {
         "correct": 49,
         "incorrect": 55,
-        "accuracy": 47.11538461538461
+        "accuracy": 47.1
       },
       "bound": {
         "correct": 16,
         "incorrect": 80,
-        "accuracy": 16.666666666666664
+        "accuracy": 16.7
       }
     },
     "toy_case_judge": {
@@ -670,12 +493,12 @@
       "relation": {
         "correct": 74,
         "incorrect": 30,
-        "accuracy": 71.15384615384616
+        "accuracy": 71.2
       },
       "bound": {
         "correct": 79,
         "incorrect": 17,
-        "accuracy": 82.29166666666666
+        "accuracy": 82.3
       }
     },
     "logical_gap_judge": {
@@ -687,12 +510,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 13,
         "incorrect": 83,
-        "accuracy": 13.541666666666666
+        "accuracy": 13.5
       }
     },
     "approx_judge": {
@@ -704,12 +527,12 @@
       "relation": {
         "correct": 81,
         "incorrect": 23,
-        "accuracy": 77.88461538461539
+        "accuracy": 77.9
       },
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "calc_judge": {
@@ -721,12 +544,12 @@
       "relation": {
         "correct": 100,
         "incorrect": 4,
-        "accuracy": 96.15384615384616
+        "accuracy": 96.2
       },
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "all_true": {
@@ -738,40 +561,17 @@
       "relation": {
         "correct": 15,
         "incorrect": 89,
-        "accuracy": 14.423076923076922
+        "accuracy": 14.4
       },
       "bound": {
         "correct": 9,
         "incorrect": 87,
-        "accuracy": 9.375
+        "accuracy": 9.4
       }
     },
-    "all_true_indices": [
-      "3",
-      "6",
-      "14",
-      "23",
-      "28",
-      "49",
-      "66",
-      "76",
-      "92",
-      "99",
-      "98",
-      "105",
-      "121",
-      "129",
-      "134",
-      "153",
-      "160",
-      "161",
-      "166",
-      "175",
-      "193",
-      "189",
-      "188",
-      "198"
-    ],
+    "run_dir": "DeepSeek-V3.1 (Thinking Mode)_tokens_10000"
+  },
+  {
     "Model": "DeepSeek-V3.1 (Thinking Mode)",
     "Type": "Reasoning",
     "Model Source": "Open-source",
@@ -779,12 +579,9 @@
     "Source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
     "Reasoning effort": "not applicable",
     "Date": "2025-08-21",
-    "Max Tokens": 10000,
+    "Max Tokens": 30000,
     "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-24 03:14:42.936489"
-  },
-  {
+    "timestamp": "2025-08-24 02:44:05.611544",
     "is_correct": {
       "total": {
         "correct": 146,
@@ -794,12 +591,12 @@
       "relation": {
         "correct": 73,
         "incorrect": 31,
-        "accuracy": 70.1923076923077
+        "accuracy": 70.2
       },
       "bound": {
         "correct": 73,
         "incorrect": 23,
-        "accuracy": 76.04166666666666
+        "accuracy": 76.0
       }
     },
     "toy_case_judge": {
@@ -811,12 +608,12 @@
       "relation": {
         "correct": 58,
         "incorrect": 46,
-        "accuracy": 55.769230769230774
+        "accuracy": 55.8
       },
       "bound": {
         "correct": 46,
         "incorrect": 50,
-        "accuracy": 47.91666666666667
+        "accuracy": 47.9
       }
     },
     "logical_gap_judge": {
@@ -828,12 +625,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 21,
         "incorrect": 75,
-        "accuracy": 21.875
+        "accuracy": 21.9
       }
     },
     "approx_judge": {
@@ -845,12 +642,12 @@
       "relation": {
         "correct": 60,
         "incorrect": 44,
-        "accuracy": 57.692307692307686
+        "accuracy": 57.7
       },
       "bound": {
         "correct": 69,
         "incorrect": 27,
-        "accuracy": 71.875
+        "accuracy": 71.9
       }
     },
     "calc_judge": {
@@ -862,12 +659,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "all_true": {
@@ -879,1419 +676,27 @@
       "relation": {
         "correct": 18,
         "incorrect": 86,
-        "accuracy": 17.307692307692307
+        "accuracy": 17.3
       },
       "bound": {
         "correct": 13,
         "incorrect": 83,
-        "accuracy": 13.541666666666666
+        "accuracy": 13.5
       }
     },
-    "all_true_indices": [
-      "6",
-      "7",
-      "0",
-      "14",
-      "19",
-      "28",
-      "31",
-      "35",
-      "49",
-      "66",
-      "76",
-      "87",
-      "92",
-      "99",
-      "98",
-      "121",
-      "120",
-      "129",
-      "134",
-      "143",
-      "153",
-      "157",
-      "161",
-      "158",
-      "160",
-      "175",
-      "185",
-      "188",
-      "186",
-      "193",
-      "198"
-    ],
-    "Model": "DeepSeek-V3.1 (Thinking Mode)",
-    "Type": "Reasoning",
+    "run_dir": "DeepSeek-V3.1 (Thinking Mode)_tokens_30000"
+  },
+  {
+    "Model": "Kimi K2 Instruct",
+    "Type": "Chat",
     "Model Source": "Open-source",
-    "Size": "671B",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+    "Size": "1000B",
+    "Source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
     "Reasoning effort": "not applicable",
-    "Date": "2025-08-21",
-    "Max Tokens": 30000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-24 02:44:05.611544"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 111,
-        "incorrect": 89,
-        "accuracy": 55.50000000000001
-      },
-      "relation": {
-        "correct": 60,
-        "incorrect": 44,
-        "accuracy": 57.692307692307686
-      },
-      "bound": {
-        "correct": 51,
-        "incorrect": 45,
-        "accuracy": 53.125
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 191,
-        "incorrect": 9,
-        "accuracy": 95.5
-      },
-      "relation": {
-        "correct": 99,
-        "incorrect": 5,
-        "accuracy": 95.1923076923077
-      },
-      "bound": {
-        "correct": 92,
-        "incorrect": 4,
-        "accuracy": 95.83333333333334
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 100,
-        "incorrect": 100,
-        "accuracy": 50.0
-      },
-      "relation": {
-        "correct": 58,
-        "incorrect": 46,
-        "accuracy": 55.769230769230774
-      },
-      "bound": {
-        "correct": 42,
-        "incorrect": 54,
-        "accuracy": 43.75
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 182,
-        "incorrect": 18,
-        "accuracy": 91.0
-      },
-      "relation": {
-        "correct": 88,
-        "incorrect": 16,
-        "accuracy": 84.61538461538461
-      },
-      "bound": {
-        "correct": 94,
-        "incorrect": 2,
-        "accuracy": 97.91666666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 197,
-        "incorrect": 3,
-        "accuracy": 98.5
-      },
-      "relation": {
-        "correct": 102,
-        "incorrect": 2,
-        "accuracy": 98.07692307692307
-      },
-      "bound": {
-        "correct": 95,
-        "incorrect": 1,
-        "accuracy": 98.95833333333334
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 61,
-        "incorrect": 139,
-        "accuracy": 30.5
-      },
-      "relation": {
-        "correct": 34,
-        "incorrect": 70,
-        "accuracy": 32.69230769230769
-      },
-      "bound": {
-        "correct": 27,
-        "incorrect": 69,
-        "accuracy": 28.125
-      }
-    },
-    "all_true_indices": [
-      "3",
-      "6",
-      "1",
-      "14",
-      "20",
-      "21",
-      "23",
-      "22",
-      "27",
-      "32",
-      "35",
-      "42",
-      "34",
-      "55",
-      "49",
-      "59",
-      "51",
-      "57",
-      "62",
-      "75",
-      "76",
-      "79",
-      "78",
-      "84",
-      "90",
-      "92",
-      "89",
-      "97",
-      "98",
-      "99",
-      "105",
-      "101",
-      "104",
-      "106",
-      "110",
-      "121",
-      "129",
-      "134",
-      "132",
-      "137",
-      "143",
-      "152",
-      "153",
-      "154",
-      "156",
-      "157",
-      "161",
-      "158",
-      "155",
-      "162",
-      "168",
-      "175",
-      "178",
-      "180",
-      "184",
-      "186",
-      "189",
-      "190",
-      "188",
-      "193",
-      "191"
-    ],
-    "Model": "GPT-5 mini",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://platform.openai.com/docs/models/gpt-5-mini",
-    "Reasoning effort": "medium",
-    "Date": "2025-08-07",
+    "Date": "2025-07-12",
     "Max Tokens": 10000,
     "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-08 07:16:45.520846"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 73,
-        "incorrect": 127,
-        "accuracy": 36.5
-      },
-      "relation": {
-        "correct": 40,
-        "incorrect": 64,
-        "accuracy": 38.46153846153847
-      },
-      "bound": {
-        "correct": 33,
-        "incorrect": 63,
-        "accuracy": 34.375
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 189,
-        "incorrect": 11,
-        "accuracy": 94.5
-      },
-      "relation": {
-        "correct": 98,
-        "incorrect": 6,
-        "accuracy": 94.23076923076923
-      },
-      "bound": {
-        "correct": 91,
-        "incorrect": 5,
-        "accuracy": 94.79166666666666
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 94,
-        "incorrect": 106,
-        "accuracy": 47.0
-      },
-      "relation": {
-        "correct": 50,
-        "incorrect": 54,
-        "accuracy": 48.07692307692308
-      },
-      "bound": {
-        "correct": 44,
-        "incorrect": 52,
-        "accuracy": 45.83333333333333
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 187,
-        "incorrect": 13,
-        "accuracy": 93.5
-      },
-      "relation": {
-        "correct": 94,
-        "incorrect": 10,
-        "accuracy": 90.38461538461539
-      },
-      "bound": {
-        "correct": 93,
-        "incorrect": 3,
-        "accuracy": 96.875
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 194,
-        "incorrect": 6,
-        "accuracy": 97.0
-      },
-      "relation": {
-        "correct": 103,
-        "incorrect": 1,
-        "accuracy": 99.03846153846155
-      },
-      "bound": {
-        "correct": 91,
-        "incorrect": 5,
-        "accuracy": 94.79166666666666
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 56,
-        "incorrect": 144,
-        "accuracy": 28.000000000000004
-      },
-      "relation": {
-        "correct": 25,
-        "incorrect": 79,
-        "accuracy": 24.03846153846154
-      },
-      "bound": {
-        "correct": 31,
-        "incorrect": 65,
-        "accuracy": 32.29166666666667
-      }
-    },
-    "all_true_indices": [
-      "3",
-      "6",
-      "1",
-      "0",
-      "8",
-      "13",
-      "14",
-      "19",
-      "23",
-      "20",
-      "24",
-      "34",
-      "30",
-      "45",
-      "49",
-      "59",
-      "55",
-      "58",
-      "62",
-      "76",
-      "68",
-      "66",
-      "70",
-      "71",
-      "79",
-      "90",
-      "88",
-      "92",
-      "89",
-      "94",
-      "93",
-      "98",
-      "99",
-      "110",
-      "103",
-      "121",
-      "106",
-      "134",
-      "129",
-      "143",
-      "152",
-      "153",
-      "158",
-      "161",
-      "175",
-      "180",
-      "168",
-      "160",
-      "166",
-      "182",
-      "184",
-      "189",
-      "193",
-      "186",
-      "188",
-      "191"
-    ],
-    "Model": "GPT-5",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://platform.openai.com/docs/models/gpt-5",
-    "Reasoning effort": "medium",
-    "Date": "2025-08-07",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-08 07:16:02.560565"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 133,
-        "incorrect": 67,
-        "accuracy": 66.5
-      },
-      "relation": {
-        "correct": 71,
-        "incorrect": 33,
-        "accuracy": 68.26923076923077
-      },
-      "bound": {
-        "correct": 62,
-        "incorrect": 34,
-        "accuracy": 64.58333333333334
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 191,
-        "incorrect": 9,
-        "accuracy": 95.5
-      },
-      "relation": {
-        "correct": 98,
-        "incorrect": 6,
-        "accuracy": 94.23076923076923
-      },
-      "bound": {
-        "correct": 93,
-        "incorrect": 3,
-        "accuracy": 96.875
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 138,
-        "incorrect": 62,
-        "accuracy": 69.0
-      },
-      "relation": {
-        "correct": 72,
-        "incorrect": 32,
-        "accuracy": 69.23076923076923
-      },
-      "bound": {
-        "correct": 66,
-        "incorrect": 30,
-        "accuracy": 68.75
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 187,
-        "incorrect": 13,
-        "accuracy": 93.5
-      },
-      "relation": {
-        "correct": 93,
-        "incorrect": 11,
-        "accuracy": 89.42307692307693
-      },
-      "bound": {
-        "correct": 94,
-        "incorrect": 2,
-        "accuracy": 97.91666666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 196,
-        "incorrect": 4,
-        "accuracy": 98.0
-      },
-      "relation": {
-        "correct": 100,
-        "incorrect": 4,
-        "accuracy": 96.15384615384616
-      },
-      "bound": {
-        "correct": 96,
-        "incorrect": 0,
-        "accuracy": 100.0
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 94,
-        "incorrect": 106,
-        "accuracy": 47.0
-      },
-      "relation": {
-        "correct": 43,
-        "incorrect": 61,
-        "accuracy": 41.34615384615385
-      },
-      "bound": {
-        "correct": 51,
-        "incorrect": 45,
-        "accuracy": 53.125
-      }
-    },
-    "all_true_indices": [
-      "3",
-      "1",
-      "6",
-      "7",
-      "0",
-      "8",
-      "13",
-      "14",
-      "16",
-      "19",
-      "23",
-      "22",
-      "20",
-      "30",
-      "34",
-      "33",
-      "35",
-      "32",
-      "31",
-      "39",
-      "42",
-      "44",
-      "45",
-      "47",
-      "52",
-      "49",
-      "56",
-      "55",
-      "57",
-      "62",
-      "61",
-      "60",
-      "64",
-      "72",
-      "65",
-      "66",
-      "73",
-      "71",
-      "76",
-      "79",
-      "81",
-      "75",
-      "84",
-      "88",
-      "86",
-      "90",
-      "93",
-      "92",
-      "89",
-      "94",
-      "97",
-      "95",
-      "100",
-      "105",
-      "103",
-      "107",
-      "110",
-      "112",
-      "115",
-      "119",
-      "111",
-      "118",
-      "121",
-      "129",
-      "132",
-      "134",
-      "137",
-      "143",
-      "152",
-      "153",
-      "156",
-      "157",
-      "158",
-      "161",
-      "160",
-      "162",
-      "168",
-      "169",
-      "175",
-      "170",
-      "178",
-      "180",
-      "182",
-      "184",
-      "183",
-      "189",
-      "188",
-      "186",
-      "187",
-      "190",
-      "193",
-      "197",
-      "198",
-      "199"
-    ],
-    "Model": "GPT-5",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://platform.openai.com/docs/models/gpt-5",
-    "Reasoning effort": "medium",
-    "Date": "2025-08-07",
-    "Max Tokens": 30000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-08 07:59:45.464547"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 35,
-        "incorrect": 165,
-        "accuracy": 17.5
-      },
-      "relation": {
-        "correct": 22,
-        "incorrect": 82,
-        "accuracy": 21.153846153846153
-      },
-      "bound": {
-        "correct": 13,
-        "incorrect": 83,
-        "accuracy": 13.541666666666666
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 164,
-        "incorrect": 36,
-        "accuracy": 82.0
-      },
-      "relation": {
-        "correct": 87,
-        "incorrect": 17,
-        "accuracy": 83.65384615384616
-      },
-      "bound": {
-        "correct": 77,
-        "incorrect": 19,
-        "accuracy": 80.20833333333334
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 62,
-        "incorrect": 138,
-        "accuracy": 31.0
-      },
-      "relation": {
-        "correct": 38,
-        "incorrect": 66,
-        "accuracy": 36.53846153846153
-      },
-      "bound": {
-        "correct": 24,
-        "incorrect": 72,
-        "accuracy": 25.0
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 193,
-        "incorrect": 7,
-        "accuracy": 96.5
-      },
-      "relation": {
-        "correct": 99,
-        "incorrect": 5,
-        "accuracy": 95.1923076923077
-      },
-      "bound": {
-        "correct": 94,
-        "incorrect": 2,
-        "accuracy": 97.91666666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 191,
-        "incorrect": 9,
-        "accuracy": 95.5
-      },
-      "relation": {
-        "correct": 98,
-        "incorrect": 6,
-        "accuracy": 94.23076923076923
-      },
-      "bound": {
-        "correct": 93,
-        "incorrect": 3,
-        "accuracy": 96.875
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 29,
-        "incorrect": 171,
-        "accuracy": 14.499999999999998
-      },
-      "relation": {
-        "correct": 17,
-        "incorrect": 87,
-        "accuracy": 16.346153846153847
-      },
-      "bound": {
-        "correct": 12,
-        "incorrect": 84,
-        "accuracy": 12.5
-      }
-    },
-    "all_true_indices": [
-      "16",
-      "3",
-      "1",
-      "14",
-      "6",
-      "23",
-      "21",
-      "33",
-      "34",
-      "49",
-      "59",
-      "99",
-      "92",
-      "110",
-      "106",
-      "98",
-      "121",
-      "134",
-      "131",
-      "143",
-      "161",
-      "158",
-      "153",
-      "175",
-      "184",
-      "189",
-      "193",
-      "185",
-      "191"
-    ],
-    "Model": "Gemini 2.5 Flash Preview 05-20",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-05-20",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-14 02:13:04.549577"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 90,
-        "incorrect": 110,
-        "accuracy": 45.0
-      },
-      "relation": {
-        "correct": 41,
-        "incorrect": 63,
-        "accuracy": 39.42307692307692
-      },
-      "bound": {
-        "correct": 49,
-        "incorrect": 47,
-        "accuracy": 51.041666666666664
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 166,
-        "incorrect": 34,
-        "accuracy": 83.0
-      },
-      "relation": {
-        "correct": 89,
-        "incorrect": 15,
-        "accuracy": 85.57692307692307
-      },
-      "bound": {
-        "correct": 77,
-        "incorrect": 19,
-        "accuracy": 80.20833333333334
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 88,
-        "incorrect": 112,
-        "accuracy": 44.0
-      },
-      "relation": {
-        "correct": 47,
-        "incorrect": 57,
-        "accuracy": 45.19230769230769
-      },
-      "bound": {
-        "correct": 41,
-        "incorrect": 55,
-        "accuracy": 42.70833333333333
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 178,
-        "incorrect": 22,
-        "accuracy": 89.0
-      },
-      "relation": {
-        "correct": 90,
-        "incorrect": 14,
-        "accuracy": 86.53846153846155
-      },
-      "bound": {
-        "correct": 88,
-        "incorrect": 8,
-        "accuracy": 91.66666666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 192,
-        "incorrect": 8,
-        "accuracy": 96.0
-      },
-      "relation": {
-        "correct": 102,
-        "incorrect": 2,
-        "accuracy": 98.07692307692307
-      },
-      "bound": {
-        "correct": 90,
-        "incorrect": 6,
-        "accuracy": 93.75
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 55,
-        "incorrect": 145,
-        "accuracy": 27.500000000000004
-      },
-      "relation": {
-        "correct": 28,
-        "incorrect": 76,
-        "accuracy": 26.923076923076923
-      },
-      "bound": {
-        "correct": 27,
-        "incorrect": 69,
-        "accuracy": 28.125
-      }
-    },
-    "all_true_indices": [
-      "6",
-      "3",
-      "1",
-      "19",
-      "14",
-      "11",
-      "23",
-      "21",
-      "24",
-      "20",
-      "34",
-      "46",
-      "42",
-      "56",
-      "59",
-      "73",
-      "76",
-      "66",
-      "78",
-      "75",
-      "92",
-      "82",
-      "86",
-      "94",
-      "88",
-      "90",
-      "99",
-      "97",
-      "89",
-      "100",
-      "98",
-      "96",
-      "103",
-      "106",
-      "110",
-      "112",
-      "108",
-      "121",
-      "134",
-      "131",
-      "143",
-      "153",
-      "157",
-      "161",
-      "158",
-      "160",
-      "156",
-      "168",
-      "175",
-      "189",
-      "193",
-      "190",
-      "184",
-      "191",
-      "188"
-    ],
-    "Model": "Gemini 2.5 Flash Preview 05-20",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-05-20",
-    "Max Tokens": 40000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-13 23:52:28.624851"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 26,
-        "incorrect": 174,
-        "accuracy": 13.0
-      },
-      "relation": {
-        "correct": 6,
-        "incorrect": 98,
-        "accuracy": 5.769230769230769
-      },
-      "bound": {
-        "correct": 20,
-        "incorrect": 76,
-        "accuracy": 20.833333333333336
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 182,
-        "incorrect": 18,
-        "accuracy": 91.0
-      },
-      "relation": {
-        "correct": 92,
-        "incorrect": 12,
-        "accuracy": 88.46153846153845
-      },
-      "bound": {
-        "correct": 90,
-        "incorrect": 6,
-        "accuracy": 93.75
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 40,
-        "incorrect": 160,
-        "accuracy": 20.0
-      },
-      "relation": {
-        "correct": 21,
-        "incorrect": 83,
-        "accuracy": 20.192307692307693
-      },
-      "bound": {
-        "correct": 19,
-        "incorrect": 77,
-        "accuracy": 19.791666666666664
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 196,
-        "incorrect": 4,
-        "accuracy": 98.0
-      },
-      "relation": {
-        "correct": 102,
-        "incorrect": 2,
-        "accuracy": 98.07692307692307
-      },
-      "bound": {
-        "correct": 94,
-        "incorrect": 2,
-        "accuracy": 97.91666666666666
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 197,
-        "incorrect": 3,
-        "accuracy": 98.5
-      },
-      "relation": {
-        "correct": 102,
-        "incorrect": 2,
-        "accuracy": 98.07692307692307
-      },
-      "bound": {
-        "correct": 95,
-        "incorrect": 1,
-        "accuracy": 98.95833333333334
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 20,
-        "incorrect": 180,
-        "accuracy": 10.0
-      },
-      "relation": {
-        "correct": 6,
-        "incorrect": 98,
-        "accuracy": 5.769230769230769
-      },
-      "bound": {
-        "correct": 14,
-        "incorrect": 82,
-        "accuracy": 14.583333333333334
-      }
-    },
-    "all_true_indices": [
-      "6",
-      "3",
-      "1",
-      "14",
-      "23",
-      "35",
-      "28",
-      "20",
-      "31",
-      "49",
-      "59",
-      "76",
-      "58",
-      "92",
-      "98",
-      "134",
-      "121",
-      "131",
-      "161",
-      "189"
-    ],
-    "Model": "Gemini 2.5 Pro Preview",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-06-05",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-14 00:59:39.880539"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 132,
-        "incorrect": 68,
-        "accuracy": 66.0
-      },
-      "relation": {
-        "correct": 57,
-        "incorrect": 47,
-        "accuracy": 54.807692307692314
-      },
-      "bound": {
-        "correct": 75,
-        "incorrect": 21,
-        "accuracy": 78.125
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 170,
-        "incorrect": 30,
-        "accuracy": 85.0
-      },
-      "relation": {
-        "correct": 85,
-        "incorrect": 19,
-        "accuracy": 81.73076923076923
-      },
-      "bound": {
-        "correct": 85,
-        "incorrect": 11,
-        "accuracy": 88.54166666666666
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 130,
-        "incorrect": 70,
-        "accuracy": 65.0
-      },
-      "relation": {
-        "correct": 64,
-        "incorrect": 40,
-        "accuracy": 61.53846153846154
-      },
-      "bound": {
-        "correct": 66,
-        "incorrect": 30,
-        "accuracy": 68.75
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 185,
-        "incorrect": 15,
-        "accuracy": 92.5
-      },
-      "relation": {
-        "correct": 93,
-        "incorrect": 11,
-        "accuracy": 89.42307692307693
-      },
-      "bound": {
-        "correct": 92,
-        "incorrect": 4,
-        "accuracy": 95.83333333333334
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 195,
-        "incorrect": 5,
-        "accuracy": 97.5
-      },
-      "relation": {
-        "correct": 100,
-        "incorrect": 4,
-        "accuracy": 96.15384615384616
-      },
-      "bound": {
-        "correct": 95,
-        "incorrect": 1,
-        "accuracy": 98.95833333333334
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 92,
-        "incorrect": 108,
-        "accuracy": 46.0
-      },
-      "relation": {
-        "correct": 39,
-        "incorrect": 65,
-        "accuracy": 37.5
-      },
-      "bound": {
-        "correct": 53,
-        "incorrect": 43,
-        "accuracy": 55.208333333333336
-      }
-    },
-    "all_true_indices": [
-      "1",
-      "3",
-      "6",
-      "16",
-      "14",
-      "7",
-      "11",
-      "8",
-      "19",
-      "31",
-      "12",
-      "27",
-      "21",
-      "30",
-      "35",
-      "0",
-      "34",
-      "9",
-      "10",
-      "24",
-      "32",
-      "22",
-      "58",
-      "42",
-      "17",
-      "49",
-      "59",
-      "61",
-      "52",
-      "23",
-      "55",
-      "62",
-      "64",
-      "63",
-      "68",
-      "76",
-      "45",
-      "79",
-      "75",
-      "92",
-      "73",
-      "80",
-      "81",
-      "86",
-      "82",
-      "88",
-      "78",
-      "39",
-      "72",
-      "74",
-      "89",
-      "100",
-      "95",
-      "98",
-      "96",
-      "105",
-      "93",
-      "121",
-      "104",
-      "101",
-      "108",
-      "107",
-      "118",
-      "112",
-      "111",
-      "119",
-      "106",
-      "134",
-      "132",
-      "135",
-      "131",
-      "143",
-      "152",
-      "156",
-      "153",
-      "147",
-      "157",
-      "161",
-      "160",
-      "162",
-      "166",
-      "178",
-      "175",
-      "177",
-      "189",
-      "186",
-      "190",
-      "170",
-      "184",
-      "188",
-      "199",
-      "193"
-    ],
-    "Model": "Gemini 2.5 Pro Preview",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-06-05",
-    "Max Tokens": 40000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-06-14 00:57:36.831162"
-  },
-  {
-    "is_correct": {
-      "total": {
-        "correct": 152,
-        "incorrect": 48,
-        "accuracy": 76.0
-      },
-      "relation": {
-        "correct": 74,
-        "incorrect": 30,
-        "accuracy": 71.15384615384616
-      },
-      "bound": {
-        "correct": 78,
-        "incorrect": 18,
-        "accuracy": 81.25
-      }
-    },
-    "toy_case_judge": {
-      "total": {
-        "correct": 114,
-        "incorrect": 86,
-        "accuracy": 56.99999999999999
-      },
-      "relation": {
-        "correct": 75,
-        "incorrect": 29,
-        "accuracy": 72.11538461538461
-      },
-      "bound": {
-        "correct": 39,
-        "incorrect": 57,
-        "accuracy": 40.625
-      }
-    },
-    "logical_gap_judge": {
-      "total": {
-        "correct": 28,
-        "incorrect": 172,
-        "accuracy": 14.000000000000002
-      },
-      "relation": {
-        "correct": 20,
-        "incorrect": 84,
-        "accuracy": 19.230769230769234
-      },
-      "bound": {
-        "correct": 8,
-        "incorrect": 88,
-        "accuracy": 8.333333333333332
-      }
-    },
-    "approx_judge": {
-      "total": {
-        "correct": 186,
-        "incorrect": 14,
-        "accuracy": 93.0
-      },
-      "relation": {
-        "correct": 91,
-        "incorrect": 13,
-        "accuracy": 87.5
-      },
-      "bound": {
-        "correct": 95,
-        "incorrect": 1,
-        "accuracy": 98.95833333333334
-      }
-    },
-    "calc_judge": {
-      "total": {
-        "correct": 193,
-        "incorrect": 7,
-        "accuracy": 96.5
-      },
-      "relation": {
-        "correct": 100,
-        "incorrect": 4,
-        "accuracy": 96.15384615384616
-      },
-      "bound": {
-        "correct": 93,
-        "incorrect": 3,
-        "accuracy": 96.875
-      }
-    },
-    "all_true": {
-      "total": {
-        "correct": 16,
-        "incorrect": 184,
-        "accuracy": 8.0
-      },
-      "relation": {
-        "correct": 9,
-        "incorrect": 95,
-        "accuracy": 8.653846153846153
-      },
-      "bound": {
-        "correct": 7,
-        "incorrect": 89,
-        "accuracy": 7.291666666666667
-      }
-    },
-    "all_true_indices": [
-      "3",
-      "6",
-      "14",
-      "28",
-      "35",
-      "49",
-      "91",
-      "98",
-      "110",
-      "124",
-      "134",
-      "161",
-      "157",
-      "180",
-      "193",
-      "191"
-    ],
-    "Model": "Grok 4",
-    "Type": "Reasoning",
-    "Model Source": "Proprietary",
-    "Size": "UNK",
-    "Source": "https://docs.x.ai/docs/models/grok-4-0709",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-07-09",
-    "Max Tokens": 40000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-07-12 21:14:12.977858"
-  },
-  {
+    "timestamp": "2025-07-20 20:07:09.372066",
     "is_correct": {
       "total": {
         "correct": 125,
@@ -2306,7 +711,7 @@
       "bound": {
         "correct": 73,
         "incorrect": 23,
-        "accuracy": 76.04166666666666
+        "accuracy": 76.0
       }
     },
     "toy_case_judge": {
@@ -2318,12 +723,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 26,
         "incorrect": 70,
-        "accuracy": 27.083333333333332
+        "accuracy": 27.1
       }
     },
     "logical_gap_judge": {
@@ -2335,12 +740,12 @@
       "relation": {
         "correct": 34,
         "incorrect": 70,
-        "accuracy": 32.69230769230769
+        "accuracy": 32.7
       },
       "bound": {
         "correct": 17,
         "incorrect": 79,
-        "accuracy": 17.708333333333336
+        "accuracy": 17.7
       }
     },
     "approx_judge": {
@@ -2352,12 +757,12 @@
       "relation": {
         "correct": 47,
         "incorrect": 57,
-        "accuracy": 45.19230769230769
+        "accuracy": 45.2
       },
       "bound": {
         "correct": 58,
         "incorrect": 38,
-        "accuracy": 60.416666666666664
+        "accuracy": 60.4
       }
     },
     "calc_judge": {
@@ -2369,12 +774,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "all_true": {
@@ -2386,47 +791,27 @@
       "relation": {
         "correct": 9,
         "incorrect": 95,
-        "accuracy": 8.653846153846153
+        "accuracy": 8.7
       },
       "bound": {
         "correct": 9,
         "incorrect": 87,
-        "accuracy": 9.375
+        "accuracy": 9.4
       }
     },
-    "all_true_indices": [
-      "6",
-      "14",
-      "19",
-      "49",
-      "59",
-      "62",
-      "66",
-      "82",
-      "84",
-      "121",
-      "129",
-      "134",
-      "143",
-      "153",
-      "157",
-      "161",
-      "184",
-      "188"
-    ],
-    "Model": "Kimi K2 Instruct",
-    "Type": "Chat",
-    "Model Source": "Open-source",
-    "Size": "1000B",
-    "Source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-07-12",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-07-20 20:07:09.372066"
+    "run_dir": "Kimi-K2-Instruct_tokens_10000"
   },
   {
+    "Model": "Qwen3-4B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "4B",
+    "Source": "https://huggingface.co/Qwen/Qwen3-4B",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-04-27",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-07-20 21:02:39.689619",
     "is_correct": {
       "total": {
         "correct": 88,
@@ -2436,7 +821,7 @@
       "relation": {
         "correct": 40,
         "incorrect": 64,
-        "accuracy": 38.46153846153847
+        "accuracy": 38.5
       },
       "bound": {
         "correct": 48,
@@ -2453,12 +838,12 @@
       "relation": {
         "correct": 21,
         "incorrect": 83,
-        "accuracy": 20.192307692307693
+        "accuracy": 20.2
       },
       "bound": {
         "correct": 21,
         "incorrect": 75,
-        "accuracy": 21.875
+        "accuracy": 21.9
       }
     },
     "logical_gap_judge": {
@@ -2475,7 +860,7 @@
       "bound": {
         "correct": 16,
         "incorrect": 80,
-        "accuracy": 16.666666666666664
+        "accuracy": 16.7
       }
     },
     "approx_judge": {
@@ -2492,7 +877,7 @@
       "bound": {
         "correct": 25,
         "incorrect": 71,
-        "accuracy": 26.041666666666668
+        "accuracy": 26.0
       }
     },
     "calc_judge": {
@@ -2504,12 +889,12 @@
       "relation": {
         "correct": 89,
         "incorrect": 15,
-        "accuracy": 85.57692307692307
+        "accuracy": 85.6
       },
       "bound": {
         "correct": 82,
         "incorrect": 14,
-        "accuracy": 85.41666666666666
+        "accuracy": 85.4
       }
     },
     "all_true": {
@@ -2521,40 +906,24 @@
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 5,
         "incorrect": 91,
-        "accuracy": 5.208333333333334
+        "accuracy": 5.2
       }
     },
-    "all_true_indices": [
-      "6",
-      "14",
-      "49",
-      "62",
-      "84",
-      "98",
-      "118",
-      "135",
-      "143",
-      "161",
-      "184"
-    ],
-    "Model": "Qwen3-4B",
-    "Type": "Chat",
-    "Model Source": "Open-source",
-    "Size": "4B",
-    "Source": "https://huggingface.co/Qwen/Qwen3-4B",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-04-27",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-07-20 21:02:39.689619"
+    "run_dir": "Qwen3-4B-2025-04-27_tokens_10000_20250720210239"
   },
   {
+    "Model": "Claude 3.7 Sonnet",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "Date": "2025-02-19",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 84,
@@ -2569,7 +938,7 @@
       "bound": {
         "correct": 45,
         "incorrect": 51,
-        "accuracy": 46.875
+        "accuracy": 46.9
       }
     },
     "toy_case_judge": {
@@ -2581,12 +950,12 @@
       "relation": {
         "correct": 63,
         "incorrect": 41,
-        "accuracy": 60.57692307692307
+        "accuracy": 60.6
       },
       "bound": {
         "correct": 35,
         "incorrect": 61,
-        "accuracy": 36.45833333333333
+        "accuracy": 36.5
       }
     },
     "logical_gap_judge": {
@@ -2598,12 +967,12 @@
       "relation": {
         "correct": 5,
         "incorrect": 99,
-        "accuracy": 4.807692307692308
+        "accuracy": 4.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
     "approx_judge": {
@@ -2615,12 +984,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "calc_judge": {
@@ -2632,12 +1001,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 87,
         "incorrect": 9,
-        "accuracy": 90.625
+        "accuracy": 90.6
       }
     },
     "all_true": {
@@ -2649,29 +1018,24 @@
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "106_result.json",
-      "253_result.json",
-      "278_result.json",
-      "130_result.json"
-    ],
-    "Model": "Claude 3.7 Sonnet",
-    "Type": "Reasoning",
-    "Source": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "Date": "2025-02-19",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "claude-3-7-sonnet-20250219_tokens_10000"
   },
   {
+    "Model": "Claude 3.7 Sonnet",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "Date": "2025-02-19",
+    "Max Tokens": "8000",
     "is_correct": {
       "total": {
         "correct": 83,
@@ -2681,7 +1045,7 @@
       "relation": {
         "correct": 35,
         "incorrect": 69,
-        "accuracy": 33.65384615384615
+        "accuracy": 33.7
       },
       "bound": {
         "correct": 48,
@@ -2698,12 +1062,12 @@
       "relation": {
         "correct": 66,
         "incorrect": 38,
-        "accuracy": 63.46153846153846
+        "accuracy": 63.5
       },
       "bound": {
         "correct": 32,
         "incorrect": 64,
-        "accuracy": 33.33333333333333
+        "accuracy": 33.3
       }
     },
     "logical_gap_judge": {
@@ -2715,12 +1079,12 @@
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
     "approx_judge": {
@@ -2732,12 +1096,12 @@
       "relation": {
         "correct": 93,
         "incorrect": 11,
-        "accuracy": 89.42307692307693
+        "accuracy": 89.4
       },
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "calc_judge": {
@@ -2749,12 +1113,12 @@
       "relation": {
         "correct": 96,
         "incorrect": 8,
-        "accuracy": 92.3076923076923
+        "accuracy": 92.3
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "all_true": {
@@ -2766,150 +1130,254 @@
       "relation": {
         "correct": 1,
         "incorrect": 103,
-        "accuracy": 0.9615384615384616
+        "accuracy": 1.0
       },
       "bound": {
         "correct": 1,
         "incorrect": 95,
-        "accuracy": 1.0416666666666665
+        "accuracy": 1.0
       }
     },
-    "all_true_indices": [
-      "258_result.json",
-      "106_result.json"
-    ],
-    "Model": "Claude 3.7 Sonnet",
-    "Type": "Reasoning",
-    "Source": "https://www.anthropic.com/news/claude-3-7-sonnet",
-    "Date": "2025-02-19",
-    "Max Tokens": "8000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "claude-3-7-sonnet-20250219_tokens_8000"
   },
   {
+    "Model": "Claude Opus 4",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://www.anthropic.com/news/claude-4",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-14",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-12 00:45:16.535946",
     "is_correct": {
       "total": {
-        "correct": 99,
-        "incorrect": 101,
-        "accuracy": 49.5
+        "correct": 95,
+        "incorrect": 105,
+        "accuracy": 47.5
       },
       "relation": {
-        "correct": 34,
-        "incorrect": 70,
-        "accuracy": 32.69230769230769
+        "correct": 43,
+        "incorrect": 61,
+        "accuracy": 41.3
       },
       "bound": {
-        "correct": 65,
-        "incorrect": 31,
-        "accuracy": 67.70833333333334
+        "correct": 52,
+        "incorrect": 44,
+        "accuracy": 54.2
       }
     },
     "toy_case_judge": {
       "total": {
-        "correct": 114,
-        "incorrect": 86,
-        "accuracy": 56.99999999999999
+        "correct": 50,
+        "incorrect": 150,
+        "accuracy": 25.0
       },
       "relation": {
-        "correct": 63,
-        "incorrect": 41,
-        "accuracy": 60.57692307692307
+        "correct": 25,
+        "incorrect": 79,
+        "accuracy": 24.0
       },
       "bound": {
-        "correct": 51,
-        "incorrect": 45,
-        "accuracy": 53.125
+        "correct": 25,
+        "incorrect": 71,
+        "accuracy": 26.0
       }
     },
     "logical_gap_judge": {
       "total": {
-        "correct": 35,
-        "incorrect": 165,
-        "accuracy": 17.5
+        "correct": 18,
+        "incorrect": 182,
+        "accuracy": 9.0
       },
       "relation": {
-        "correct": 29,
-        "incorrect": 75,
-        "accuracy": 27.884615384615387
+        "correct": 11,
+        "incorrect": 93,
+        "accuracy": 10.6
       },
       "bound": {
-        "correct": 6,
-        "incorrect": 90,
-        "accuracy": 6.25
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.3
       }
     },
     "approx_judge": {
       "total": {
-        "correct": 162,
-        "incorrect": 38,
-        "accuracy": 81.0
+        "correct": 179,
+        "incorrect": 21,
+        "accuracy": 89.5
       },
       "relation": {
-        "correct": 70,
-        "incorrect": 34,
-        "accuracy": 67.3076923076923
+        "correct": 88,
+        "incorrect": 16,
+        "accuracy": 84.6
       },
       "bound": {
-        "correct": 92,
-        "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "correct": 91,
+        "incorrect": 5,
+        "accuracy": 94.8
       }
     },
     "calc_judge": {
       "total": {
-        "correct": 190,
-        "incorrect": 10,
-        "accuracy": 95.0
+        "correct": 188,
+        "incorrect": 12,
+        "accuracy": 94.0
       },
       "relation": {
-        "correct": 95,
-        "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.2
       },
       "bound": {
-        "correct": 95,
-        "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "correct": 88,
+        "incorrect": 8,
+        "accuracy": 91.7
       }
     },
     "all_true": {
       "total": {
-        "correct": 10,
-        "incorrect": 190,
-        "accuracy": 5.0
+        "correct": 11,
+        "incorrect": 189,
+        "accuracy": 5.5
       },
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
+      },
+      "bound": {
+        "correct": 5,
+        "incorrect": 91,
+        "accuracy": 5.2
+      }
+    },
+    "run_dir": "claude-oups-4-20250514_tokens_10000"
+  },
+  {
+    "Model": "Claude Sonnet 4",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://www.anthropic.com/news/claude-4",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-14",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-12 00:49:56.782607",
+    "is_correct": {
+      "total": {
+        "correct": 88,
+        "incorrect": 112,
+        "accuracy": 44.0
+      },
+      "relation": {
+        "correct": 33,
+        "incorrect": 71,
+        "accuracy": 31.7
+      },
+      "bound": {
+        "correct": 55,
+        "incorrect": 41,
+        "accuracy": 57.3
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 39,
+        "incorrect": 161,
+        "accuracy": 19.5
+      },
+      "relation": {
+        "correct": 20,
+        "incorrect": 84,
+        "accuracy": 19.2
+      },
+      "bound": {
+        "correct": 19,
+        "incorrect": 77,
+        "accuracy": 19.8
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 13,
+        "incorrect": 187,
+        "accuracy": 6.5
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.8
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.3
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 173,
+        "incorrect": 27,
+        "accuracy": 86.5
+      },
+      "relation": {
+        "correct": 83,
+        "incorrect": 21,
+        "accuracy": 79.8
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.8
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 101,
+        "incorrect": 3,
+        "accuracy": 97.1
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.8
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 6,
+        "incorrect": 194,
+        "accuracy": 3.0
+      },
+      "relation": {
+        "correct": 2,
+        "incorrect": 102,
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
-    "all_true_indices": [
-      "270_result.json",
-      "284_result.json",
-      "192_result.json",
-      "266_result.json",
-      "106_result.json",
-      "218_result.json",
-      "253_result.json",
-      "114_result.json",
-      "123_result.json",
-      "243_result.json"
-    ],
-    "Model": "DeepSeek-R1",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-    "Date": "2025-01-19",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "671B"
+    "run_dir": "claude-sonnet-4-20250514_tokens_10000"
   },
   {
+    "Model": "Gemini 2.0 Flash-Lite",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://deepmind.google/technologies/gemini/flash-lite/",
+    "Date": "2025-02-25",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 66,
@@ -2919,12 +1387,12 @@
       "relation": {
         "correct": 24,
         "incorrect": 80,
-        "accuracy": 23.076923076923077
+        "accuracy": 23.1
       },
       "bound": {
         "correct": 42,
         "incorrect": 54,
-        "accuracy": 43.75
+        "accuracy": 43.8
       }
     },
     "toy_case_judge": {
@@ -2936,29 +1404,29 @@
       "relation": {
         "correct": 12,
         "incorrect": 92,
-        "accuracy": 11.538461538461538
+        "accuracy": 11.5
       },
       "bound": {
         "correct": 11,
         "incorrect": 85,
-        "accuracy": 11.458333333333332
+        "accuracy": 11.5
       }
     },
     "logical_gap_judge": {
       "total": {
         "correct": 7,
         "incorrect": 193,
-        "accuracy": 3.5000000000000004
+        "accuracy": 3.5
       },
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
     "approx_judge": {
@@ -2970,12 +1438,12 @@
       "relation": {
         "correct": 72,
         "incorrect": 32,
-        "accuracy": 69.23076923076923
+        "accuracy": 69.2
       },
       "bound": {
         "correct": 74,
         "incorrect": 22,
-        "accuracy": 77.08333333333334
+        "accuracy": 77.1
       }
     },
     "calc_judge": {
@@ -2987,7 +1455,7 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 84,
@@ -3004,28 +1472,24 @@
       "relation": {
         "correct": 1,
         "incorrect": 103,
-        "accuracy": 0.9615384615384616
+        "accuracy": 1.0
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "103_result.json",
-      "106_result.json",
-      "261_result.json"
-    ],
-    "Model": "Gemini 2.0 Flash-Lite",
-    "Type": "Chat",
-    "Source": "https://deepmind.google/technologies/gemini/flash-lite/",
-    "Date": "2025-02-25",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.0-flash-lite_tokens_10000"
   },
   {
+    "Model": "Gemini 2.0 Flash",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash",
+    "Date": "2025-02-05",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 98,
@@ -3035,12 +1499,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 57,
         "incorrect": 39,
-        "accuracy": 59.375
+        "accuracy": 59.4
       }
     },
     "toy_case_judge": {
@@ -3052,12 +1516,12 @@
       "relation": {
         "correct": 18,
         "incorrect": 86,
-        "accuracy": 17.307692307692307
+        "accuracy": 17.3
       },
       "bound": {
         "correct": 13,
         "incorrect": 83,
-        "accuracy": 13.541666666666666
+        "accuracy": 13.5
       }
     },
     "logical_gap_judge": {
@@ -3069,29 +1533,29 @@
       "relation": {
         "correct": 20,
         "incorrect": 84,
-        "accuracy": 19.230769230769234
+        "accuracy": 19.2
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
     "approx_judge": {
       "total": {
         "correct": 111,
         "incorrect": 89,
-        "accuracy": 55.50000000000001
+        "accuracy": 55.5
       },
       "relation": {
         "correct": 53,
         "incorrect": 51,
-        "accuracy": 50.96153846153846
+        "accuracy": 51.0
       },
       "bound": {
         "correct": 58,
         "incorrect": 38,
-        "accuracy": 60.416666666666664
+        "accuracy": 60.4
       }
     },
     "calc_judge": {
@@ -3103,12 +1567,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "all_true": {
@@ -3120,31 +1584,24 @@
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
-    "all_true_indices": [
-      "198_result.json",
-      "103_result.json",
-      "106_result.json",
-      "261_result.json",
-      "243_result.json",
-      "149_result.json"
-    ],
-    "Model": "Gemini 2.0 Flash",
-    "Type": "Chat",
-    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash",
-    "Date": "2025-02-05",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.0-flash_tokens_10000"
   },
   {
+    "Model": "Gemini 2.5 Flash",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+    "Date": "2025-04-17",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 11,
@@ -3154,12 +1611,12 @@
       "relation": {
         "correct": 7,
         "incorrect": 97,
-        "accuracy": 6.730769230769231
+        "accuracy": 6.7
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
     "toy_case_judge": {
@@ -3171,12 +1628,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 81,
         "incorrect": 15,
-        "accuracy": 84.375
+        "accuracy": 84.4
       }
     },
     "logical_gap_judge": {
@@ -3188,12 +1645,12 @@
       "relation": {
         "correct": 20,
         "incorrect": 84,
-        "accuracy": 19.230769230769234
+        "accuracy": 19.2
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
     "approx_judge": {
@@ -3239,34 +1696,24 @@
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
-    "all_true_indices": [
-      "198_result.json",
-      "205_result.json",
-      "103_result.json",
-      "234_result.json",
-      "106_result.json",
-      "218_result.json",
-      "253_result.json",
-      "261_result.json",
-      "149_result.json"
-    ],
-    "Model": "Gemini 2.5 Flash",
-    "Type": "Reasoning",
-    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
-    "Date": "2025-04-17",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.5-flash-preview-04-17_tokens_10000"
   },
   {
+    "Model": "Gemini 2.5 Flash",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
+    "Date": "2025-04-17",
+    "Max Tokens": "40000",
     "is_correct": {
       "total": {
         "correct": 89,
@@ -3276,12 +1723,12 @@
       "relation": {
         "correct": 43,
         "incorrect": 61,
-        "accuracy": 41.34615384615385
+        "accuracy": 41.3
       },
       "bound": {
         "correct": 46,
         "incorrect": 50,
-        "accuracy": 47.91666666666667
+        "accuracy": 47.9
       }
     },
     "toy_case_judge": {
@@ -3293,12 +1740,12 @@
       "relation": {
         "correct": 92,
         "incorrect": 12,
-        "accuracy": 88.46153846153845
+        "accuracy": 88.5
       },
       "bound": {
         "correct": 70,
         "incorrect": 26,
-        "accuracy": 72.91666666666666
+        "accuracy": 72.9
       }
     },
     "logical_gap_judge": {
@@ -3310,12 +1757,12 @@
       "relation": {
         "correct": 46,
         "incorrect": 58,
-        "accuracy": 44.230769230769226
+        "accuracy": 44.2
       },
       "bound": {
         "correct": 27,
         "incorrect": 69,
-        "accuracy": 28.125
+        "accuracy": 28.1
       }
     },
     "approx_judge": {
@@ -3327,12 +1774,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "calc_judge": {
@@ -3344,12 +1791,12 @@
       "relation": {
         "correct": 102,
         "incorrect": 2,
-        "accuracy": 98.07692307692307
+        "accuracy": 98.1
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "all_true": {
@@ -3361,87 +1808,269 @@
       "relation": {
         "correct": 25,
         "incorrect": 79,
-        "accuracy": 24.03846153846154
+        "accuracy": 24.0
       },
       "bound": {
         "correct": 22,
         "incorrect": 74,
-        "accuracy": 22.916666666666664
+        "accuracy": 22.9
       }
     },
-    "all_true_indices": [
-      "232_result.json",
-      "119_result.json",
-      "175_result.json",
-      "152_result.json",
-      "284_result.json",
-      "198_result.json",
-      "210_result.json",
-      "260_result.json",
-      "179_result.json",
-      "237_result.json",
-      "269_result.json",
-      "205_result.json",
-      "288_result.json",
-      "275_result.json",
-      "170_result.json",
-      "103_result.json",
-      "258_result.json",
-      "206_result.json",
-      "192_result.json",
-      "234_result.json",
-      "221_result.json",
-      "166_result.json",
-      "121_result.json",
-      "266_result.json",
-      "158_result.json",
-      "128_result.json",
-      "176_result.json",
-      "106_result.json",
-      "197_result.json",
-      "289_result.json",
-      "101_result.json",
-      "218_result.json",
-      "156_result.json",
-      "253_result.json",
-      "199_result.json",
-      "114_result.json",
-      "261_result.json",
-      "243_result.json",
-      "145_result.json",
-      "293_result.json",
-      "135_result.json",
-      "107_result.json",
-      "120_result.json",
-      "149_result.json",
-      "212_result.json",
-      "130_result.json",
-      "229_result.json"
-    ],
-    "Model": "Gemini 2.5 Flash",
-    "Type": "Reasoning",
-    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash",
-    "Date": "2025-04-17",
-    "Max Tokens": "40000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.5-flash-preview-04-17_tokens_40000"
   },
   {
+    "Model": "Gemini 2.5 Flash Preview 05-20",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-20",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-14 02:13:04.549577",
+    "is_correct": {
+      "total": {
+        "correct": 35,
+        "incorrect": 165,
+        "accuracy": 17.5
+      },
+      "relation": {
+        "correct": 22,
+        "incorrect": 82,
+        "accuracy": 21.2
+      },
+      "bound": {
+        "correct": 13,
+        "incorrect": 83,
+        "accuracy": 13.5
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 164,
+        "incorrect": 36,
+        "accuracy": 82.0
+      },
+      "relation": {
+        "correct": 87,
+        "incorrect": 17,
+        "accuracy": 83.7
+      },
+      "bound": {
+        "correct": 77,
+        "incorrect": 19,
+        "accuracy": 80.2
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 62,
+        "incorrect": 138,
+        "accuracy": 31.0
+      },
+      "relation": {
+        "correct": 38,
+        "incorrect": 66,
+        "accuracy": 36.5
+      },
+      "bound": {
+        "correct": 24,
+        "incorrect": 72,
+        "accuracy": 25.0
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 193,
+        "incorrect": 7,
+        "accuracy": 96.5
+      },
+      "relation": {
+        "correct": 99,
+        "incorrect": 5,
+        "accuracy": 95.2
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.9
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 98,
+        "incorrect": 6,
+        "accuracy": 94.2
+      },
+      "bound": {
+        "correct": 93,
+        "incorrect": 3,
+        "accuracy": 96.9
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 29,
+        "incorrect": 171,
+        "accuracy": 14.5
+      },
+      "relation": {
+        "correct": 17,
+        "incorrect": 87,
+        "accuracy": 16.3
+      },
+      "bound": {
+        "correct": 12,
+        "incorrect": 84,
+        "accuracy": 12.5
+      }
+    },
+    "run_dir": "gemini-2.5-flash-preview-05-20_tokens_10000"
+  },
+  {
+    "Model": "Gemini 2.5 Flash Preview 05-20",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview-05-20",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-05-20",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-13 23:52:28.624851",
+    "is_correct": {
+      "total": {
+        "correct": 90,
+        "incorrect": 110,
+        "accuracy": 45.0
+      },
+      "relation": {
+        "correct": 41,
+        "incorrect": 63,
+        "accuracy": 39.4
+      },
+      "bound": {
+        "correct": 49,
+        "incorrect": 47,
+        "accuracy": 51.0
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 166,
+        "incorrect": 34,
+        "accuracy": 83.0
+      },
+      "relation": {
+        "correct": 89,
+        "incorrect": 15,
+        "accuracy": 85.6
+      },
+      "bound": {
+        "correct": 77,
+        "incorrect": 19,
+        "accuracy": 80.2
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 88,
+        "incorrect": 112,
+        "accuracy": 44.0
+      },
+      "relation": {
+        "correct": 47,
+        "incorrect": 57,
+        "accuracy": 45.2
+      },
+      "bound": {
+        "correct": 41,
+        "incorrect": 55,
+        "accuracy": 42.7
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 178,
+        "incorrect": 22,
+        "accuracy": 89.0
+      },
+      "relation": {
+        "correct": 90,
+        "incorrect": 14,
+        "accuracy": 86.5
+      },
+      "bound": {
+        "correct": 88,
+        "incorrect": 8,
+        "accuracy": 91.7
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 192,
+        "incorrect": 8,
+        "accuracy": 96.0
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.1
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.8
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 55,
+        "incorrect": 145,
+        "accuracy": 27.5
+      },
+      "relation": {
+        "correct": 28,
+        "incorrect": 76,
+        "accuracy": 26.9
+      },
+      "bound": {
+        "correct": 27,
+        "incorrect": 69,
+        "accuracy": 28.1
+      }
+    },
+    "run_dir": "gemini-2.5-flash-preview-05-20_tokens_40000"
+  },
+  {
+    "Model": "Gemini 2.5 Pro",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+    "Date": "2025-03-25",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 14,
         "incorrect": 186,
-        "accuracy": 7.000000000000001
+        "accuracy": 7.0
       },
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 8,
         "incorrect": 88,
-        "accuracy": 8.333333333333332
+        "accuracy": 8.3
       }
     },
     "toy_case_judge": {
@@ -3453,12 +2082,12 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 80,
         "incorrect": 16,
-        "accuracy": 83.33333333333334
+        "accuracy": 83.3
       }
     },
     "logical_gap_judge": {
@@ -3504,7 +2133,7 @@
       "relation": {
         "correct": 103,
         "incorrect": 1,
-        "accuracy": 99.03846153846155
+        "accuracy": 99.0
       },
       "bound": {
         "correct": 96,
@@ -3521,37 +2150,24 @@
       "relation": {
         "correct": 5,
         "incorrect": 99,
-        "accuracy": 4.807692307692308
+        "accuracy": 4.8
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
-    "all_true_indices": [
-      "103_result.json",
-      "234_result.json",
-      "221_result.json",
-      "116_result.json",
-      "163_result.json",
-      "128_result.json",
-      "106_result.json",
-      "231_result.json",
-      "289_result.json",
-      "261_result.json",
-      "135_result.json",
-      "149_result.json"
-    ],
-    "Model": "Gemini 2.5 Pro",
-    "Type": "Reasoning",
-    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
-    "Date": "2025-03-25",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.5-pro-preview-03-25_tokens_10000"
   },
   {
+    "Model": "Gemini 2.5 Pro",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+    "Date": "2025-03-25",
+    "Max Tokens": "30000",
     "is_correct": {
       "total": {
         "correct": 136,
@@ -3561,7 +2177,7 @@
       "relation": {
         "correct": 64,
         "incorrect": 40,
-        "accuracy": 61.53846153846154
+        "accuracy": 61.5
       },
       "bound": {
         "correct": 72,
@@ -3578,12 +2194,12 @@
       "relation": {
         "correct": 90,
         "incorrect": 14,
-        "accuracy": 86.53846153846155
+        "accuracy": 86.5
       },
       "bound": {
         "correct": 85,
         "incorrect": 11,
-        "accuracy": 88.54166666666666
+        "accuracy": 88.5
       }
     },
     "logical_gap_judge": {
@@ -3595,12 +2211,12 @@
       "relation": {
         "correct": 68,
         "incorrect": 36,
-        "accuracy": 65.38461538461539
+        "accuracy": 65.4
       },
       "bound": {
         "correct": 58,
         "incorrect": 38,
-        "accuracy": 60.416666666666664
+        "accuracy": 60.4
       }
     },
     "approx_judge": {
@@ -3612,12 +2228,12 @@
       "relation": {
         "correct": 90,
         "incorrect": 14,
-        "accuracy": 86.53846153846155
+        "accuracy": 86.5
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "calc_judge": {
@@ -3629,12 +2245,12 @@
       "relation": {
         "correct": 102,
         "incorrect": 2,
-        "accuracy": 98.07692307692307
+        "accuracy": 98.1
       },
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "all_true": {
@@ -3646,112 +2262,254 @@
       "relation": {
         "correct": 40,
         "incorrect": 64,
-        "accuracy": 38.46153846153847
+        "accuracy": 38.5
       },
       "bound": {
         "correct": 47,
         "incorrect": 49,
-        "accuracy": 48.95833333333333
+        "accuracy": 49.0
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "119_result.json",
-      "188_result.json",
-      "270_result.json",
-      "200_result.json",
-      "298_result.json",
-      "110_result.json",
-      "227_result.json",
-      "257_result.json",
-      "122_result.json",
-      "284_result.json",
-      "198_result.json",
-      "210_result.json",
-      "260_result.json",
-      "157_result.json",
-      "109_result.json",
-      "142_result.json",
-      "132_result.json",
-      "205_result.json",
-      "288_result.json",
-      "275_result.json",
-      "100_result.json",
-      "170_result.json",
-      "103_result.json",
-      "258_result.json",
-      "206_result.json",
-      "192_result.json",
-      "234_result.json",
-      "221_result.json",
-      "282_result.json",
-      "124_result.json",
-      "138_result.json",
-      "116_result.json",
-      "182_result.json",
-      "163_result.json",
-      "113_result.json",
-      "266_result.json",
-      "158_result.json",
-      "128_result.json",
-      "203_result.json",
-      "176_result.json",
-      "106_result.json",
-      "231_result.json",
-      "197_result.json",
-      "134_result.json",
-      "144_result.json",
-      "289_result.json",
-      "171_result.json",
-      "101_result.json",
-      "190_result.json",
-      "133_result.json",
-      "218_result.json",
-      "268_result.json",
-      "280_result.json",
-      "108_result.json",
-      "253_result.json",
-      "164_result.json",
-      "114_result.json",
-      "261_result.json",
-      "211_result.json",
-      "256_result.json",
-      "180_result.json",
-      "278_result.json",
-      "208_result.json",
-      "111_result.json",
-      "104_result.json",
-      "189_result.json",
-      "201_result.json",
-      "168_result.json",
-      "243_result.json",
-      "145_result.json",
-      "135_result.json",
-      "159_result.json",
-      "107_result.json",
-      "162_result.json",
-      "286_result.json",
-      "120_result.json",
-      "225_result.json",
-      "149_result.json",
-      "262_result.json",
-      "139_result.json",
-      "212_result.json",
-      "130_result.json",
-      "235_result.json",
-      "193_result.json",
-      "172_result.json",
-      "229_result.json"
-    ],
-    "Model": "Gemini 2.5 Pro",
-    "Type": "Reasoning",
-    "Source": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
-    "Date": "2025-03-25",
-    "Max Tokens": "30000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gemini-2.5-pro-preview-03-25_tokens_30000"
   },
   {
+    "Model": "Gemini 2.5 Pro Preview",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-06-05",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-14 00:59:39.880539",
+    "is_correct": {
+      "total": {
+        "correct": 26,
+        "incorrect": 174,
+        "accuracy": 13.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.8
+      },
+      "bound": {
+        "correct": 20,
+        "incorrect": 76,
+        "accuracy": 20.8
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 182,
+        "incorrect": 18,
+        "accuracy": 91.0
+      },
+      "relation": {
+        "correct": 92,
+        "incorrect": 12,
+        "accuracy": 88.5
+      },
+      "bound": {
+        "correct": 90,
+        "incorrect": 6,
+        "accuracy": 93.8
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 40,
+        "incorrect": 160,
+        "accuracy": 20.0
+      },
+      "relation": {
+        "correct": 21,
+        "incorrect": 83,
+        "accuracy": 20.2
+      },
+      "bound": {
+        "correct": 19,
+        "incorrect": 77,
+        "accuracy": 19.8
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 196,
+        "incorrect": 4,
+        "accuracy": 98.0
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.1
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.9
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 197,
+        "incorrect": 3,
+        "accuracy": 98.5
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.1
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 99.0
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 20,
+        "incorrect": 180,
+        "accuracy": 10.0
+      },
+      "relation": {
+        "correct": 6,
+        "incorrect": 98,
+        "accuracy": 5.8
+      },
+      "bound": {
+        "correct": 14,
+        "incorrect": 82,
+        "accuracy": 14.6
+      }
+    },
+    "run_dir": "gemini-2.5-pro-preview-06-05_tokens_10000"
+  },
+  {
+    "Model": "Gemini 2.5 Pro Preview",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-pro-preview-06-05",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-06-05",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-06-14 00:57:36.831162",
+    "is_correct": {
+      "total": {
+        "correct": 132,
+        "incorrect": 68,
+        "accuracy": 66.0
+      },
+      "relation": {
+        "correct": 57,
+        "incorrect": 47,
+        "accuracy": 54.8
+      },
+      "bound": {
+        "correct": 75,
+        "incorrect": 21,
+        "accuracy": 78.1
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 170,
+        "incorrect": 30,
+        "accuracy": 85.0
+      },
+      "relation": {
+        "correct": 85,
+        "incorrect": 19,
+        "accuracy": 81.7
+      },
+      "bound": {
+        "correct": 85,
+        "incorrect": 11,
+        "accuracy": 88.5
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 130,
+        "incorrect": 70,
+        "accuracy": 65.0
+      },
+      "relation": {
+        "correct": 64,
+        "incorrect": 40,
+        "accuracy": 61.5
+      },
+      "bound": {
+        "correct": 66,
+        "incorrect": 30,
+        "accuracy": 68.8
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 185,
+        "incorrect": 15,
+        "accuracy": 92.5
+      },
+      "relation": {
+        "correct": 93,
+        "incorrect": 11,
+        "accuracy": 89.4
+      },
+      "bound": {
+        "correct": 92,
+        "incorrect": 4,
+        "accuracy": 95.8
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 195,
+        "incorrect": 5,
+        "accuracy": 97.5
+      },
+      "relation": {
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.2
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 99.0
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 92,
+        "incorrect": 108,
+        "accuracy": 46.0
+      },
+      "relation": {
+        "correct": 39,
+        "incorrect": 65,
+        "accuracy": 37.5
+      },
+      "bound": {
+        "correct": 53,
+        "incorrect": 43,
+        "accuracy": 55.2
+      }
+    },
+    "run_dir": "gemini-2.5-pro-preview-06-05_tokens_40000"
+  },
+  {
+    "Model": "GPT-4.1",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/gpt-4.1",
+    "Date": "2025-04-14",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 81,
@@ -3761,12 +2519,12 @@
       "relation": {
         "correct": 51,
         "incorrect": 53,
-        "accuracy": 49.03846153846153
+        "accuracy": 49.0
       },
       "bound": {
         "correct": 30,
         "incorrect": 66,
-        "accuracy": 31.25
+        "accuracy": 31.2
       }
     },
     "toy_case_judge": {
@@ -3778,7 +2536,7 @@
       "relation": {
         "correct": 20,
         "incorrect": 84,
-        "accuracy": 19.230769230769234
+        "accuracy": 19.2
       },
       "bound": {
         "correct": 12,
@@ -3795,12 +2553,12 @@
       "relation": {
         "correct": 12,
         "incorrect": 92,
-        "accuracy": 11.538461538461538
+        "accuracy": 11.5
       },
       "bound": {
         "correct": 8,
         "incorrect": 88,
-        "accuracy": 8.333333333333332
+        "accuracy": 8.3
       }
     },
     "approx_judge": {
@@ -3812,12 +2570,12 @@
       "relation": {
         "correct": 55,
         "incorrect": 49,
-        "accuracy": 52.88461538461539
+        "accuracy": 52.9
       },
       "bound": {
         "correct": 64,
         "incorrect": 32,
-        "accuracy": 66.66666666666666
+        "accuracy": 66.7
       }
     },
     "calc_judge": {
@@ -3829,12 +2587,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -3846,7 +2604,7 @@
       "relation": {
         "correct": 5,
         "incorrect": 99,
-        "accuracy": 4.807692307692308
+        "accuracy": 4.8
       },
       "bound": {
         "correct": 0,
@@ -3854,22 +2612,16 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [
-      "252_result.json",
-      "289_result.json",
-      "218_result.json",
-      "261_result.json",
-      "293_result.json"
-    ],
-    "Model": "GPT-4.1",
-    "Type": "Chat",
-    "Source": "https://platform.openai.com/docs/models/gpt-4.1",
-    "Date": "2025-04-14",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gpt-4.1-2025-04-14_tokens_10000"
   },
   {
+    "Model": "GPT-4o mini",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/gpt-4o-mini",
+    "Date": "2024-07-18",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 79,
@@ -3879,29 +2631,29 @@
       "relation": {
         "correct": 38,
         "incorrect": 66,
-        "accuracy": 36.53846153846153
+        "accuracy": 36.5
       },
       "bound": {
         "correct": 41,
         "incorrect": 55,
-        "accuracy": 42.70833333333333
+        "accuracy": 42.7
       }
     },
     "toy_case_judge": {
       "total": {
         "correct": 58,
         "incorrect": 142,
-        "accuracy": 28.999999999999996
+        "accuracy": 29.0
       },
       "relation": {
         "correct": 47,
         "incorrect": 57,
-        "accuracy": 45.19230769230769
+        "accuracy": 45.2
       },
       "bound": {
         "correct": 11,
         "incorrect": 85,
-        "accuracy": 11.458333333333332
+        "accuracy": 11.5
       }
     },
     "logical_gap_judge": {
@@ -3913,12 +2665,12 @@
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
     "approx_judge": {
@@ -3930,12 +2682,12 @@
       "relation": {
         "correct": 92,
         "incorrect": 12,
-        "accuracy": 88.46153846153845
+        "accuracy": 88.5
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "calc_judge": {
@@ -3947,12 +2699,12 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -3964,29 +2716,24 @@
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 1,
         "incorrect": 95,
-        "accuracy": 1.0416666666666665
+        "accuracy": 1.0
       }
     },
-    "all_true_indices": [
-      "210_result.json",
-      "192_result.json",
-      "253_result.json",
-      "199_result.json"
-    ],
-    "Model": "GPT-4o mini",
-    "Type": "Chat",
-    "Source": "https://platform.openai.com/docs/models/gpt-4o-mini",
-    "Date": "2024-07-18",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gpt-4o-mini_tokens_10000"
   },
   {
+    "Model": "GPT-4o",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/gpt-4o",
+    "Date": "2024-08-06",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 75,
@@ -3996,12 +2743,12 @@
       "relation": {
         "correct": 36,
         "incorrect": 68,
-        "accuracy": 34.61538461538461
+        "accuracy": 34.6
       },
       "bound": {
         "correct": 39,
         "incorrect": 57,
-        "accuracy": 40.625
+        "accuracy": 40.6
       }
     },
     "toy_case_judge": {
@@ -4013,29 +2760,29 @@
       "relation": {
         "correct": 43,
         "incorrect": 61,
-        "accuracy": 41.34615384615385
+        "accuracy": 41.3
       },
       "bound": {
         "correct": 21,
         "incorrect": 75,
-        "accuracy": 21.875
+        "accuracy": 21.9
       }
     },
     "logical_gap_judge": {
       "total": {
         "correct": 7,
         "incorrect": 193,
-        "accuracy": 3.5000000000000004
+        "accuracy": 3.5
       },
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
     "approx_judge": {
@@ -4047,12 +2794,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 90,
         "incorrect": 6,
-        "accuracy": 93.75
+        "accuracy": 93.8
       }
     },
     "calc_judge": {
@@ -4064,12 +2811,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 90,
         "incorrect": 6,
-        "accuracy": 93.75
+        "accuracy": 93.8
       }
     },
     "all_true": {
@@ -4081,31 +2828,142 @@
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "165_result.json",
-      "210_result.json",
-      "294_result.json",
-      "192_result.json",
-      "199_result.json",
-      "261_result.json"
-    ],
-    "Model": "GPT-4o",
-    "Type": "Chat",
-    "Source": "https://platform.openai.com/docs/models/gpt-4o",
-    "Date": "2024-08-06",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "gpt-4o_tokens_10000"
   },
   {
+    "Model": "GPT-5",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://platform.openai.com/docs/models/gpt-5",
+    "Reasoning effort": "medium",
+    "Date": "2025-08-07",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-08-08 07:16:02.560565",
+    "is_correct": {
+      "total": {
+        "correct": 73,
+        "incorrect": 127,
+        "accuracy": 36.5
+      },
+      "relation": {
+        "correct": 40,
+        "incorrect": 64,
+        "accuracy": 38.5
+      },
+      "bound": {
+        "correct": 33,
+        "incorrect": 63,
+        "accuracy": 34.4
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 189,
+        "incorrect": 11,
+        "accuracy": 94.5
+      },
+      "relation": {
+        "correct": 98,
+        "incorrect": 6,
+        "accuracy": 94.2
+      },
+      "bound": {
+        "correct": 91,
+        "incorrect": 5,
+        "accuracy": 94.8
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 94,
+        "incorrect": 106,
+        "accuracy": 47.0
+      },
+      "relation": {
+        "correct": 50,
+        "incorrect": 54,
+        "accuracy": 48.1
+      },
+      "bound": {
+        "correct": 44,
+        "incorrect": 52,
+        "accuracy": 45.8
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 187,
+        "incorrect": 13,
+        "accuracy": 93.5
+      },
+      "relation": {
+        "correct": 94,
+        "incorrect": 10,
+        "accuracy": 90.4
+      },
+      "bound": {
+        "correct": 93,
+        "incorrect": 3,
+        "accuracy": 96.9
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 194,
+        "incorrect": 6,
+        "accuracy": 97.0
+      },
+      "relation": {
+        "correct": 103,
+        "incorrect": 1,
+        "accuracy": 99.0
+      },
+      "bound": {
+        "correct": 91,
+        "incorrect": 5,
+        "accuracy": 94.8
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 56,
+        "incorrect": 144,
+        "accuracy": 28.0
+      },
+      "relation": {
+        "correct": 25,
+        "incorrect": 79,
+        "accuracy": 24.0
+      },
+      "bound": {
+        "correct": 31,
+        "incorrect": 65,
+        "accuracy": 32.3
+      }
+    },
+    "run_dir": "gpt-5-2025-08-07_tokens_10000"
+  },
+  {
+    "Model": "GPT-5",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://platform.openai.com/docs/models/gpt-5",
+    "Reasoning effort": "medium",
+    "Date": "2025-08-07",
+    "Max Tokens": 30000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-08-08 07:59:45.464547",
     "is_correct": {
       "total": {
         "correct": 133,
@@ -4113,14 +2971,129 @@
         "accuracy": 66.5
       },
       "relation": {
-        "correct": 74,
-        "incorrect": 30,
-        "accuracy": 71.15384615384616
+        "correct": 71,
+        "incorrect": 33,
+        "accuracy": 68.3
       },
       "bound": {
-        "correct": 59,
-        "incorrect": 37,
-        "accuracy": 61.458333333333336
+        "correct": 62,
+        "incorrect": 34,
+        "accuracy": 64.6
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 98,
+        "incorrect": 6,
+        "accuracy": 94.2
+      },
+      "bound": {
+        "correct": 93,
+        "incorrect": 3,
+        "accuracy": 96.9
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 138,
+        "incorrect": 62,
+        "accuracy": 69.0
+      },
+      "relation": {
+        "correct": 72,
+        "incorrect": 32,
+        "accuracy": 69.2
+      },
+      "bound": {
+        "correct": 66,
+        "incorrect": 30,
+        "accuracy": 68.8
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 187,
+        "incorrect": 13,
+        "accuracy": 93.5
+      },
+      "relation": {
+        "correct": 93,
+        "incorrect": 11,
+        "accuracy": 89.4
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.9
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 196,
+        "incorrect": 4,
+        "accuracy": 98.0
+      },
+      "relation": {
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.2
+      },
+      "bound": {
+        "correct": 96,
+        "incorrect": 0,
+        "accuracy": 100.0
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 94,
+        "incorrect": 106,
+        "accuracy": 47.0
+      },
+      "relation": {
+        "correct": 43,
+        "incorrect": 61,
+        "accuracy": 41.3
+      },
+      "bound": {
+        "correct": 51,
+        "incorrect": 45,
+        "accuracy": 53.1
+      }
+    },
+    "run_dir": "gpt-5-2025-08-07_tokens_30000"
+  },
+  {
+    "Model": "GPT-5 mini",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://platform.openai.com/docs/models/gpt-5-mini",
+    "Reasoning effort": "medium",
+    "Date": "2025-08-07",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-08-08 07:16:45.520846",
+    "is_correct": {
+      "total": {
+        "correct": 111,
+        "incorrect": 89,
+        "accuracy": 55.5
+      },
+      "relation": {
+        "correct": 60,
+        "incorrect": 44,
+        "accuracy": 57.7
+      },
+      "bound": {
+        "correct": 51,
+        "incorrect": 45,
+        "accuracy": 53.1
       }
     },
     "toy_case_judge": {
@@ -4132,12 +3105,127 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 100,
+        "incorrect": 100,
+        "accuracy": 50.0
+      },
+      "relation": {
+        "correct": 58,
+        "incorrect": 46,
+        "accuracy": 55.8
+      },
+      "bound": {
+        "correct": 42,
+        "incorrect": 54,
+        "accuracy": 43.8
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 182,
+        "incorrect": 18,
+        "accuracy": 91.0
+      },
+      "relation": {
+        "correct": 88,
+        "incorrect": 16,
+        "accuracy": 84.6
+      },
+      "bound": {
+        "correct": 94,
+        "incorrect": 2,
+        "accuracy": 97.9
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 197,
+        "incorrect": 3,
+        "accuracy": 98.5
+      },
+      "relation": {
+        "correct": 102,
+        "incorrect": 2,
+        "accuracy": 98.1
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 99.0
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 61,
+        "incorrect": 139,
+        "accuracy": 30.5
+      },
+      "relation": {
+        "correct": 34,
+        "incorrect": 70,
+        "accuracy": 32.7
+      },
+      "bound": {
+        "correct": 27,
+        "incorrect": 69,
+        "accuracy": 28.1
+      }
+    },
+    "run_dir": "gpt-5-mini-2025-08-07_tokens_10000"
+  },
+  {
+    "Model": "gpt-oss-120b",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "120B",
+    "Source": "https://huggingface.co/openai/gpt-oss-120b",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-08-05",
+    "Max Tokens": 10000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-08-06 06:44:21.573012",
+    "is_correct": {
+      "total": {
+        "correct": 133,
+        "incorrect": 67,
+        "accuracy": 66.5
+      },
+      "relation": {
+        "correct": 74,
+        "incorrect": 30,
+        "accuracy": 71.2
+      },
+      "bound": {
+        "correct": 59,
+        "incorrect": 37,
+        "accuracy": 61.5
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 191,
+        "incorrect": 9,
+        "accuracy": 95.5
+      },
+      "relation": {
+        "correct": 99,
+        "incorrect": 5,
+        "accuracy": 95.2
+      },
+      "bound": {
+        "correct": 92,
+        "incorrect": 4,
+        "accuracy": 95.8
       }
     },
     "logical_gap_judge": {
@@ -4149,12 +3237,12 @@
       "relation": {
         "correct": 42,
         "incorrect": 62,
-        "accuracy": 40.38461538461539
+        "accuracy": 40.4
       },
       "bound": {
         "correct": 38,
         "incorrect": 58,
-        "accuracy": 39.58333333333333
+        "accuracy": 39.6
       }
     },
     "approx_judge": {
@@ -4171,7 +3259,7 @@
       "bound": {
         "correct": 90,
         "incorrect": 6,
-        "accuracy": 93.75
+        "accuracy": 93.8
       }
     },
     "calc_judge": {
@@ -4183,12 +3271,12 @@
       "relation": {
         "correct": 101,
         "incorrect": 3,
-        "accuracy": 97.11538461538461
+        "accuracy": 97.1
       },
       "bound": {
         "correct": 86,
         "incorrect": 10,
-        "accuracy": 89.58333333333334
+        "accuracy": 89.6
       }
     },
     "all_true": {
@@ -4200,91 +3288,39 @@
       "relation": {
         "correct": 25,
         "incorrect": 79,
-        "accuracy": 24.03846153846154
+        "accuracy": 24.0
       },
       "bound": {
         "correct": 22,
         "incorrect": 74,
-        "accuracy": 22.916666666666664
+        "accuracy": 22.9
       }
     },
-    "all_true_indices": [
-      "4",
-      "3",
-      "6",
-      "14",
-      "16",
-      "23",
-      "21",
-      "35",
-      "42",
-      "47",
-      "49",
-      "52",
-      "71",
-      "66",
-      "76",
-      "75",
-      "79",
-      "84",
-      "82",
-      "78",
-      "90",
-      "89",
-      "98",
-      "97",
-      "100",
-      "99",
-      "110",
-      "112",
-      "118",
-      "121",
-      "120",
-      "134",
-      "135",
-      "143",
-      "153",
-      "158",
-      "160",
-      "164",
-      "166",
-      "175",
-      "182",
-      "189",
-      "184",
-      "187",
-      "193",
-      "191",
-      "198"
-    ],
-    "Model": "gpt-oss-120b",
-    "Type": "Reasoning",
-    "Model Source": "Open-source",
-    "Size": "120B",
-    "Source": "https://huggingface.co/openai/gpt-oss-120b",
-    "Reasoning effort": "not applicable",
-    "Date": "2025-08-05",
-    "Max Tokens": 10000,
-    "Email": "ineqmath_admin@berkeley.edu",
-    "leaderboard": true,
-    "timestamp": "2025-08-06 06:44:21.573012"
+    "run_dir": "gpt-oss-120b-2025-08-05_tokens_10000"
   },
   {
+    "Model": "Grok 3",
+    "Type": "Chat",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://x.ai/news/grok-3",
+    "Date": "2025-02-19",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 109,
         "incorrect": 91,
-        "accuracy": 54.50000000000001
+        "accuracy": 54.5
       },
       "relation": {
         "correct": 45,
         "incorrect": 59,
-        "accuracy": 43.269230769230774
+        "accuracy": 43.3
       },
       "bound": {
         "correct": 64,
         "incorrect": 32,
-        "accuracy": 66.66666666666666
+        "accuracy": 66.7
       }
     },
     "toy_case_judge": {
@@ -4296,12 +3332,12 @@
       "relation": {
         "correct": 21,
         "incorrect": 83,
-        "accuracy": 20.192307692307693
+        "accuracy": 20.2
       },
       "bound": {
         "correct": 13,
         "incorrect": 83,
-        "accuracy": 13.541666666666666
+        "accuracy": 13.5
       }
     },
     "logical_gap_judge": {
@@ -4313,12 +3349,12 @@
       "relation": {
         "correct": 21,
         "incorrect": 83,
-        "accuracy": 20.192307692307693
+        "accuracy": 20.2
       },
       "bound": {
         "correct": 11,
         "incorrect": 85,
-        "accuracy": 11.458333333333332
+        "accuracy": 11.5
       }
     },
     "approx_judge": {
@@ -4330,12 +3366,12 @@
       "relation": {
         "correct": 32,
         "incorrect": 72,
-        "accuracy": 30.76923076923077
+        "accuracy": 30.8
       },
       "bound": {
         "correct": 40,
         "incorrect": 56,
-        "accuracy": 41.66666666666667
+        "accuracy": 41.7
       }
     },
     "calc_judge": {
@@ -4347,49 +3383,42 @@
       "relation": {
         "correct": 94,
         "incorrect": 10,
-        "accuracy": 90.38461538461539
+        "accuracy": 90.4
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "all_true": {
       "total": {
         "correct": 7,
         "incorrect": 193,
-        "accuracy": 3.5000000000000004
+        "accuracy": 3.5
       },
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "103_result.json",
-      "258_result.json",
-      "106_result.json",
-      "253_result.json",
-      "189_result.json",
-      "149_result.json"
-    ],
-    "Model": "Grok 3",
-    "Type": "Chat",
-    "Source": "https://x.ai/news/grok-3",
-    "Date": "2025-02-19",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": ""
+    "run_dir": "grok-3-latest_tokens_10000"
   },
   {
+    "Model": "Grok 3 mini",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://x.ai/news/grok-3",
+    "Reasoning effort": "medium",
+    "Date": "2025-02-19",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 143,
@@ -4399,12 +3428,12 @@
       "relation": {
         "correct": 73,
         "incorrect": 31,
-        "accuracy": 70.1923076923077
+        "accuracy": 70.2
       },
       "bound": {
         "correct": 70,
         "incorrect": 26,
-        "accuracy": 72.91666666666666
+        "accuracy": 72.9
       }
     },
     "toy_case_judge": {
@@ -4416,12 +3445,12 @@
       "relation": {
         "correct": 32,
         "incorrect": 72,
-        "accuracy": 30.76923076923077
+        "accuracy": 30.8
       },
       "bound": {
         "correct": 16,
         "incorrect": 80,
-        "accuracy": 16.666666666666664
+        "accuracy": 16.7
       }
     },
     "logical_gap_judge": {
@@ -4433,12 +3462,12 @@
       "relation": {
         "correct": 28,
         "incorrect": 76,
-        "accuracy": 26.923076923076923
+        "accuracy": 26.9
       },
       "bound": {
         "correct": 11,
         "incorrect": 85,
-        "accuracy": 11.458333333333332
+        "accuracy": 11.5
       }
     },
     "approx_judge": {
@@ -4450,12 +3479,12 @@
       "relation": {
         "correct": 46,
         "incorrect": 58,
-        "accuracy": 44.230769230769226
+        "accuracy": 44.2
       },
       "bound": {
         "correct": 61,
         "incorrect": 35,
-        "accuracy": 63.541666666666664
+        "accuracy": 63.5
       }
     },
     "calc_judge": {
@@ -4472,7 +3501,7 @@
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "all_true": {
@@ -4484,38 +3513,140 @@
       "relation": {
         "correct": 8,
         "incorrect": 96,
-        "accuracy": 7.6923076923076925
+        "accuracy": 7.7
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
-    "all_true_indices": [
-      "198_result.json",
-      "191_result.json",
-      "170_result.json",
-      "103_result.json",
-      "228_result.json",
-      "248_result.json",
-      "106_result.json",
-      "289_result.json",
-      "218_result.json",
-      "253_result.json",
-      "261_result.json",
-      "293_result.json"
-    ],
-    "Model": "Grok 3 mini",
-    "Type": "Reasoning",
-    "Source": "https://x.ai/news/grok-3",
-    "Date": "2025-02-19",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "grok-3-mini-latest_tokens_10000"
   },
   {
+    "Model": "Grok 4",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "UNK",
+    "Source": "https://docs.x.ai/docs/models/grok-4-0709",
+    "Reasoning effort": "not applicable",
+    "Date": "2025-07-09",
+    "Max Tokens": 40000,
+    "Email": "ineqmath_admin@berkeley.edu",
+    "timestamp": "2025-07-12 21:14:12.977858",
+    "is_correct": {
+      "total": {
+        "correct": 152,
+        "incorrect": 48,
+        "accuracy": 76.0
+      },
+      "relation": {
+        "correct": 74,
+        "incorrect": 30,
+        "accuracy": 71.2
+      },
+      "bound": {
+        "correct": 78,
+        "incorrect": 18,
+        "accuracy": 81.2
+      }
+    },
+    "toy_case_judge": {
+      "total": {
+        "correct": 114,
+        "incorrect": 86,
+        "accuracy": 57.0
+      },
+      "relation": {
+        "correct": 75,
+        "incorrect": 29,
+        "accuracy": 72.1
+      },
+      "bound": {
+        "correct": 39,
+        "incorrect": 57,
+        "accuracy": 40.6
+      }
+    },
+    "logical_gap_judge": {
+      "total": {
+        "correct": 28,
+        "incorrect": 172,
+        "accuracy": 14.0
+      },
+      "relation": {
+        "correct": 20,
+        "incorrect": 84,
+        "accuracy": 19.2
+      },
+      "bound": {
+        "correct": 8,
+        "incorrect": 88,
+        "accuracy": 8.3
+      }
+    },
+    "approx_judge": {
+      "total": {
+        "correct": 186,
+        "incorrect": 14,
+        "accuracy": 93.0
+      },
+      "relation": {
+        "correct": 91,
+        "incorrect": 13,
+        "accuracy": 87.5
+      },
+      "bound": {
+        "correct": 95,
+        "incorrect": 1,
+        "accuracy": 99.0
+      }
+    },
+    "calc_judge": {
+      "total": {
+        "correct": 193,
+        "incorrect": 7,
+        "accuracy": 96.5
+      },
+      "relation": {
+        "correct": 100,
+        "incorrect": 4,
+        "accuracy": 96.2
+      },
+      "bound": {
+        "correct": 93,
+        "incorrect": 3,
+        "accuracy": 96.9
+      }
+    },
+    "all_true": {
+      "total": {
+        "correct": 16,
+        "incorrect": 184,
+        "accuracy": 8.0
+      },
+      "relation": {
+        "correct": 9,
+        "incorrect": 95,
+        "accuracy": 8.7
+      },
+      "bound": {
+        "correct": 7,
+        "incorrect": 89,
+        "accuracy": 7.3
+      }
+    },
+    "run_dir": "grok-4-0709_tokens_40000"
+  },
+  {
+    "Model": "o1",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o1",
+    "Reasoning effort": "medium",
+    "Date": "2024-12-17",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 125,
@@ -4542,7 +3673,7 @@
       "relation": {
         "correct": 33,
         "incorrect": 71,
-        "accuracy": 31.73076923076923
+        "accuracy": 31.7
       },
       "bound": {
         "correct": 36,
@@ -4559,7 +3690,7 @@
       "relation": {
         "correct": 23,
         "incorrect": 81,
-        "accuracy": 22.115384615384613
+        "accuracy": 22.1
       },
       "bound": {
         "correct": 12,
@@ -4581,7 +3712,7 @@
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "calc_judge": {
@@ -4593,7 +3724,7 @@
       "relation": {
         "correct": 103,
         "incorrect": 1,
-        "accuracy": 99.03846153846155
+        "accuracy": 99.0
       },
       "bound": {
         "correct": 96,
@@ -4610,42 +3741,25 @@
       "relation": {
         "correct": 9,
         "incorrect": 95,
-        "accuracy": 8.653846153846153
+        "accuracy": 8.7
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "281_result.json",
-      "179_result.json",
-      "228_result.json",
-      "192_result.json",
-      "266_result.json",
-      "106_result.json",
-      "289_result.json",
-      "101_result.json",
-      "253_result.json",
-      "199_result.json",
-      "293_result.json",
-      "162_result.json",
-      "120_result.json",
-      "149_result.json",
-      "235_result.json"
-    ],
-    "Model": "o1",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o1",
-    "Date": "2024-12-17",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o1_tokens_10000"
   },
   {
+    "Model": "o1",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o1",
+    "Reasoning effort": "medium",
+    "Date": "2024-12-17",
+    "Max Tokens": "40000",
     "is_correct": {
       "total": {
         "correct": 136,
@@ -4655,29 +3769,29 @@
       "relation": {
         "correct": 69,
         "incorrect": 35,
-        "accuracy": 66.34615384615384
+        "accuracy": 66.3
       },
       "bound": {
         "correct": 67,
         "incorrect": 29,
-        "accuracy": 69.79166666666666
+        "accuracy": 69.8
       }
     },
     "toy_case_judge": {
       "total": {
         "correct": 57,
         "incorrect": 143,
-        "accuracy": 28.499999999999996
+        "accuracy": 28.5
       },
       "relation": {
         "correct": 30,
         "incorrect": 74,
-        "accuracy": 28.846153846153843
+        "accuracy": 28.8
       },
       "bound": {
         "correct": 27,
         "incorrect": 69,
-        "accuracy": 28.125
+        "accuracy": 28.1
       }
     },
     "logical_gap_judge": {
@@ -4689,12 +3803,12 @@
       "relation": {
         "correct": 21,
         "incorrect": 83,
-        "accuracy": 20.192307692307693
+        "accuracy": 20.2
       },
       "bound": {
         "correct": 17,
         "incorrect": 79,
-        "accuracy": 17.708333333333336
+        "accuracy": 17.7
       }
     },
     "approx_judge": {
@@ -4706,12 +3820,12 @@
       "relation": {
         "correct": 77,
         "incorrect": 27,
-        "accuracy": 74.03846153846155
+        "accuracy": 74.0
       },
       "bound": {
         "correct": 90,
         "incorrect": 6,
-        "accuracy": 93.75
+        "accuracy": 93.8
       }
     },
     "calc_judge": {
@@ -4723,12 +3837,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "all_true": {
@@ -4740,41 +3854,25 @@
       "relation": {
         "correct": 9,
         "incorrect": 95,
-        "accuracy": 8.653846153846153
+        "accuracy": 8.7
       },
       "bound": {
         "correct": 6,
         "incorrect": 90,
-        "accuracy": 6.25
+        "accuracy": 6.2
       }
     },
-    "all_true_indices": [
-      "192_result.json",
-      "221_result.json",
-      "282_result.json",
-      "266_result.json",
-      "106_result.json",
-      "289_result.json",
-      "171_result.json",
-      "253_result.json",
-      "199_result.json",
-      "114_result.json",
-      "293_result.json",
-      "162_result.json",
-      "149_result.json",
-      "235_result.json",
-      "229_result.json"
-    ],
-    "Model": "o1",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o1",
-    "Date": "2024-12-17",
-    "Max Tokens": "40000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o1_tokens_40000"
   },
   {
+    "Model": "o3-mini",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o3-mini",
+    "Reasoning effort": "medium",
+    "Date": "2025-01-31",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 125,
@@ -4784,12 +3882,12 @@
       "relation": {
         "correct": 58,
         "incorrect": 46,
-        "accuracy": 55.769230769230774
+        "accuracy": 55.8
       },
       "bound": {
         "correct": 67,
         "incorrect": 29,
-        "accuracy": 69.79166666666666
+        "accuracy": 69.8
       }
     },
     "toy_case_judge": {
@@ -4801,12 +3899,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 33,
         "incorrect": 63,
-        "accuracy": 34.375
+        "accuracy": 34.4
       }
     },
     "logical_gap_judge": {
@@ -4818,12 +3916,12 @@
       "relation": {
         "correct": 27,
         "incorrect": 77,
-        "accuracy": 25.961538461538463
+        "accuracy": 26.0
       },
       "bound": {
         "correct": 17,
         "incorrect": 79,
-        "accuracy": 17.708333333333336
+        "accuracy": 17.7
       }
     },
     "approx_judge": {
@@ -4835,12 +3933,12 @@
       "relation": {
         "correct": 66,
         "incorrect": 38,
-        "accuracy": 63.46153846153846
+        "accuracy": 63.5
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "calc_judge": {
@@ -4852,12 +3950,12 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "all_true": {
@@ -4869,45 +3967,25 @@
       "relation": {
         "correct": 12,
         "incorrect": 92,
-        "accuracy": 11.538461538461538
+        "accuracy": 11.5
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "284_result.json",
-      "198_result.json",
-      "252_result.json",
-      "228_result.json",
-      "192_result.json",
-      "234_result.json",
-      "221_result.json",
-      "166_result.json",
-      "106_result.json",
-      "289_result.json",
-      "190_result.json",
-      "253_result.json",
-      "243_result.json",
-      "135_result.json",
-      "162_result.json",
-      "149_result.json",
-      "296_result.json",
-      "229_result.json"
-    ],
-    "Model": "o3-mini",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o3-mini",
-    "Date": "2025-01-31",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o3-mini-2025-01-31_tokens_10000"
   },
   {
+    "Model": "o3-pro",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o3-pro",
+    "Reasoning effort": "medium",
+    "Date": "2025-06-10",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 136,
@@ -4917,12 +3995,12 @@
       "relation": {
         "correct": 74,
         "incorrect": 30,
-        "accuracy": 71.15384615384616
+        "accuracy": 71.2
       },
       "bound": {
         "correct": 62,
         "incorrect": 34,
-        "accuracy": 64.58333333333334
+        "accuracy": 64.6
       }
     },
     "toy_case_judge": {
@@ -4934,12 +4012,12 @@
       "relation": {
         "correct": 103,
         "incorrect": 1,
-        "accuracy": 99.03846153846155
+        "accuracy": 99.0
       },
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "logical_gap_judge": {
@@ -4951,12 +4029,12 @@
       "relation": {
         "correct": 76,
         "incorrect": 28,
-        "accuracy": 73.07692307692307
+        "accuracy": 73.1
       },
       "bound": {
         "correct": 58,
         "incorrect": 38,
-        "accuracy": 60.416666666666664
+        "accuracy": 60.4
       }
     },
     "approx_judge": {
@@ -4968,12 +4046,12 @@
       "relation": {
         "correct": 81,
         "incorrect": 23,
-        "accuracy": 77.88461538461539
+        "accuracy": 77.9
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "calc_judge": {
@@ -4985,12 +4063,12 @@
       "relation": {
         "correct": 102,
         "incorrect": 2,
-        "accuracy": 98.07692307692307
+        "accuracy": 98.1
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "all_true": {
@@ -5002,117 +4080,25 @@
       "relation": {
         "correct": 48,
         "incorrect": 56,
-        "accuracy": 46.15384615384615
+        "accuracy": 46.2
       },
       "bound": {
         "correct": 43,
         "incorrect": 53,
-        "accuracy": 44.79166666666667
+        "accuracy": 44.8
       }
     },
-    "all_true_indices": [
-      "100_result.json",
-      "101_result.json",
-      "103_result.json",
-      "105_result.json",
-      "106_result.json",
-      "107_result.json",
-      "108_result.json",
-      "113_result.json",
-      "114_result.json",
-      "116_result.json",
-      "119_result.json",
-      "120_result.json",
-      "121_result.json",
-      "122_result.json",
-      "130_result.json",
-      "132_result.json",
-      "133_result.json",
-      "134_result.json",
-      "135_result.json",
-      "137_result.json",
-      "139_result.json",
-      "142_result.json",
-      "145_result.json",
-      "147_result.json",
-      "149_result.json",
-      "152_result.json",
-      "155_result.json",
-      "156_result.json",
-      "157_result.json",
-      "158_result.json",
-      "159_result.json",
-      "165_result.json",
-      "168_result.json",
-      "171_result.json",
-      "173_result.json",
-      "175_result.json",
-      "176_result.json",
-      "180_result.json",
-      "182_result.json",
-      "190_result.json",
-      "192_result.json",
-      "193_result.json",
-      "194_result.json",
-      "197_result.json",
-      "198_result.json",
-      "199_result.json",
-      "200_result.json",
-      "202_result.json",
-      "205_result.json",
-      "207_result.json",
-      "209_result.json",
-      "210_result.json",
-      "218_result.json",
-      "219_result.json",
-      "220_result.json",
-      "221_result.json",
-      "229_result.json",
-      "232_result.json",
-      "233_result.json",
-      "234_result.json",
-      "237_result.json",
-      "243_result.json",
-      "249_result.json",
-      "252_result.json",
-      "253_result.json",
-      "256_result.json",
-      "257_result.json",
-      "258_result.json",
-      "260_result.json",
-      "261_result.json",
-      "262_result.json",
-      "264_result.json",
-      "266_result.json",
-      "268_result.json",
-      "269_result.json",
-      "275_result.json",
-      "276_result.json",
-      "278_result.json",
-      "280_result.json",
-      "282_result.json",
-      "284_result.json",
-      "286_result.json",
-      "288_result.json",
-      "289_result.json",
-      "290_result.json",
-      "291_result.json",
-      "293_result.json",
-      "294_result.json",
-      "297_result.json",
-      "298_result.json",
-      "203_result.json"
-    ],
-    "Model": "o3-pro",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o3-pro",
-    "Date": "2025-06-10",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o3-pro_tokens_10000"
   },
   {
+    "Model": "o3-pro",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o3-pro",
+    "Reasoning effort": "medium",
+    "Date": "2025-06-10",
+    "Max Tokens": "40000",
     "is_correct": {
       "total": {
         "correct": 137,
@@ -5122,12 +4108,12 @@
       "relation": {
         "correct": 74,
         "incorrect": 30,
-        "accuracy": 71.15384615384616
+        "accuracy": 71.2
       },
       "bound": {
         "correct": 63,
         "incorrect": 32,
-        "accuracy": 66.3157894736842
+        "accuracy": 66.3
       }
     },
     "toy_case_judge": {
@@ -5139,12 +4125,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 4,
-        "accuracy": 95.78947368421052
+        "accuracy": 95.8
       }
     },
     "logical_gap_judge": {
@@ -5156,12 +4142,12 @@
       "relation": {
         "correct": 82,
         "incorrect": 22,
-        "accuracy": 78.84615384615384
+        "accuracy": 78.8
       },
       "bound": {
         "correct": 65,
         "incorrect": 30,
-        "accuracy": 68.42105263157895
+        "accuracy": 68.4
       }
     },
     "approx_judge": {
@@ -5173,12 +4159,12 @@
       "relation": {
         "correct": 82,
         "incorrect": 22,
-        "accuracy": 78.84615384615384
+        "accuracy": 78.8
       },
       "bound": {
         "correct": 90,
         "incorrect": 5,
-        "accuracy": 94.73684210526315
+        "accuracy": 94.7
       }
     },
     "calc_judge": {
@@ -5190,12 +4176,12 @@
       "relation": {
         "correct": 98,
         "incorrect": 6,
-        "accuracy": 94.23076923076923
+        "accuracy": 94.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 4,
-        "accuracy": 95.78947368421052
+        "accuracy": 95.8
       }
     },
     "all_true": {
@@ -5207,118 +4193,25 @@
       "relation": {
         "correct": 45,
         "incorrect": 59,
-        "accuracy": 43.269230769230774
+        "accuracy": 43.3
       },
       "bound": {
         "correct": 47,
         "incorrect": 48,
-        "accuracy": 49.473684210526315
+        "accuracy": 49.5
       }
     },
-    "all_true_indices": [
-      "106_result.json",
-      "119_result.json",
-      "101_result.json",
-      "116_result.json",
-      "103_result.json",
-      "113_result.json",
-      "105_result.json",
-      "108_result.json",
-      "114_result.json",
-      "107_result.json",
-      "100_result.json",
-      "126_result.json",
-      "121_result.json",
-      "120_result.json",
-      "130_result.json",
-      "132_result.json",
-      "135_result.json",
-      "144_result.json",
-      "149_result.json",
-      "159_result.json",
-      "142_result.json",
-      "155_result.json",
-      "158_result.json",
-      "156_result.json",
-      "157_result.json",
-      "168_result.json",
-      "170_result.json",
-      "164_result.json",
-      "173_result.json",
-      "171_result.json",
-      "162_result.json",
-      "176_result.json",
-      "160_result.json",
-      "179_result.json",
-      "166_result.json",
-      "180_result.json",
-      "181_result.json",
-      "175_result.json",
-      "190_result.json",
-      "186_result.json",
-      "183_result.json",
-      "188_result.json",
-      "192_result.json",
-      "189_result.json",
-      "191_result.json",
-      "197_result.json",
-      "178_result.json",
-      "199_result.json",
-      "198_result.json",
-      "194_result.json",
-      "207_result.json",
-      "204_result.json",
-      "200_result.json",
-      "211_result.json",
-      "212_result.json",
-      "210_result.json",
-      "219_result.json",
-      "201_result.json",
-      "220_result.json",
-      "221_result.json",
-      "229_result.json",
-      "234_result.json",
-      "225_result.json",
-      "232_result.json",
-      "237_result.json",
-      "240_result.json",
-      "257_result.json",
-      "256_result.json",
-      "252_result.json",
-      "253_result.json",
-      "261_result.json",
-      "260_result.json",
-      "258_result.json",
-      "264_result.json",
-      "265_result.json",
-      "268_result.json",
-      "262_result.json",
-      "275_result.json",
-      "276_result.json",
-      "278_result.json",
-      "266_result.json",
-      "280_result.json",
-      "282_result.json",
-      "289_result.json",
-      "290_result.json",
-      "284_result.json",
-      "293_result.json",
-      "286_result.json",
-      "291_result.json",
-      "285_result.json",
-      "298_result.json",
-      "299_result.json"
-    ],
-    "Model": "o3-pro",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o3-pro",
-    "Date": "2025-06-10",
-    "Max Tokens": "40000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o3-pro_tokens_40000"
   },
   {
+    "Model": "o3",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o3",
+    "Reasoning effort": "medium",
+    "Date": "2025-04-16",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 74,
@@ -5328,12 +4221,12 @@
       "relation": {
         "correct": 45,
         "incorrect": 59,
-        "accuracy": 43.269230769230774
+        "accuracy": 43.3
       },
       "bound": {
         "correct": 29,
         "incorrect": 67,
-        "accuracy": 30.208333333333332
+        "accuracy": 30.2
       }
     },
     "toy_case_judge": {
@@ -5345,12 +4238,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "logical_gap_judge": {
@@ -5367,7 +4260,7 @@
       "bound": {
         "correct": 27,
         "incorrect": 69,
-        "accuracy": 28.125
+        "accuracy": 28.1
       }
     },
     "approx_judge": {
@@ -5379,12 +4272,12 @@
       "relation": {
         "correct": 88,
         "incorrect": 16,
-        "accuracy": 84.61538461538461
+        "accuracy": 84.6
       },
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "calc_judge": {
@@ -5396,12 +4289,12 @@
       "relation": {
         "correct": 101,
         "incorrect": 3,
-        "accuracy": 97.11538461538461
+        "accuracy": 97.1
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "all_true": {
@@ -5413,68 +4306,25 @@
       "relation": {
         "correct": 24,
         "incorrect": 80,
-        "accuracy": 23.076923076923077
+        "accuracy": 23.1
       },
       "bound": {
         "correct": 18,
         "incorrect": 78,
-        "accuracy": 18.75
+        "accuracy": 18.8
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "232_result.json",
-      "194_result.json",
-      "298_result.json",
-      "152_result.json",
-      "198_result.json",
-      "210_result.json",
-      "260_result.json",
-      "184_result.json",
-      "237_result.json",
-      "142_result.json",
-      "132_result.json",
-      "275_result.json",
-      "103_result.json",
-      "258_result.json",
-      "192_result.json",
-      "234_result.json",
-      "221_result.json",
-      "282_result.json",
-      "166_result.json",
-      "176_result.json",
-      "106_result.json",
-      "197_result.json",
-      "289_result.json",
-      "101_result.json",
-      "190_result.json",
-      "218_result.json",
-      "108_result.json",
-      "253_result.json",
-      "199_result.json",
-      "114_result.json",
-      "261_result.json",
-      "243_result.json",
-      "196_result.json",
-      "293_result.json",
-      "135_result.json",
-      "107_result.json",
-      "162_result.json",
-      "149_result.json",
-      "262_result.json",
-      "212_result.json",
-      "229_result.json"
-    ],
-    "Model": "o3",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o3",
-    "Date": "2025-04-16",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o3_tokens_10000"
   },
   {
+    "Model": "o3",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o3",
+    "Reasoning effort": "medium",
+    "Date": "2025-04-16",
+    "Max Tokens": "40000",
     "is_correct": {
       "total": {
         "correct": 144,
@@ -5484,12 +4334,12 @@
       "relation": {
         "correct": 76,
         "incorrect": 28,
-        "accuracy": 73.07692307692307
+        "accuracy": 73.1
       },
       "bound": {
         "correct": 68,
         "incorrect": 28,
-        "accuracy": 70.83333333333334
+        "accuracy": 70.8
       }
     },
     "toy_case_judge": {
@@ -5501,29 +4351,29 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "logical_gap_judge": {
       "total": {
         "correct": 112,
         "incorrect": 88,
-        "accuracy": 56.00000000000001
+        "accuracy": 56.0
       },
       "relation": {
         "correct": 60,
         "incorrect": 44,
-        "accuracy": 57.692307692307686
+        "accuracy": 57.7
       },
       "bound": {
         "correct": 52,
         "incorrect": 44,
-        "accuracy": 54.166666666666664
+        "accuracy": 54.2
       }
     },
     "approx_judge": {
@@ -5535,12 +4385,12 @@
       "relation": {
         "correct": 81,
         "incorrect": 23,
-        "accuracy": 77.88461538461539
+        "accuracy": 77.9
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "calc_judge": {
@@ -5552,12 +4402,12 @@
       "relation": {
         "correct": 96,
         "incorrect": 8,
-        "accuracy": 92.3076923076923
+        "accuracy": 92.3
       },
       "bound": {
         "correct": 92,
         "incorrect": 4,
-        "accuracy": 95.83333333333334
+        "accuracy": 95.8
       }
     },
     "all_true": {
@@ -5569,100 +4419,25 @@
       "relation": {
         "correct": 35,
         "incorrect": 69,
-        "accuracy": 33.65384615384615
+        "accuracy": 33.7
       },
       "bound": {
         "correct": 39,
         "incorrect": 57,
-        "accuracy": 40.625
+        "accuracy": 40.6
       }
     },
-    "all_true_indices": [
-      "147_result.json",
-      "291_result.json",
-      "232_result.json",
-      "119_result.json",
-      "175_result.json",
-      "188_result.json",
-      "298_result.json",
-      "215_result.json",
-      "181_result.json",
-      "257_result.json",
-      "284_result.json",
-      "198_result.json",
-      "210_result.json",
-      "260_result.json",
-      "127_result.json",
-      "179_result.json",
-      "184_result.json",
-      "252_result.json",
-      "109_result.json",
-      "142_result.json",
-      "132_result.json",
-      "205_result.json",
-      "100_result.json",
-      "103_result.json",
-      "173_result.json",
-      "258_result.json",
-      "206_result.json",
-      "297_result.json",
-      "192_result.json",
-      "234_result.json",
-      "221_result.json",
-      "282_result.json",
-      "166_result.json",
-      "248_result.json",
-      "266_result.json",
-      "176_result.json",
-      "106_result.json",
-      "197_result.json",
-      "134_result.json",
-      "289_result.json",
-      "171_result.json",
-      "101_result.json",
-      "133_result.json",
-      "218_result.json",
-      "268_result.json",
-      "280_result.json",
-      "156_result.json",
-      "108_result.json",
-      "253_result.json",
-      "199_result.json",
-      "114_result.json",
-      "261_result.json",
-      "256_result.json",
-      "180_result.json",
-      "278_result.json",
-      "111_result.json",
-      "104_result.json",
-      "189_result.json",
-      "290_result.json",
-      "168_result.json",
-      "243_result.json",
-      "293_result.json",
-      "135_result.json",
-      "159_result.json",
-      "107_result.json",
-      "162_result.json",
-      "120_result.json",
-      "225_result.json",
-      "149_result.json",
-      "212_result.json",
-      "186_result.json",
-      "130_result.json",
-      "193_result.json",
-      "229_result.json"
-    ],
-    "Model": "o3",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o3",
-    "Date": "2025-04-16",
-    "Max Tokens": "40000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o3_tokens_40000"
   },
   {
+    "Model": "o4-mini",
+    "Type": "Reasoning",
+    "Model Source": "Proprietary",
+    "Size": "",
+    "Source": "https://platform.openai.com/docs/models/o4-mini",
+    "Reasoning effort": "medium",
+    "Date": "2025-04-16",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 130,
@@ -5672,12 +4447,12 @@
       "relation": {
         "correct": 69,
         "incorrect": 35,
-        "accuracy": 66.34615384615384
+        "accuracy": 66.3
       },
       "bound": {
         "correct": 61,
         "incorrect": 35,
-        "accuracy": 63.541666666666664
+        "accuracy": 63.5
       }
     },
     "toy_case_judge": {
@@ -5689,12 +4464,12 @@
       "relation": {
         "correct": 68,
         "incorrect": 36,
-        "accuracy": 65.38461538461539
+        "accuracy": 65.4
       },
       "bound": {
         "correct": 56,
         "incorrect": 40,
-        "accuracy": 58.333333333333336
+        "accuracy": 58.3
       }
     },
     "logical_gap_judge": {
@@ -5706,7 +4481,7 @@
       "relation": {
         "correct": 28,
         "incorrect": 76,
-        "accuracy": 26.923076923076923
+        "accuracy": 26.9
       },
       "bound": {
         "correct": 24,
@@ -5723,12 +4498,12 @@
       "relation": {
         "correct": 86,
         "incorrect": 18,
-        "accuracy": 82.6923076923077
+        "accuracy": 82.7
       },
       "bound": {
         "correct": 87,
         "incorrect": 9,
-        "accuracy": 90.625
+        "accuracy": 90.6
       }
     },
     "calc_judge": {
@@ -5740,12 +4515,12 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -5757,57 +4532,24 @@
       "relation": {
         "correct": 17,
         "incorrect": 87,
-        "accuracy": 16.346153846153847
+        "accuracy": 16.3
       },
       "bound": {
         "correct": 14,
         "incorrect": 82,
-        "accuracy": 14.583333333333334
+        "accuracy": 14.6
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "181_result.json",
-      "198_result.json",
-      "210_result.json",
-      "281_result.json",
-      "179_result.json",
-      "184_result.json",
-      "252_result.json",
-      "275_result.json",
-      "192_result.json",
-      "282_result.json",
-      "166_result.json",
-      "151_result.json",
-      "224_result.json",
-      "176_result.json",
-      "106_result.json",
-      "289_result.json",
-      "101_result.json",
-      "190_result.json",
-      "280_result.json",
-      "253_result.json",
-      "199_result.json",
-      "261_result.json",
-      "123_result.json",
-      "189_result.json",
-      "135_result.json",
-      "239_result.json",
-      "162_result.json",
-      "296_result.json",
-      "235_result.json",
-      "229_result.json"
-    ],
-    "Model": "o4-mini",
-    "Type": "Reasoning",
-    "Source": "https://platform.openai.com/docs/models/o4-mini",
-    "Date": "2025-04-16",
-    "Max Tokens": "10000",
-    "Model Source": "Proprietary",
-    "Size": "",
-    "Reasoning effort": "medium"
+    "run_dir": "o4-mini-2025-04-16_tokens_10000"
   },
   {
+    "Model": "DeepSeek-R1 (Llama-70B)",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "70B",
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "Date": "2025-01-20",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 107,
@@ -5817,12 +4559,12 @@
       "relation": {
         "correct": 51,
         "incorrect": 53,
-        "accuracy": 49.03846153846153
+        "accuracy": 49.0
       },
       "bound": {
         "correct": 56,
         "incorrect": 40,
-        "accuracy": 58.333333333333336
+        "accuracy": 58.3
       }
     },
     "toy_case_judge": {
@@ -5834,12 +4576,12 @@
       "relation": {
         "correct": 23,
         "incorrect": 81,
-        "accuracy": 22.115384615384613
+        "accuracy": 22.1
       },
       "bound": {
         "correct": 23,
         "incorrect": 73,
-        "accuracy": 23.958333333333336
+        "accuracy": 24.0
       }
     },
     "logical_gap_judge": {
@@ -5851,12 +4593,12 @@
       "relation": {
         "correct": 32,
         "incorrect": 72,
-        "accuracy": 30.76923076923077
+        "accuracy": 30.8
       },
       "bound": {
         "correct": 20,
         "incorrect": 76,
-        "accuracy": 20.833333333333336
+        "accuracy": 20.8
       }
     },
     "approx_judge": {
@@ -5868,12 +4610,12 @@
       "relation": {
         "correct": 34,
         "incorrect": 70,
-        "accuracy": 32.69230769230769
+        "accuracy": 32.7
       },
       "bound": {
         "correct": 37,
         "incorrect": 59,
-        "accuracy": 38.54166666666667
+        "accuracy": 38.5
       }
     },
     "calc_judge": {
@@ -5885,54 +4627,46 @@
       "relation": {
         "correct": 88,
         "incorrect": 16,
-        "accuracy": 84.61538461538461
+        "accuracy": 84.6
       },
       "bound": {
         "correct": 86,
         "incorrect": 10,
-        "accuracy": 89.58333333333334
+        "accuracy": 89.6
       }
     },
     "all_true": {
       "total": {
         "correct": 7,
         "incorrect": 193,
-        "accuracy": 3.5000000000000004
+        "accuracy": 3.5
       },
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 5,
         "incorrect": 91,
-        "accuracy": 5.208333333333334
+        "accuracy": 5.2
       }
     },
-    "all_true_indices": [
-      "184_result.json",
-      "221_result.json",
-      "124_result.json",
-      "101_result.json",
-      "261_result.json",
-      "162_result.json",
-      "149_result.json"
-    ],
-    "Model": "DeepSeek-R1 (Llama-70B)",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-    "Date": "2025-01-20",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "70B"
+    "run_dir": "together-DeepSeek-R1-Distill-Llama-70B_tokens_10000"
   },
   {
+    "Model": "DeepSeek-R1 (Qwen-1.5B)",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "1.5B",
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "Date": "2025-01-20",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 29,
         "incorrect": 171,
-        "accuracy": 14.499999999999998
+        "accuracy": 14.5
       },
       "relation": {
         "correct": 13,
@@ -5942,7 +4676,7 @@
       "bound": {
         "correct": 16,
         "incorrect": 80,
-        "accuracy": 16.666666666666664
+        "accuracy": 16.7
       }
     },
     "toy_case_judge": {
@@ -5954,12 +4688,12 @@
       "relation": {
         "correct": 29,
         "incorrect": 75,
-        "accuracy": 27.884615384615387
+        "accuracy": 27.9
       },
       "bound": {
         "correct": 11,
         "incorrect": 85,
-        "accuracy": 11.458333333333332
+        "accuracy": 11.5
       }
     },
     "logical_gap_judge": {
@@ -5971,12 +4705,12 @@
       "relation": {
         "correct": 7,
         "incorrect": 97,
-        "accuracy": 6.730769230769231
+        "accuracy": 6.7
       },
       "bound": {
         "correct": 5,
         "incorrect": 91,
-        "accuracy": 5.208333333333334
+        "accuracy": 5.2
       }
     },
     "approx_judge": {
@@ -5988,12 +4722,12 @@
       "relation": {
         "correct": 49,
         "incorrect": 55,
-        "accuracy": 47.11538461538461
+        "accuracy": 47.1
       },
       "bound": {
         "correct": 47,
         "incorrect": 49,
-        "accuracy": 48.95833333333333
+        "accuracy": 49.0
       }
     },
     "calc_judge": {
@@ -6005,7 +4739,7 @@
       "relation": {
         "correct": 83,
         "incorrect": 21,
-        "accuracy": 79.8076923076923
+        "accuracy": 79.8
       },
       "bound": {
         "correct": 84,
@@ -6022,7 +4756,7 @@
       "relation": {
         "correct": 1,
         "incorrect": 103,
-        "accuracy": 0.9615384615384616
+        "accuracy": 1.0
       },
       "bound": {
         "correct": 0,
@@ -6030,18 +4764,16 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [
-      "282_result.json"
-    ],
-    "Model": "DeepSeek-R1 (Qwen-1.5B)",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-    "Date": "2025-01-20",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "1.5B"
+    "run_dir": "together-DeepSeek-R1-Distill-Qwen-1.5B_tokens_10000"
   },
   {
+    "Model": "DeepSeek-R1 (Qwen-14B)",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "14B",
+    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "Date": "2025-01-20",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 81,
@@ -6051,12 +4783,12 @@
       "relation": {
         "correct": 40,
         "incorrect": 64,
-        "accuracy": 38.46153846153847
+        "accuracy": 38.5
       },
       "bound": {
         "correct": 41,
         "incorrect": 55,
-        "accuracy": 42.70833333333333
+        "accuracy": 42.7
       }
     },
     "toy_case_judge": {
@@ -6068,12 +4800,12 @@
       "relation": {
         "correct": 24,
         "incorrect": 80,
-        "accuracy": 23.076923076923077
+        "accuracy": 23.1
       },
       "bound": {
         "correct": 18,
         "incorrect": 78,
-        "accuracy": 18.75
+        "accuracy": 18.8
       }
     },
     "logical_gap_judge": {
@@ -6085,12 +4817,12 @@
       "relation": {
         "correct": 23,
         "incorrect": 81,
-        "accuracy": 22.115384615384613
+        "accuracy": 22.1
       },
       "bound": {
         "correct": 19,
         "incorrect": 77,
-        "accuracy": 19.791666666666664
+        "accuracy": 19.8
       }
     },
     "approx_judge": {
@@ -6102,12 +4834,12 @@
       "relation": {
         "correct": 34,
         "incorrect": 70,
-        "accuracy": 32.69230769230769
+        "accuracy": 32.7
       },
       "bound": {
         "correct": 37,
         "incorrect": 59,
-        "accuracy": 38.54166666666667
+        "accuracy": 38.5
       }
     },
     "calc_judge": {
@@ -6119,12 +4851,12 @@
       "relation": {
         "correct": 82,
         "incorrect": 22,
-        "accuracy": 78.84615384615384
+        "accuracy": 78.8
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "all_true": {
@@ -6136,35 +4868,24 @@
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 6,
         "incorrect": 90,
-        "accuracy": 6.25
+        "accuracy": 6.2
       }
     },
-    "all_true_indices": [
-      "221_result.json",
-      "166_result.json",
-      "106_result.json",
-      "253_result.json",
-      "261_result.json",
-      "285_result.json",
-      "123_result.json",
-      "189_result.json",
-      "162_result.json",
-      "149_result.json"
-    ],
-    "Model": "DeepSeek-R1 (Qwen-14B)",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-    "Date": "2025-01-20",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "14B"
+    "run_dir": "together-DeepSeek-R1-Distill-Qwen-14B_tokens_10000"
   },
   {
+    "Model": "Llama-3.2-3B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "3B",
+    "Source": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+    "Date": "2024-09-25",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 22,
@@ -6174,12 +4895,12 @@
       "relation": {
         "correct": 15,
         "incorrect": 89,
-        "accuracy": 14.423076923076922
+        "accuracy": 14.4
       },
       "bound": {
         "correct": 7,
         "incorrect": 89,
-        "accuracy": 7.291666666666667
+        "accuracy": 7.3
       }
     },
     "toy_case_judge": {
@@ -6191,12 +4912,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 69,
         "incorrect": 27,
-        "accuracy": 71.875
+        "accuracy": 71.9
       }
     },
     "logical_gap_judge": {
@@ -6225,12 +4946,12 @@
       "relation": {
         "correct": 102,
         "incorrect": 2,
-        "accuracy": 98.07692307692307
+        "accuracy": 98.1
       },
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "calc_judge": {
@@ -6242,12 +4963,12 @@
       "relation": {
         "correct": 88,
         "incorrect": 16,
-        "accuracy": 84.61538461538461
+        "accuracy": 84.6
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -6267,16 +4988,16 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [],
-    "Model": "Llama-3.2-3B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-    "Date": "2024-09-25",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "3B"
+    "run_dir": "together-Llama-3.2-3B-Instruct-Turbo_tokens_10000"
   },
   {
+    "Model": "Llama-4-Maverick",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "128 x 17B",
+    "Source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "Date": "2025-04-05",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 81,
@@ -6286,12 +5007,12 @@
       "relation": {
         "correct": 37,
         "incorrect": 67,
-        "accuracy": 35.57692307692308
+        "accuracy": 35.6
       },
       "bound": {
         "correct": 44,
         "incorrect": 52,
-        "accuracy": 45.83333333333333
+        "accuracy": 45.8
       }
     },
     "toy_case_judge": {
@@ -6303,12 +5024,12 @@
       "relation": {
         "correct": 58,
         "incorrect": 46,
-        "accuracy": 55.769230769230774
+        "accuracy": 55.8
       },
       "bound": {
         "correct": 27,
         "incorrect": 69,
-        "accuracy": 28.125
+        "accuracy": 28.1
       }
     },
     "logical_gap_judge": {
@@ -6320,12 +5041,12 @@
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
     "approx_judge": {
@@ -6337,12 +5058,12 @@
       "relation": {
         "correct": 90,
         "incorrect": 14,
-        "accuracy": 86.53846153846155
+        "accuracy": 86.5
       },
       "bound": {
         "correct": 88,
         "incorrect": 8,
-        "accuracy": 91.66666666666666
+        "accuracy": 91.7
       }
     },
     "calc_judge": {
@@ -6354,12 +5075,12 @@
       "relation": {
         "correct": 101,
         "incorrect": 3,
-        "accuracy": 97.11538461538461
+        "accuracy": 97.1
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -6371,30 +5092,24 @@
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "198_result.json",
-      "103_result.json",
-      "258_result.json",
-      "106_result.json",
-      "274_result.json"
-    ],
-    "Model": "Llama-4-Maverick",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    "Date": "2025-04-05",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "128 x 17B"
+    "run_dir": "together-Llama-4-Maverick-17B-128E-Instruct-FP8_tokens_10000"
   },
   {
+    "Model": "Llama-4-Scout",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "16 x 17B",
+    "Source": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E",
+    "Date": "2025-04-05",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 67,
@@ -6404,12 +5119,12 @@
       "relation": {
         "correct": 22,
         "incorrect": 82,
-        "accuracy": 21.153846153846153
+        "accuracy": 21.2
       },
       "bound": {
         "correct": 45,
         "incorrect": 51,
-        "accuracy": 46.875
+        "accuracy": 46.9
       }
     },
     "toy_case_judge": {
@@ -6421,29 +5136,29 @@
       "relation": {
         "correct": 46,
         "incorrect": 58,
-        "accuracy": 44.230769230769226
+        "accuracy": 44.2
       },
       "bound": {
         "correct": 15,
         "incorrect": 81,
-        "accuracy": 15.625
+        "accuracy": 15.6
       }
     },
     "logical_gap_judge": {
       "total": {
         "correct": 7,
         "incorrect": 193,
-        "accuracy": 3.5000000000000004
+        "accuracy": 3.5
       },
       "relation": {
         "correct": 3,
         "incorrect": 101,
-        "accuracy": 2.8846153846153846
+        "accuracy": 2.9
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
     "approx_judge": {
@@ -6455,12 +5170,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "calc_judge": {
@@ -6472,12 +5187,12 @@
       "relation": {
         "correct": 96,
         "incorrect": 8,
-        "accuracy": 92.3076923076923
+        "accuracy": 92.3
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -6489,43 +5204,39 @@
       "relation": {
         "correct": 1,
         "incorrect": 103,
-        "accuracy": 0.9615384615384616
+        "accuracy": 1.0
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "228_result.json",
-      "192_result.json",
-      "106_result.json"
-    ],
-    "Model": "Llama-4-Scout",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E",
-    "Date": "2025-04-05",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "16 x 17B"
+    "run_dir": "together-Llama-4-Scout-17B-16E-Instruct_tokens_10000"
   },
   {
+    "Model": "Llama-3.1-8B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "8B",
+    "Source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "Date": "2024-07-18",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 29,
         "incorrect": 171,
-        "accuracy": 14.499999999999998
+        "accuracy": 14.5
       },
       "relation": {
         "correct": 23,
         "incorrect": 81,
-        "accuracy": 22.115384615384613
+        "accuracy": 22.1
       },
       "bound": {
         "correct": 6,
         "incorrect": 90,
-        "accuracy": 6.25
+        "accuracy": 6.2
       }
     },
     "toy_case_judge": {
@@ -6537,12 +5248,12 @@
       "relation": {
         "correct": 100,
         "incorrect": 4,
-        "accuracy": 96.15384615384616
+        "accuracy": 96.2
       },
       "bound": {
         "correct": 81,
         "incorrect": 15,
-        "accuracy": 84.375
+        "accuracy": 84.4
       }
     },
     "logical_gap_judge": {
@@ -6576,7 +5287,7 @@
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "calc_judge": {
@@ -6588,12 +5299,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 85,
         "incorrect": 11,
-        "accuracy": 88.54166666666666
+        "accuracy": 88.5
       }
     },
     "all_true": {
@@ -6613,16 +5324,16 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [],
-    "Model": "Llama-3.1-8B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-    "Date": "2024-07-18",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "8B"
+    "run_dir": "together-Meta-Llama-3.1-8B-Instruct-Turbo_tokens_10000"
   },
   {
+    "Model": "QwQ-32B-preview",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "32B",
+    "Source": "https://huggingface.co/Qwen/QwQ-32B-Preview",
+    "Date": "2024-11-27",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 87,
@@ -6632,29 +5343,29 @@
       "relation": {
         "correct": 42,
         "incorrect": 62,
-        "accuracy": 40.38461538461539
+        "accuracy": 40.4
       },
       "bound": {
         "correct": 45,
         "incorrect": 51,
-        "accuracy": 46.875
+        "accuracy": 46.9
       }
     },
     "toy_case_judge": {
       "total": {
         "correct": 56,
         "incorrect": 144,
-        "accuracy": 28.000000000000004
+        "accuracy": 28.0
       },
       "relation": {
         "correct": 31,
         "incorrect": 73,
-        "accuracy": 29.807692307692307
+        "accuracy": 29.8
       },
       "bound": {
         "correct": 25,
         "incorrect": 71,
-        "accuracy": 26.041666666666668
+        "accuracy": 26.0
       }
     },
     "logical_gap_judge": {
@@ -6666,12 +5377,12 @@
       "relation": {
         "correct": 34,
         "incorrect": 70,
-        "accuracy": 32.69230769230769
+        "accuracy": 32.7
       },
       "bound": {
         "correct": 26,
         "incorrect": 70,
-        "accuracy": 27.083333333333332
+        "accuracy": 27.1
       }
     },
     "approx_judge": {
@@ -6683,12 +5394,12 @@
       "relation": {
         "correct": 20,
         "incorrect": 84,
-        "accuracy": 19.230769230769234
+        "accuracy": 19.2
       },
       "bound": {
         "correct": 25,
         "incorrect": 71,
-        "accuracy": 26.041666666666668
+        "accuracy": 26.0
       }
     },
     "calc_judge": {
@@ -6700,12 +5411,12 @@
       "relation": {
         "correct": 94,
         "incorrect": 10,
-        "accuracy": 90.38461538461539
+        "accuracy": 90.4
       },
       "bound": {
         "correct": 81,
         "incorrect": 15,
-        "accuracy": 84.375
+        "accuracy": 84.4
       }
     },
     "all_true": {
@@ -6717,29 +5428,24 @@
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "284_result.json",
-      "252_result.json",
-      "106_result.json",
-      "149_result.json"
-    ],
-    "Model": "QwQ-32B-preview",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/Qwen/QwQ-32B-Preview",
-    "Date": "2024-11-27",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "32B"
+    "run_dir": "together-QwQ-32B-Preview_tokens_10000"
   },
   {
+    "Model": "QwQ-32B",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "32B",
+    "Source": "https://huggingface.co/Qwen/QwQ-32B",
+    "Date": "2025-03-05",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 99,
@@ -6749,12 +5455,12 @@
       "relation": {
         "correct": 47,
         "incorrect": 57,
-        "accuracy": 45.19230769230769
+        "accuracy": 45.2
       },
       "bound": {
         "correct": 52,
         "incorrect": 44,
-        "accuracy": 54.166666666666664
+        "accuracy": 54.2
       }
     },
     "toy_case_judge": {
@@ -6766,7 +5472,7 @@
       "relation": {
         "correct": 28,
         "incorrect": 76,
-        "accuracy": 26.923076923076923
+        "accuracy": 26.9
       },
       "bound": {
         "correct": 24,
@@ -6788,7 +5494,7 @@
       "bound": {
         "correct": 20,
         "incorrect": 76,
-        "accuracy": 20.833333333333336
+        "accuracy": 20.8
       }
     },
     "approx_judge": {
@@ -6800,12 +5506,12 @@
       "relation": {
         "correct": 22,
         "incorrect": 82,
-        "accuracy": 21.153846153846153
+        "accuracy": 21.2
       },
       "bound": {
         "correct": 20,
         "incorrect": 76,
-        "accuracy": 20.833333333333336
+        "accuracy": 20.8
       }
     },
     "calc_judge": {
@@ -6817,12 +5523,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 79,
         "incorrect": 17,
-        "accuracy": 82.29166666666666
+        "accuracy": 82.3
       }
     },
     "all_true": {
@@ -6834,29 +5540,24 @@
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "275_result.json",
-      "182_result.json",
-      "261_result.json",
-      "149_result.json"
-    ],
-    "Model": "QwQ-32B",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/Qwen/QwQ-32B",
-    "Date": "2025-03-05",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "32B"
+    "run_dir": "together-QwQ-32B_tokens_10000"
   },
   {
+    "Model": "Qwen2.5-72B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "72B",
+    "Source": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+    "Date": "2024-09-16",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 84,
@@ -6866,29 +5567,29 @@
       "relation": {
         "correct": 35,
         "incorrect": 69,
-        "accuracy": 33.65384615384615
+        "accuracy": 33.7
       },
       "bound": {
         "correct": 49,
         "incorrect": 47,
-        "accuracy": 51.041666666666664
+        "accuracy": 51.0
       }
     },
     "toy_case_judge": {
       "total": {
         "correct": 109,
         "incorrect": 91,
-        "accuracy": 54.50000000000001
+        "accuracy": 54.5
       },
       "relation": {
         "correct": 58,
         "incorrect": 46,
-        "accuracy": 55.769230769230774
+        "accuracy": 55.8
       },
       "bound": {
         "correct": 51,
         "incorrect": 45,
-        "accuracy": 53.125
+        "accuracy": 53.1
       }
     },
     "logical_gap_judge": {
@@ -6900,12 +5601,12 @@
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
     "approx_judge": {
@@ -6922,7 +5623,7 @@
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "calc_judge": {
@@ -6934,12 +5635,12 @@
       "relation": {
         "correct": 99,
         "incorrect": 5,
-        "accuracy": 95.1923076923077
+        "accuracy": 95.2
       },
       "bound": {
         "correct": 91,
         "incorrect": 5,
-        "accuracy": 94.79166666666666
+        "accuracy": 94.8
       }
     },
     "all_true": {
@@ -6951,30 +5652,24 @@
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
-    "all_true_indices": [
-      "103_result.json",
-      "154_result.json",
-      "163_result.json",
-      "253_result.json",
-      "293_result.json"
-    ],
-    "Model": "Qwen2.5-72B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-    "Date": "2024-09-16",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "72B"
+    "run_dir": "together-Qwen2.5-72B-Instruct-Turbo_tokens_10000"
   },
   {
+    "Model": "Qwen2.5-7B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "7B",
+    "Source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "Date": "2024-09-16",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 70,
@@ -6984,12 +5679,12 @@
       "relation": {
         "correct": 31,
         "incorrect": 73,
-        "accuracy": 29.807692307692307
+        "accuracy": 29.8
       },
       "bound": {
         "correct": 39,
         "incorrect": 57,
-        "accuracy": 40.625
+        "accuracy": 40.6
       }
     },
     "toy_case_judge": {
@@ -7001,12 +5696,12 @@
       "relation": {
         "correct": 58,
         "incorrect": 46,
-        "accuracy": 55.769230769230774
+        "accuracy": 55.8
       },
       "bound": {
         "correct": 31,
         "incorrect": 65,
-        "accuracy": 32.29166666666667
+        "accuracy": 32.3
       }
     },
     "logical_gap_judge": {
@@ -7018,12 +5713,12 @@
       "relation": {
         "correct": 6,
         "incorrect": 98,
-        "accuracy": 5.769230769230769
+        "accuracy": 5.8
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
     "approx_judge": {
@@ -7035,12 +5730,12 @@
       "relation": {
         "correct": 92,
         "incorrect": 12,
-        "accuracy": 88.46153846153845
+        "accuracy": 88.5
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "calc_judge": {
@@ -7052,12 +5747,12 @@
       "relation": {
         "correct": 97,
         "incorrect": 7,
-        "accuracy": 93.26923076923077
+        "accuracy": 93.3
       },
       "bound": {
         "correct": 89,
         "incorrect": 7,
-        "accuracy": 92.70833333333334
+        "accuracy": 92.7
       }
     },
     "all_true": {
@@ -7069,31 +5764,24 @@
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
-    "all_true_indices": [
-      "192_result.json",
-      "203_result.json",
-      "106_result.json",
-      "253_result.json",
-      "261_result.json",
-      "229_result.json"
-    ],
-    "Model": "Qwen2.5-7B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-    "Date": "2024-09-16",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "7B"
+    "run_dir": "together-Qwen2.5-7B-Instruct-Turbo_tokens_10000"
   },
   {
+    "Model": "Qwen2.5-Coder-32B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "32B",
+    "Source": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+    "Date": "2024-11-10",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 81,
@@ -7103,12 +5791,12 @@
       "relation": {
         "correct": 32,
         "incorrect": 72,
-        "accuracy": 30.76923076923077
+        "accuracy": 30.8
       },
       "bound": {
         "correct": 49,
         "incorrect": 47,
-        "accuracy": 51.041666666666664
+        "accuracy": 51.0
       }
     },
     "toy_case_judge": {
@@ -7120,12 +5808,12 @@
       "relation": {
         "correct": 46,
         "incorrect": 58,
-        "accuracy": 44.230769230769226
+        "accuracy": 44.2
       },
       "bound": {
         "correct": 26,
         "incorrect": 70,
-        "accuracy": 27.083333333333332
+        "accuracy": 27.1
       }
     },
     "logical_gap_judge": {
@@ -7137,12 +5825,12 @@
       "relation": {
         "correct": 4,
         "incorrect": 100,
-        "accuracy": 3.8461538461538463
+        "accuracy": 3.8
       },
       "bound": {
         "correct": 2,
         "incorrect": 94,
-        "accuracy": 2.083333333333333
+        "accuracy": 2.1
       }
     },
     "approx_judge": {
@@ -7154,12 +5842,12 @@
       "relation": {
         "correct": 88,
         "incorrect": 16,
-        "accuracy": 84.61538461538461
+        "accuracy": 84.6
       },
       "bound": {
         "correct": 93,
         "incorrect": 3,
-        "accuracy": 96.875
+        "accuracy": 96.9
       }
     },
     "calc_judge": {
@@ -7176,7 +5864,7 @@
       "bound": {
         "correct": 86,
         "incorrect": 10,
-        "accuracy": 89.58333333333334
+        "accuracy": 89.6
       }
     },
     "all_true": {
@@ -7188,28 +5876,24 @@
       "relation": {
         "correct": 2,
         "incorrect": 102,
-        "accuracy": 1.9230769230769231
+        "accuracy": 1.9
       },
       "bound": {
         "correct": 1,
         "incorrect": 95,
-        "accuracy": 1.0416666666666665
+        "accuracy": 1.0
       }
     },
-    "all_true_indices": [
-      "210_result.json",
-      "192_result.json",
-      "253_result.json"
-    ],
-    "Model": "Qwen2.5-Coder-32B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
-    "Date": "2024-11-10",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "32B"
+    "run_dir": "together-Qwen2.5-Coder-32B-Instruct_tokens_10000"
   },
   {
+    "Model": "Qwen3-235B-A22B",
+    "Type": "Reasoning",
+    "Model Source": "Open-source",
+    "Size": "235B",
+    "Source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-FP8",
+    "Date": "2025-04-28",
+    "Max Tokens": "10000",
     "is_correct": {
       "total": {
         "correct": 82,
@@ -7219,12 +5903,12 @@
       "relation": {
         "correct": 48,
         "incorrect": 56,
-        "accuracy": 46.15384615384615
+        "accuracy": 46.2
       },
       "bound": {
         "correct": 34,
         "incorrect": 62,
-        "accuracy": 35.41666666666667
+        "accuracy": 35.4
       }
     },
     "toy_case_judge": {
@@ -7236,12 +5920,12 @@
       "relation": {
         "correct": 41,
         "incorrect": 63,
-        "accuracy": 39.42307692307692
+        "accuracy": 39.4
       },
       "bound": {
         "correct": 29,
         "incorrect": 67,
-        "accuracy": 30.208333333333332
+        "accuracy": 30.2
       }
     },
     "logical_gap_judge": {
@@ -7253,12 +5937,12 @@
       "relation": {
         "correct": 47,
         "incorrect": 57,
-        "accuracy": 45.19230769230769
+        "accuracy": 45.2
       },
       "bound": {
         "correct": 25,
         "incorrect": 71,
-        "accuracy": 26.041666666666668
+        "accuracy": 26.0
       }
     },
     "approx_judge": {
@@ -7270,12 +5954,12 @@
       "relation": {
         "correct": 35,
         "incorrect": 69,
-        "accuracy": 33.65384615384615
+        "accuracy": 33.7
       },
       "bound": {
         "correct": 27,
         "incorrect": 69,
-        "accuracy": 28.125
+        "accuracy": 28.1
       }
     },
     "calc_judge": {
@@ -7287,12 +5971,12 @@
       "relation": {
         "correct": 95,
         "incorrect": 9,
-        "accuracy": 91.34615384615384
+        "accuracy": 91.3
       },
       "bound": {
         "correct": 90,
         "incorrect": 6,
-        "accuracy": 93.75
+        "accuracy": 93.8
       }
     },
     "all_true": {
@@ -7304,37 +5988,24 @@
       "relation": {
         "correct": 9,
         "incorrect": 95,
-        "accuracy": 8.653846153846153
+        "accuracy": 8.7
       },
       "bound": {
         "correct": 3,
         "incorrect": 93,
-        "accuracy": 3.125
+        "accuracy": 3.1
       }
     },
-    "all_true_indices": [
-      "291_result.json",
-      "284_result.json",
-      "275_result.json",
-      "253_result.json",
-      "261_result.json",
-      "123_result.json",
-      "189_result.json",
-      "243_result.json",
-      "293_result.json",
-      "149_result.json",
-      "262_result.json",
-      "229_result.json"
-    ],
-    "Model": "Qwen3-235B-A22B",
-    "Type": "Reasoning",
-    "Source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-FP8",
-    "Date": "2025-04-28",
-    "Max Tokens": "10000",
-    "Model Source": "Open-source",
-    "Size": "235B"
+    "run_dir": "together-Qwen3-235B-A22B-fp8-tput_tokens_10000"
   },
   {
+    "Model": "Gemma-2-9B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "9B",
+    "Source": "https://huggingface.co/google/gemma-2-9b-it",
+    "Date": "2024-06-25",
+    "Max Tokens": "6000",
     "is_correct": {
       "total": {
         "correct": 31,
@@ -7344,12 +6015,12 @@
       "relation": {
         "correct": 25,
         "incorrect": 79,
-        "accuracy": 24.03846153846154
+        "accuracy": 24.0
       },
       "bound": {
         "correct": 6,
         "incorrect": 90,
-        "accuracy": 6.25
+        "accuracy": 6.2
       }
     },
     "toy_case_judge": {
@@ -7361,12 +6032,12 @@
       "relation": {
         "correct": 96,
         "incorrect": 8,
-        "accuracy": 92.3076923076923
+        "accuracy": 92.3
       },
       "bound": {
         "correct": 71,
         "incorrect": 25,
-        "accuracy": 73.95833333333334
+        "accuracy": 74.0
       }
     },
     "logical_gap_judge": {
@@ -7383,7 +6054,7 @@
       "bound": {
         "correct": 1,
         "incorrect": 95,
-        "accuracy": 1.0416666666666665
+        "accuracy": 1.0
       }
     },
     "approx_judge": {
@@ -7412,12 +6083,12 @@
       "relation": {
         "correct": 103,
         "incorrect": 1,
-        "accuracy": 99.03846153846155
+        "accuracy": 99.0
       },
       "bound": {
         "correct": 95,
         "incorrect": 1,
-        "accuracy": 98.95833333333334
+        "accuracy": 99.0
       }
     },
     "all_true": {
@@ -7437,16 +6108,16 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [],
-    "Model": "Gemma-2-9B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/google/gemma-2-9b-it",
-    "Date": "2024-06-25",
-    "Max Tokens": "6000",
-    "Model Source": "Open-source",
-    "Size": "9B"
+    "run_dir": "together-gemma-2-9b-it_tokens_6000"
   },
   {
+    "Model": "Gemma-2B",
+    "Type": "Chat",
+    "Model Source": "Open-source",
+    "Size": "2B",
+    "Source": "https://huggingface.co/google/gemma-2b-it",
+    "Date": "2024-02-21",
+    "Max Tokens": "6000",
     "is_correct": {
       "total": {
         "correct": 15,
@@ -7456,12 +6127,12 @@
       "relation": {
         "correct": 11,
         "incorrect": 93,
-        "accuracy": 10.576923076923077
+        "accuracy": 10.6
       },
       "bound": {
         "correct": 4,
         "incorrect": 92,
-        "accuracy": 4.166666666666666
+        "accuracy": 4.2
       }
     },
     "toy_case_judge": {
@@ -7473,12 +6144,12 @@
       "relation": {
         "correct": 83,
         "incorrect": 21,
-        "accuracy": 79.8076923076923
+        "accuracy": 79.8
       },
       "bound": {
         "correct": 64,
         "incorrect": 32,
-        "accuracy": 66.66666666666666
+        "accuracy": 66.7
       }
     },
     "logical_gap_judge": {
@@ -7512,7 +6183,7 @@
       "bound": {
         "correct": 94,
         "incorrect": 2,
-        "accuracy": 97.91666666666666
+        "accuracy": 97.9
       }
     },
     "calc_judge": {
@@ -7524,12 +6195,12 @@
       "relation": {
         "correct": 103,
         "incorrect": 1,
-        "accuracy": 99.03846153846155
+        "accuracy": 99.0
       },
       "bound": {
         "correct": 87,
         "incorrect": 9,
-        "accuracy": 90.625
+        "accuracy": 90.6
       }
     },
     "all_true": {
@@ -7549,13 +6220,6 @@
         "accuracy": 0.0
       }
     },
-    "all_true_indices": [],
-    "Model": "Gemma-2B",
-    "Type": "Chat",
-    "Source": "https://huggingface.co/google/gemma-2b-it",
-    "Date": "2024-02-21",
-    "Max Tokens": "6000",
-    "Model Source": "Open-source",
-    "Size": "2B"
+    "run_dir": "together-gemma-2b-it_tokens_6000"
   }
 ]
