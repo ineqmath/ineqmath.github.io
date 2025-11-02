@@ -591,7 +591,7 @@
               <p>Illustration of the fine-grained LLM-as-judge framework. The framework combines a
               <i>Final Answer Judge</i> with four step-wise judges: <i>Toy Case Judge</i>, <i>Logical Gap Judge</i>, <i>Numerical
               Approximation Judge</i> (shown as Approximation Judge), and <i>Numerical Computation Judge</i> (shown as
-              Computation Judge).</p>
+              Computation Judge). A solution is considered correct only if it passes all five judges.</p>
             </div>
             
             <p>
@@ -643,9 +643,9 @@
     <div style="width: 68%; margin: 0 auto;">
       <h2 class="title is-3" style="text-align:center;"><b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Leaderboard</h2>
       <div class="content" style="font-size:1.1em; margin-bottom:10px; text-align:left;">
-        <p>
+        <!-- <p>
           🏆 The evaluation platform for the <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> is available <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank">here</a>. 
-        </p>
+        </p> -->
       </div>
       <div class="content has-text-justified">
         <!-- Filters -->
@@ -814,6 +814,10 @@
           <span style="display:block; margin-bottom: 12px; font-style: italic; color: #666;">
             Results are evaluated using our fine-grained LLM-as-judge framework. Overall accuracy requires passing all five specialized judges. The content in parentheses next to model's name represents reasoning effort and the max tokens respectively, with the default value for max tokens being 10K.
           </span>
+          <p style="background-color: #C5D9ED; border: 1px solid #8aaed6; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em; margin-bottom: 10px;">
+            ℹ️ You can submit your model's results to the <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">evaluation platform</a> 
+            and receive your own accuracy score.
+          </p>
           <b>Icons Explanation:</b><br>
           Type: 🧠 = Reasoning Model, 📝 = Chat Model, 🔧 = Tool-augmented Model<br>
           Source: 🔒 = Proprietary Model, 🌐 = Open-source Model
@@ -824,11 +828,6 @@
           NAE: No Approximation Error - Step accuracy excluding approximation errors<br>
           NCE: No Calculation Error - Step accuracy excluding all calculation errors
           <div style="margin-top: 32px;"></div>
-          <!-- <p style="background-color: #fff3cd; border: 1px solid #b22222; border-radius: 6px; padding: 12px 18px; font-weight: bold; font-size: 1.08em; margin-bottom: 10px;">
-            🚨 You can submit your model's results to the evaluation platform through this 
-            <a href="https://huggingface.co/spaces/AI4Math/IneqMath-Leaderboard" target="_blank" style="color: #2A75D0; text-decoration: underline; font-weight: bold;">link</a> 
-            and receive your own accuracy score.
-          </p> -->
         </div>
       </div>
     </div>
@@ -1012,6 +1011,20 @@
                   </p>
                 </div>
               </div>
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/in_depth_study/few_shot_overall_acc.png" width="80%">
+                  <p style="margin-top: 1.5rem;"> <b>Few-shot evaluation: </b>The gains in overall accuracy from few-shot prompting were small, typically below 2% compared to zero-shot performance. For instance, Grok 3 achieved 3.5% accuracy in the zero-shot setting but dropped slightly in the one-shot and three-shot settings (2.5% and 1.5%, respectively). Similarly, o1 peaked at 8.0% in both the one-shot and three-shot settings, with minimal difference across shots.
+                  </p>
+                </div>
+              </div>
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/in_depth_study/few_shot_answer_acc.png" width="80%">
+                  <p style="margin-top: 1.5rem;"> <b>Few-shot evaluation: </b>Moreover, the few-shot prompting typically reduces answer accuracy. For o1, accuracy drops from 62.5% in the zero-shot setting to 55.5% with one-shot and 53.0% with three-shot. QwQ-32B displays the same trend: both one-shot and three-shot underperform the zero-shot baseline (41.5% and 43.5% vs. 49.5%). 
+                  </p>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -1064,6 +1077,41 @@
               </div>
 
             </div>
+          </div>
+
+          <h3 class="title is-4" id="formalized" style="margin-top: 3rem;">Formalized <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> Evaluation</h3>
+          <div class="content has-text-justified">
+            <p>
+              To expand the impact of <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>, we conduct a formal evaluation on state-of-the-art automated theorem proving (ATP) models. We convert the natural language inequality problems in <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b> into machine-verifiable Lean4 code as illustrated below. Then, we evaluate the SOTA models on the formalized Lean4 problems to measure their ability to solve inequality tasks with pass@32 setting.
+            </p>
+
+            <p style="margin-top: 1.5rem;">
+              The results below show that state-of-the-art (SOTA) formal automated theorem proving models still suffer from the difficult inequality problems in <b><span class="ineq-blue">Ineq</span><span class="ineq-red">Math</span></b>. Even the best-performing model, Goedel-Prover-SFT, achieves only a 14.0% pass rate, while others remain far lower. 
+            </p>
+
+            <div id="formalized-carousel" class="carousel results-carousel">
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/formal_experiment/formal_illustration_bound.png" width="90%">
+                  <p>Illustration of the formalization process for bound problems.</p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/formal_experiment/formal_illustration_relation.png" width="90%">
+                  <p>Illustration of the formalization process for relation problems.</p>
+                </div>
+              </div>
+
+              <div class="box m-5">
+                <div class="content has-text-centered">
+                  <img src="assets/formal_experiment/formal_results.png" width="90%">
+                  <p>Pass@32 performance of state-of-the-art formal automated theorem proving models.</p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
