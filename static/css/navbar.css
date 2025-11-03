@@ -52,9 +52,9 @@ html {
 /* Table of Contents Panel */
 .toc-wrapper {
   position: fixed;
-  right: -31%;
+  right: -18.6%;
   top: 0;
-  width: 31%;
+  width: 18.6%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
@@ -174,8 +174,8 @@ html {
 /* Mobile adjustments */
 @media screen and (max-width: 768px) {
   .toc-wrapper {
-    width: 60%;
-    right: -60%;
+    width: 36%;
+    right: -36%;
   }
 
   .toc-burger {
@@ -186,14 +186,14 @@ html {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .toc-wrapper {
-    width: 40%;
-    right: -40%;
+    width: 24%;
+    right: -24%;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1399px) {
   .toc-wrapper {
-    width: 31%;
-    right: -31%;
+    width: 18.6%;
+    right: -18.6%;
   }
 }
